@@ -1,0 +1,5978 @@
+[
+  {
+    "id": "1quadri",
+    "typeofpainting": "ritratti",
+    "name": "caffè alla televisione",
+    "date": "1990",
+    "size": "100x120",
+    "path": "quadri/1.jpg",
+    "sort_order": 1
+  },
+  {
+    "id": "2quadri",
+    "typeofpainting": "paesaggi",
+    "name": "capretta e apuane",
+    "date": "1991",
+    "size": "100x120",
+    "path": "quadri/2.jpg",
+    "sort_order": 2
+  },
+  {
+    "id": "3quadri",
+    "typeofpainting": "figure",
+    "name": "allegoria di seravezza",
+    "date": "1986",
+    "size": "120x100",
+    "path": "quadri/3.jpg",
+    "sort_order": 3
+  },
+  {
+    "id": "4quadri",
+    "typeofpainting": "autoritratti",
+    "name": "sulla scogliera rosa",
+    "date": "1994",
+    "size": "120x100",
+    "path": "quadri/4.jpg",
+    "sort_order": 4
+  },
+  {
+    "id": "5quadri",
+    "typeofpainting": "figure",
+    "name": "ragazza in bicicletta",
+    "date": "1987",
+    "size": "120x100",
+    "path": "quadri/5.jpg",
+    "sort_order": 5
+  },
+  {
+    "id": "6quadri",
+    "typeofpainting": "ritratti",
+    "name": "corinna e irene",
+    "date": "1986",
+    "size": "120x100",
+    "path": "quadri/6.jpg",
+    "sort_order": 6
+  },
+  {
+    "id": "7quadri",
+    "typeofpainting": "allegorie",
+    "name": "cacciata dall'eden",
+    "date": "1985",
+    "size": "100x120",
+    "path": "quadri/7.jpg",
+    "sort_order": 7
+  },
+  {
+    "id": "8quadri",
+    "typeofpainting": "figure",
+    "name": "vu' cumprà?",
+    "date": "1991",
+    "size": "100x120",
+    "path": "quadri/8.jpg",
+    "sort_order": 8
+  },
+  {
+    "id": "9quadri",
+    "typeofpainting": "figure",
+    "name": "donna sulla sdraia",
+    "date": "1992",
+    "size": "100x100",
+    "path": "quadri/9.jpg",
+    "sort_order": 9
+  },
+  {
+    "id": "10quadri",
+    "typeofpainting": "paesaggi",
+    "name": "pinetina",
+    "date": "1987",
+    "size": "100x100",
+    "path": "quadri/10.jpg",
+    "sort_order": 10
+  },
+  {
+    "id": "11quadri",
+    "typeofpainting": "bagnanti",
+    "name": "bagno al largo",
+    "date": "1991",
+    "size": "100x100",
+    "path": "quadri/11.jpg",
+    "sort_order": 11
+  },
+  {
+    "id": "12quadri",
+    "typeofpainting": "figure",
+    "name": "ballerini",
+    "date": "1988",
+    "size": "100x100",
+    "path": "quadri/12.jpg",
+    "sort_order": 12
+  },
+  {
+    "id": "13quadri",
+    "typeofpainting": "nature morte",
+    "name": "scarafaggio",
+    "date": "1990",
+    "size": "100x100",
+    "path": "quadri/13.jpg",
+    "sort_order": 13
+  },
+  {
+    "id": "14quadri",
+    "typeofpainting": "bagnanti",
+    "name": "bagno al largo e patino",
+    "date": "1990",
+    "size": "100x100",
+    "path": "quadri/14.jpg",
+    "sort_order": 14
+  },
+  {
+    "id": "15quadri",
+    "typeofpainting": "allegorie",
+    "name": "messaggero",
+    "date": "1988",
+    "size": "100x100",
+    "path": "quadri/15.jpg",
+    "sort_order": 15
+  },
+  {
+    "id": "16quadri",
+    "typeofpainting": "figure",
+    "name": "spiaggia d'agosto",
+    "date": null,
+    "size": "100x100",
+    "path": "quadri/16.jpg",
+    "sort_order": 16
+  },
+  {
+    "id": "17quadri",
+    "typeofpainting": "ritratti",
+    "name": "paola col gatto",
+    "date": "1987",
+    "size": "100x100",
+    "path": "quadri/17.jpg",
+    "sort_order": 17
+  },
+  {
+    "id": "18quadri",
+    "typeofpainting": "ritratti",
+    "name": "panattoni paola",
+    "date": "1991",
+    "size": "100x100",
+    "path": "quadri/18.jpg",
+    "sort_order": 18
+  },
+  {
+    "id": "19quadri",
+    "typeofpainting": "nature morte",
+    "name": "vaso con cardi giallo",
+    "date": "1986",
+    "size": "100x100",
+    "path": "quadri/19.jpg",
+    "sort_order": 19
+  },
+  {
+    "id": "20quadri",
+    "typeofpainting": "allegorie",
+    "name": "scontro di culture",
+    "date": "1985",
+    "size": "100x100",
+    "path": "quadri/20.jpg",
+    "sort_order": 20
+  },
+  {
+    "id": "21quadri",
+    "typeofpainting": "figure",
+    "name": "fantino e contradaiolo",
+    "date": "1985",
+    "size": "100x100",
+    "path": "quadri/21.jpg",
+    "sort_order": 21
+  },
+  {
+    "id": "22quadri",
+    "typeofpainting": "marine",
+    "name": "peschereccio",
+    "date": "1991",
+    "size": "100x100",
+    "path": "quadri/22.jpg",
+    "sort_order": 22
+  },
+  {
+    "id": "23quadri",
+    "typeofpainting": "nature morte",
+    "name": "vaso con cardi grigio",
+    "date": "1983",
+    "size": "100x100",
+    "path": "quadri/23.jpg",
+    "sort_order": 23
+  },
+  {
+    "id": "24quadri",
+    "typeofpainting": "allegorie",
+    "name": "fine della sirena",
+    "date": "1987",
+    "size": "100x100",
+    "path": "quadri/24.jpg",
+    "sort_order": 24
+  },
+  {
+    "id": "25quadri",
+    "typeofpainting": "allegorie",
+    "name": "lucca",
+    "date": null,
+    "size": "100x80",
+    "path": "quadri/25.jpg",
+    "sort_order": 25
+  },
+  {
+    "id": "26quadri",
+    "typeofpainting": "allegorie",
+    "name": "snidato il minotauro",
+    "date": "1986",
+    "size": "80x100",
+    "path": "quadri/26.jpg",
+    "sort_order": 26
+  },
+  {
+    "id": "27quadri",
+    "typeofpainting": "figure",
+    "name": "sul moletto",
+    "date": "1976",
+    "size": "80x100",
+    "path": "quadri/27.jpg",
+    "sort_order": 27
+  },
+  {
+    "id": "28quadri",
+    "typeofpainting": "marine",
+    "name": "il moletto a viareggio",
+    "date": "1977",
+    "size": "80x100",
+    "path": "quadri/28.jpg",
+    "sort_order": 28
+  },
+  {
+    "id": "29quadri",
+    "typeofpainting": "figure",
+    "name": "francesca",
+    "date": "1984",
+    "size": "100x80",
+    "path": "quadri/29.jpg",
+    "sort_order": 29
+  },
+  {
+    "id": "30quadri",
+    "typeofpainting": "paesaggi",
+    "name": "pisa di notte",
+    "date": "1993",
+    "size": "80x100",
+    "path": "quadri/30.jpg",
+    "sort_order": 30
+  },
+  {
+    "id": "31quadri",
+    "typeofpainting": "paesaggi",
+    "name": "p.zza mazzini a carnev.",
+    "date": "1996",
+    "size": "80x100",
+    "path": "quadri/31.jpg",
+    "sort_order": 31
+  },
+  {
+    "id": "32quadri",
+    "typeofpainting": "figure",
+    "name": "ragazze agli scogli",
+    "date": "1971",
+    "size": "100x80",
+    "path": "quadri/32.jpg",
+    "sort_order": 32
+  },
+  {
+    "id": "33quadri",
+    "typeofpainting": "bagnanti",
+    "name": "figure su telo",
+    "date": "1983",
+    "size": "80x100",
+    "path": "quadri/33.jpg",
+    "sort_order": 33
+  },
+  {
+    "id": "34quadri",
+    "typeofpainting": "marine",
+    "name": "tramonto",
+    "date": "1983",
+    "size": "100x80",
+    "path": "quadri/34.jpg",
+    "sort_order": 34
+  },
+  {
+    "id": "35quadri",
+    "typeofpainting": "allegorie",
+    "name": "davanti al soglio",
+    "date": "1995",
+    "size": "80x80",
+    "path": "quadri/35.jpg",
+    "sort_order": 35
+  },
+  {
+    "id": "36quadri",
+    "typeofpainting": "figure",
+    "name": "al moletto nuvola rossa",
+    "date": "1972",
+    "size": "80x80",
+    "path": "quadri/36.jpg",
+    "sort_order": 36
+  },
+  {
+    "id": "37quadri",
+    "typeofpainting": "marina",
+    "name": "gabbiano",
+    "date": "1972",
+    "size": "80x80",
+    "path": "quadri/37.jpg",
+    "sort_order": 37
+  },
+  {
+    "id": "38quadri",
+    "typeofpainting": "figure",
+    "name": "ragazze di migliarino",
+    "date": "1992",
+    "size": "80x80",
+    "path": "quadri/38.jpg",
+    "sort_order": 38
+  },
+  {
+    "id": "39quadri",
+    "typeofpainting": "figure",
+    "name": "l'africana",
+    "date": "1992",
+    "size": "80x80",
+    "path": "quadri/39.jpg",
+    "sort_order": 39
+  },
+  {
+    "id": "40quadri",
+    "typeofpainting": "marina",
+    "name": "scogli moletto",
+    "date": "1980",
+    "size": "80x80",
+    "path": "quadri/40.jpg",
+    "sort_order": 40
+  },
+  {
+    "id": "41quadri",
+    "typeofpainting": "figure",
+    "name": "trans",
+    "date": "1993",
+    "size": "80x80",
+    "path": "quadri/41.jpg",
+    "sort_order": 41
+  },
+  {
+    "id": "42quadri",
+    "typeofpainting": "nature morte",
+    "name": "limoni",
+    "date": "1990",
+    "size": "80x80",
+    "path": "quadri/42.jpg",
+    "sort_order": 42
+  },
+  {
+    "id": "43quadri",
+    "typeofpainting": "figure",
+    "name": "ragazzo agli scogli",
+    "date": "1981",
+    "size": "80x80",
+    "path": "quadri/43.jpg",
+    "sort_order": 43
+  },
+  {
+    "id": "44quadri",
+    "typeofpainting": "ritratti",
+    "name": "paola e la mamma",
+    "date": "1984",
+    "size": "80x100",
+    "path": "quadri/44.jpg",
+    "sort_order": 44
+  },
+  {
+    "id": "45quadri",
+    "typeofpainting": "figure",
+    "name": "ragazze della costanza",
+    "date": "1993",
+    "size": "100x80",
+    "path": "quadri/45.jpg",
+    "sort_order": 45
+  },
+  {
+    "id": "46quadri",
+    "typeofpainting": "paesaggi",
+    "name": "25 aprile a marignana",
+    "date": "1986",
+    "size": "80x100",
+    "path": "quadri/46.jpg",
+    "sort_order": 46
+  },
+  {
+    "id": "47quadri",
+    "typeofpainting": "allegorie",
+    "name": "incontro",
+    "date": "1985",
+    "size": "80x100",
+    "path": "quadri/47.jpg",
+    "sort_order": 47
+  },
+  {
+    "id": "48quadri",
+    "typeofpainting": "figure",
+    "name": "ragazzo agli scogli",
+    "date": "1987",
+    "size": "100x70",
+    "path": "quadri/48.jpg",
+    "sort_order": 48
+  },
+  {
+    "id": "49quadri",
+    "typeofpainting": "paesaggi",
+    "name": "castevecchio di compito",
+    "date": "1970",
+    "size": "100x70",
+    "path": "quadri/49.jpg",
+    "sort_order": 49
+  },
+  {
+    "id": "50quadri",
+    "typeofpainting": "allegorie",
+    "name": "luna e alloro",
+    "date": "1978",
+    "size": "70x100",
+    "path": "quadri/50.jpg",
+    "sort_order": 50
+  },
+  {
+    "id": "51quadri",
+    "typeofpainting": "marine",
+    "name": "notturno con gabbiano",
+    "date": "1978",
+    "size": "100x70",
+    "path": "quadri/51.jpg",
+    "sort_order": 51
+  },
+  {
+    "id": "52quadri",
+    "typeofpainting": "marine",
+    "name": "equitaz.spiaggia libera",
+    "date": "1968",
+    "size": "80x90",
+    "path": "quadri/52.jpg",
+    "sort_order": 52
+  },
+  {
+    "id": "53quadri",
+    "typeofpainting": "figure",
+    "name": "donna su sdraio",
+    "date": "1966",
+    "size": "90x80",
+    "path": "quadri/53.jpg",
+    "sort_order": 53
+  },
+  {
+    "id": "54quadri",
+    "typeofpainting": "marine",
+    "name": "spiaggia libera",
+    "date": "1965",
+    "size": "90x80",
+    "path": "quadri/54.jpg",
+    "sort_order": 54
+  },
+  {
+    "id": "55quadri",
+    "typeofpainting": "marine",
+    "name": "ragazzo sugli scogli",
+    "date": "1982",
+    "size": "90x90",
+    "path": "quadri/55.jpg",
+    "sort_order": 55
+  },
+  {
+    "id": "56quadri",
+    "typeofpainting": "paesaggi",
+    "name": "paese in montagna",
+    "date": null,
+    "size": "90x90",
+    "path": "quadri/56.jpg",
+    "sort_order": 56
+  },
+  {
+    "id": "57quadri",
+    "typeofpainting": "figure",
+    "name": "donna sotto l'ombrellone",
+    "date": "1974",
+    "size": "90x90",
+    "path": "quadri/57.jpg",
+    "sort_order": 57
+  },
+  {
+    "id": "58quadri",
+    "typeofpainting": "figure",
+    "name": "donna con asciugamano",
+    "date": "1974",
+    "size": "90x90",
+    "path": "quadri/58.jpg",
+    "sort_order": 58
+  },
+  {
+    "id": "59quadri",
+    "typeofpainting": "figure",
+    "name": "danza sulla spiaggia",
+    "date": "1980",
+    "size": "60x80",
+    "path": "quadri/59.jpg",
+    "sort_order": 59
+  },
+  {
+    "id": "60quadri",
+    "typeofpainting": "paesaggi",
+    "name": "massaciuccoli",
+    "date": "1971",
+    "size": "80x60",
+    "path": "quadri/60.jpg",
+    "sort_order": 60
+  },
+  {
+    "id": "61quadri",
+    "typeofpainting": "figure",
+    "name": "estate al fiume",
+    "date": "1971",
+    "size": "80x60",
+    "path": "quadri/61.jpg",
+    "sort_order": 61
+  },
+  {
+    "id": "62quadri",
+    "typeofpainting": "marine",
+    "name": "patino di salvataggio",
+    "date": "1972",
+    "size": "60x80",
+    "path": "quadri/62.jpg",
+    "sort_order": 62
+  },
+  {
+    "id": "63quadri",
+    "typeofpainting": "figure",
+    "name": "donna e gabbiano",
+    "date": "1971",
+    "size": "60x80",
+    "path": "quadri/63.jpg",
+    "sort_order": 63
+  },
+  {
+    "id": "64quadri",
+    "typeofpainting": "figure",
+    "name": "viados a migliarino",
+    "date": "1992",
+    "size": "80x60",
+    "path": "quadri/64.jpg",
+    "sort_order": 64
+  },
+  {
+    "id": "65quadri",
+    "typeofpainting": "figure",
+    "name": "coppia sul canotto",
+    "date": "1987",
+    "size": "60x80",
+    "path": "quadri/65.jpg",
+    "sort_order": 65
+  },
+  {
+    "id": "66quadri",
+    "typeofpainting": "figure",
+    "name": "sul moletto",
+    "date": "1989",
+    "size": "60x80",
+    "path": "quadri/66.jpg",
+    "sort_order": 66
+  },
+  {
+    "id": "67quadri",
+    "typeofpainting": "figure",
+    "name": "rammenda la rete",
+    "date": "1970",
+    "size": "60x80",
+    "path": "quadri/67.jpg",
+    "sort_order": 67
+  },
+  {
+    "id": "68quadri",
+    "typeofpainting": "autoritratti",
+    "name": "con giacca verde",
+    "date": "1983",
+    "size": "80x60",
+    "path": "quadri/68.jpg",
+    "sort_order": 68
+  },
+  {
+    "id": "69quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglie",
+    "date": "1968",
+    "size": "60x80",
+    "path": "quadri/69.jpg",
+    "sort_order": 69
+  },
+  {
+    "id": "70quadri",
+    "typeofpainting": "figure",
+    "name": "madre alla finestra",
+    "date": null,
+    "size": "80x60",
+    "path": "quadri/70.jpg",
+    "sort_order": 70
+  },
+  {
+    "id": "71quadri",
+    "typeofpainting": "paesaggi",
+    "name": "casa in campagna",
+    "date": null,
+    "size": "60x80",
+    "path": "quadri/71.jpg",
+    "sort_order": 71
+  },
+  {
+    "id": "72quadri",
+    "typeofpainting": "figure",
+    "name": "donna sulla spiaggia",
+    "date": "1965",
+    "size": "60x80",
+    "path": "quadri/72.jpg",
+    "sort_order": 72
+  },
+  {
+    "id": "73quadri",
+    "typeofpainting": "paesaggi",
+    "name": "campagna e trattore",
+    "date": "1967",
+    "size": "60x80",
+    "path": "quadri/73.jpg",
+    "sort_order": 73
+  },
+  {
+    "id": "74quadri",
+    "typeofpainting": "paesaggi",
+    "name": "bormio",
+    "date": "1977",
+    "size": "60x80",
+    "path": "quadri/74.jpg",
+    "sort_order": 74
+  },
+  {
+    "id": "75quadri",
+    "typeofpainting": "marine",
+    "name": "pescatore e rete",
+    "date": "1967",
+    "size": "60x80",
+    "path": "quadri/75.jpg",
+    "sort_order": 75
+  },
+  {
+    "id": "76quadri",
+    "typeofpainting": "marine",
+    "name": "mare e conchiglie",
+    "date": "1981",
+    "size": "80x60",
+    "path": "quadri/76.jpg",
+    "sort_order": 76
+  },
+  {
+    "id": "77quadri",
+    "typeofpainting": "marine",
+    "name": "bocca di serchio",
+    "date": "1990",
+    "size": "60x80",
+    "path": "quadri/77.jpg",
+    "sort_order": 77
+  },
+  {
+    "id": "78quadri",
+    "typeofpainting": "ritratti",
+    "name": "puccini",
+    "date": "1979",
+    "size": "80x60",
+    "path": "quadri/78.jpg",
+    "sort_order": 78
+  },
+  {
+    "id": "79quadri",
+    "typeofpainting": "marine",
+    "name": "agave e spiaggia",
+    "date": "1983",
+    "size": "60x80",
+    "path": "quadri/79.jpg",
+    "sort_order": 79
+  },
+  {
+    "id": "80quadri",
+    "typeofpainting": "nature morte",
+    "name": "bucranio",
+    "date": "1988",
+    "size": "60x80",
+    "path": "quadri/80.jpg",
+    "sort_order": 80
+  },
+  {
+    "id": "81quadri",
+    "typeofpainting": "nature morte",
+    "name": "banderuola del kurc",
+    "date": "1977",
+    "size": "80x60",
+    "path": "quadri/81.jpg",
+    "sort_order": 81
+  },
+  {
+    "id": "82quadri",
+    "typeofpainting": "nature morte",
+    "name": "testa e bucranio",
+    "date": "1988",
+    "size": "60x80",
+    "path": "quadri/82.jpg",
+    "sort_order": 82
+  },
+  {
+    "id": "83quadri",
+    "typeofpainting": "marine",
+    "name": "donne scogli gabbiano",
+    "date": "1972",
+    "size": "60x80",
+    "path": "quadri/83.jpg",
+    "sort_order": 83
+  },
+  {
+    "id": "84quadri",
+    "typeofpainting": "figure",
+    "name": "tre danzatrici",
+    "date": "1987",
+    "size": "60x80",
+    "path": "quadri/84.jpg",
+    "sort_order": 84
+  },
+  {
+    "id": "85quadri",
+    "typeofpainting": "figure",
+    "name": "clown bianco",
+    "date": null,
+    "size": "80x60",
+    "path": "quadri/85.jpg",
+    "sort_order": 85
+  },
+  {
+    "id": "86quadri",
+    "typeofpainting": "figure",
+    "name": "madre sulla spiaggia",
+    "date": "1965",
+    "size": "80x60",
+    "path": "quadri/86.jpg",
+    "sort_order": 86
+  },
+  {
+    "id": "87quadri",
+    "typeofpainting": "ritratti",
+    "name": "catelli",
+    "date": null,
+    "size": "80x60",
+    "path": "quadri/87.jpg",
+    "sort_order": 87
+  },
+  {
+    "id": "88quadri",
+    "typeofpainting": "ritratti",
+    "name": "dalia mencarini",
+    "date": null,
+    "size": "80x60",
+    "path": "quadri/88.jpg",
+    "sort_order": 88
+  },
+  {
+    "id": "89quadri",
+    "typeofpainting": "bagnanti",
+    "name": "bagnanti al tramonto",
+    "date": null,
+    "size": "54x63",
+    "path": "quadri/89.jpg",
+    "sort_order": 89
+  },
+  {
+    "id": "90quadri",
+    "typeofpainting": "figure",
+    "name": "clown su cavallo",
+    "date": null,
+    "size": "60x55",
+    "path": "quadri/90.jpg",
+    "sort_order": 90
+  },
+  {
+    "id": "91quadri",
+    "typeofpainting": "figure",
+    "name": "danzatrici",
+    "date": null,
+    "size": "43x58",
+    "path": "quadri/91.jpg",
+    "sort_order": 91
+  },
+  {
+    "id": "92quadri",
+    "typeofpainting": "animali",
+    "name": "cinghialino",
+    "date": "1990",
+    "size": "43x58",
+    "path": "quadri/92.jpg",
+    "sort_order": 92
+  },
+  {
+    "id": "93quadri",
+    "typeofpainting": "paesaggi",
+    "name": "darsena",
+    "date": "1953",
+    "size": "47x59",
+    "path": "quadri/93.jpg",
+    "sort_order": 93
+  },
+  {
+    "id": "94quadri",
+    "typeofpainting": "ritratti",
+    "name": "maestra",
+    "date": "1951",
+    "size": "57x39",
+    "path": "quadri/94.jpg",
+    "sort_order": 94
+  },
+  {
+    "id": "95quadri",
+    "typeofpainting": "ritratti",
+    "name": "alunno",
+    "date": null,
+    "size": "70x50",
+    "path": "quadri/95.jpg",
+    "sort_order": 95
+  },
+  {
+    "id": "96quadri",
+    "typeofpainting": "marine",
+    "name": "pescatore su barca",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/96.jpg",
+    "sort_order": 96
+  },
+  {
+    "id": "97quadri",
+    "typeofpainting": "figure",
+    "name": "nudo",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/97.jpg",
+    "sort_order": 97
+  },
+  {
+    "id": "98quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglia",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/98.jpg",
+    "sort_order": 98
+  },
+  {
+    "id": "99quadri",
+    "typeofpainting": "allegorie",
+    "name": "aggressione",
+    "date": "1989",
+    "size": "50x70",
+    "path": "quadri/99.jpg",
+    "sort_order": 99
+  },
+  {
+    "id": "100quadri",
+    "typeofpainting": "figure",
+    "name": "nudo di fronte",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/100.jpg",
+    "sort_order": 100
+  },
+  {
+    "id": "101quadri",
+    "typeofpainting": "figure",
+    "name": "due donne",
+    "date": "1970",
+    "size": "70x50",
+    "path": "quadri/101.jpg",
+    "sort_order": 101
+  },
+  {
+    "id": "102quadri",
+    "typeofpainting": "figure",
+    "name": "motociclista",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/102.jpg",
+    "sort_order": 102
+  },
+  {
+    "id": "103quadri",
+    "typeofpainting": "animali",
+    "name": "vitello al mattatoio",
+    "date": "1953",
+    "size": "50x40",
+    "path": "quadri/103.jpg",
+    "sort_order": 103
+  },
+  {
+    "id": "104quadri",
+    "typeofpainting": "figure",
+    "name": "macelleria",
+    "date": "1952",
+    "size": "50x40",
+    "path": "quadri/104.jpg",
+    "sort_order": 104
+  },
+  {
+    "id": "105quadri",
+    "typeofpainting": "paesaggi",
+    "name": "palma",
+    "date": null,
+    "size": "50x40",
+    "path": "quadri/105.jpg",
+    "sort_order": 105
+  },
+  {
+    "id": "106quadri",
+    "typeofpainting": "autoritratto",
+    "name": "rosso",
+    "date": "1970",
+    "size": "50x45",
+    "path": "quadri/106.jpg",
+    "sort_order": 106
+  },
+  {
+    "id": "107quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donne sul pontile",
+    "date": "1972",
+    "size": "50x40",
+    "path": "quadri/107.jpg",
+    "sort_order": 107
+  },
+  {
+    "id": "108quadri",
+    "typeofpainting": "figure",
+    "name": "donna su telo",
+    "date": null,
+    "size": "45x50",
+    "path": "quadri/108.jpg",
+    "sort_order": 108
+  },
+  {
+    "id": "109quadri",
+    "typeofpainting": "allegorie",
+    "name": "soli e stelle",
+    "date": null,
+    "size": "40x50",
+    "path": "quadri/109.jpg",
+    "sort_order": 109
+  },
+  {
+    "id": "110quadri",
+    "typeofpainting": "animali",
+    "name": "vitello ucciso",
+    "date": null,
+    "size": "40x50",
+    "path": "quadri/110.jpg",
+    "sort_order": 110
+  },
+  {
+    "id": "111quadri",
+    "typeofpainting": "figure",
+    "name": "sulla barca",
+    "date": null,
+    "size": "25x40",
+    "path": "quadri/111.jpg",
+    "sort_order": 111
+  },
+  {
+    "id": "112quadri",
+    "typeofpainting": "allegorie",
+    "name": "natività",
+    "date": null,
+    "size": "35x50",
+    "path": "quadri/112.jpg",
+    "sort_order": 112
+  },
+  {
+    "id": "113quadri",
+    "typeofpainting": "figure",
+    "name": "tre donne tramonto",
+    "date": "1974",
+    "size": "35x50",
+    "path": "quadri/113.jpg",
+    "sort_order": 113
+  },
+  {
+    "id": "114quadri",
+    "typeofpainting": "nature morte",
+    "name": "albero",
+    "date": null,
+    "size": "50x40",
+    "path": "quadri/114.jpg",
+    "sort_order": 114
+  },
+  {
+    "id": "115quadri",
+    "typeofpainting": "allegorie",
+    "name": "guerriero",
+    "date": null,
+    "size": "50x35",
+    "path": "quadri/115.jpg",
+    "sort_order": 115
+  },
+  {
+    "id": "116quadri",
+    "typeofpainting": "figure",
+    "name": "folla",
+    "date": null,
+    "size": "40x45",
+    "path": "quadri/116.jpg",
+    "sort_order": 116
+  },
+  {
+    "id": "117quadri",
+    "typeofpainting": "allegorie",
+    "name": "bozzetto natale",
+    "date": "1963",
+    "size": "50x40",
+    "path": "quadri/117.jpg",
+    "sort_order": 117
+  },
+  {
+    "id": "118quadri",
+    "typeofpainting": "allegorie",
+    "name": "la memoria",
+    "date": "1984",
+    "size": "35x50",
+    "path": "quadri/118.jpg",
+    "sort_order": 118
+  },
+  {
+    "id": "119quadri",
+    "typeofpainting": "ritratti",
+    "name": "nonna al camino",
+    "date": null,
+    "size": "50x35",
+    "path": "quadri/119.jpg",
+    "sort_order": 119
+  },
+  {
+    "id": "120quadri",
+    "typeofpainting": "autoritratti",
+    "name": "testa sul mare",
+    "date": "1977",
+    "size": "25x50",
+    "path": "quadri/120.jpg",
+    "sort_order": 120
+  },
+  {
+    "id": "121quadri",
+    "typeofpainting": "figure",
+    "name": "donna che corre",
+    "date": "1971",
+    "size": "40x30",
+    "path": "quadri/121.jpg",
+    "sort_order": 121
+  },
+  {
+    "id": "122quadri",
+    "typeofpainting": "allegorie",
+    "name": "annunciazione studio",
+    "date": null,
+    "size": "33x48",
+    "path": "quadri/122.jpg",
+    "sort_order": 122
+  },
+  {
+    "id": "123quadri",
+    "typeofpainting": "ritratti",
+    "name": "ada",
+    "date": "1959",
+    "size": "55x48",
+    "path": "quadri/123.jpg",
+    "sort_order": 123
+  },
+  {
+    "id": "124quadri",
+    "typeofpainting": "figure",
+    "name": "narciso studio",
+    "date": "1979",
+    "size": "50x50",
+    "path": "quadri/124.jpg",
+    "sort_order": 124
+  },
+  {
+    "id": "125quadri",
+    "typeofpainting": "figure",
+    "name": "cacciatore e cane",
+    "date": "1950",
+    "size": "50x40",
+    "path": "quadri/125.jpg",
+    "sort_order": 125
+  },
+  {
+    "id": "126quadri",
+    "typeofpainting": "figure",
+    "name": "pastore e capretta",
+    "date": "1983",
+    "size": "40x50",
+    "path": "quadri/126.jpg",
+    "sort_order": 126
+  },
+  {
+    "id": "127quadri",
+    "typeofpainting": "natura morta",
+    "name": "scacchi",
+    "date": null,
+    "size": "32x35",
+    "path": "quadri/127.jpg",
+    "sort_order": 127
+  },
+  {
+    "id": "128quadri",
+    "typeofpainting": "marina",
+    "name": "lampara e patino",
+    "date": "1980",
+    "size": "20x30",
+    "path": "quadri/128.jpg",
+    "sort_order": 128
+  },
+  {
+    "id": "129quadri",
+    "typeofpainting": "natura morta",
+    "name": "pesci",
+    "date": "1960",
+    "size": "30x40",
+    "path": "quadri/129.jpg",
+    "sort_order": 129
+  },
+  {
+    "id": "130quadri",
+    "typeofpainting": "paesaggio",
+    "name": "darsena",
+    "date": null,
+    "size": "33x40",
+    "path": "quadri/130.jpg",
+    "sort_order": 130
+  },
+  {
+    "id": "131quadri",
+    "typeofpainting": "figure",
+    "name": "nudo nottuno",
+    "date": null,
+    "size": "35x23",
+    "path": "quadri/131.jpg",
+    "sort_order": 131
+  },
+  {
+    "id": "132quadri",
+    "typeofpainting": "figure",
+    "name": "due donne",
+    "date": null,
+    "size": "36x30",
+    "path": "quadri/132.jpg",
+    "sort_order": 132
+  },
+  {
+    "id": "133quadri",
+    "typeofpainting": "nature morte",
+    "name": "vaso di fiorni",
+    "date": null,
+    "size": "35x17",
+    "path": "quadri/133.jpg",
+    "sort_order": 133
+  },
+  {
+    "id": "134quadri",
+    "typeofpainting": "ritratti",
+    "name": "volto",
+    "date": "1978",
+    "size": "40x30",
+    "path": "quadri/134.jpg",
+    "sort_order": 134
+  },
+  {
+    "id": "135quadri",
+    "typeofpainting": "figure",
+    "name": "donna sdraiata mare",
+    "date": "1968",
+    "size": "35x50",
+    "path": "quadri/135.jpg",
+    "sort_order": 135
+  },
+  {
+    "id": "136quadri",
+    "typeofpainting": "figure",
+    "name": "donna seduta e nudo",
+    "date": "1970",
+    "size": null,
+    "path": "quadri/136.jpg",
+    "sort_order": 136
+  },
+  {
+    "id": "137quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donne tra le onde",
+    "date": "1972",
+    "size": "35x40",
+    "path": "quadri/137.jpg",
+    "sort_order": 137
+  },
+  {
+    "id": "138quadri",
+    "typeofpainting": "nature morte",
+    "name": "carpa",
+    "date": null,
+    "size": "30x40",
+    "path": "quadri/138.jpg",
+    "sort_order": 138
+  },
+  {
+    "id": "139quadri",
+    "typeofpainting": "figure",
+    "name": "nudo al mare",
+    "date": null,
+    "size": "45x30",
+    "path": "quadri/139.jpg",
+    "sort_order": 139
+  },
+  {
+    "id": "140quadri",
+    "typeofpainting": "figure",
+    "name": "volto di giovane",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/140.jpg",
+    "sort_order": 140
+  },
+  {
+    "id": "141quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglia e donna",
+    "date": null,
+    "size": "30x40",
+    "path": "quadri/141.jpg",
+    "sort_order": 141
+  },
+  {
+    "id": "142quadri",
+    "typeofpainting": "allegorie",
+    "name": "angelo e sirena",
+    "date": "1987",
+    "size": "Diam.38",
+    "path": "quadri/142.jpg",
+    "sort_order": 142
+  },
+  {
+    "id": "143quadri",
+    "typeofpainting": "nature morte",
+    "name": "rospo",
+    "date": "1982",
+    "size": "Diam.40",
+    "path": "quadri/143.jpg",
+    "sort_order": 143
+  },
+  {
+    "id": "144quadri",
+    "typeofpainting": "figure",
+    "name": "nudo bagnante",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/144.jpg",
+    "sort_order": 144
+  },
+  {
+    "id": "145quadri",
+    "typeofpainting": "figure",
+    "name": "nudo blu",
+    "date": "1964",
+    "size": "37x30",
+    "path": "quadri/145.jpg",
+    "sort_order": 145
+  },
+  {
+    "id": "146quadri",
+    "typeofpainting": "figure",
+    "name": "donna e vecchia",
+    "date": null,
+    "size": "45x28",
+    "path": "quadri/146.jpg",
+    "sort_order": 146
+  },
+  {
+    "id": "147quadri",
+    "typeofpainting": "figure",
+    "name": "nudo nero",
+    "date": "1970",
+    "size": "35x23",
+    "path": "quadri/147.jpg",
+    "sort_order": 147
+  },
+  {
+    "id": "148quadri",
+    "typeofpainting": "marine",
+    "name": "nudo su scoglio",
+    "date": null,
+    "size": "45x35",
+    "path": "quadri/148.jpg",
+    "sort_order": 148
+  },
+  {
+    "id": "149quadri",
+    "typeofpainting": "figure",
+    "name": "nudo di ragazza",
+    "date": "1965",
+    "size": "50x35",
+    "path": "quadri/149.jpg",
+    "sort_order": 149
+  },
+  {
+    "id": "150quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donna mare bianco",
+    "date": "1983",
+    "size": "20x27",
+    "path": "quadri/150.jpg",
+    "sort_order": 150
+  },
+  {
+    "id": "151quadri",
+    "typeofpainting": "figure",
+    "name": "ragazza fondo rosa",
+    "date": null,
+    "size": "40x15",
+    "path": "quadri/151.jpg",
+    "sort_order": 151
+  },
+  {
+    "id": "152quadri",
+    "typeofpainting": "paesaggi",
+    "name": "barca muretto celeste",
+    "date": null,
+    "size": "35x30",
+    "path": "quadri/152.jpg",
+    "sort_order": 152
+  },
+  {
+    "id": "153quadri",
+    "typeofpainting": "ritratti",
+    "name": "volto celeste",
+    "date": "1987",
+    "size": "40x30",
+    "path": "quadri/153.jpg",
+    "sort_order": 153
+  },
+  {
+    "id": "154quadri",
+    "typeofpainting": "ritratti",
+    "name": "donna celeste",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/154.jpg",
+    "sort_order": 154
+  },
+  {
+    "id": "155quadri",
+    "typeofpainting": "allegorie",
+    "name": "nettuno",
+    "date": null,
+    "size": "36x27",
+    "path": "quadri/155.jpg",
+    "sort_order": 155
+  },
+  {
+    "id": "156quadri",
+    "typeofpainting": "marine",
+    "name": "tramonto",
+    "date": null,
+    "size": "25x40",
+    "path": "quadri/156.jpg",
+    "sort_order": 156
+  },
+  {
+    "id": "157quadri",
+    "typeofpainting": "arte sacra",
+    "name": "cristo",
+    "date": null,
+    "size": "20x18",
+    "path": "quadri/157.jpg",
+    "sort_order": 157
+  },
+  {
+    "id": "158quadri",
+    "typeofpainting": "paesaggi",
+    "name": "casale e cipressi",
+    "date": "1950",
+    "size": "30x43",
+    "path": "quadri/158.jpg",
+    "sort_order": 158
+  },
+  {
+    "id": "159quadri",
+    "typeofpainting": "animali",
+    "name": "gatto",
+    "date": null,
+    "size": "16x22",
+    "path": "quadri/159.jpg",
+    "sort_order": 159
+  },
+  {
+    "id": "160quadri",
+    "typeofpainting": "figure",
+    "name": "uomo al mare",
+    "date": null,
+    "size": "35x28",
+    "path": "quadri/160.jpg",
+    "sort_order": 160
+  },
+  {
+    "id": "161quadri",
+    "typeofpainting": "figure",
+    "name": "nudo rosso",
+    "date": null,
+    "size": "45x25",
+    "path": "quadri/161.jpg",
+    "sort_order": 161
+  },
+  {
+    "id": "162quadri",
+    "typeofpainting": "allegorie",
+    "name": "satiro e donna",
+    "date": null,
+    "size": "23x33",
+    "path": "quadri/162.jpg",
+    "sort_order": 162
+  },
+  {
+    "id": "163quadri",
+    "typeofpainting": "marine",
+    "name": "tramonto sole nero",
+    "date": null,
+    "size": "18x33",
+    "path": "quadri/163.jpg",
+    "sort_order": 163
+  },
+  {
+    "id": "164quadri",
+    "typeofpainting": "animali",
+    "name": "toro nero",
+    "date": "1995",
+    "size": "25x35",
+    "path": "quadri/164.jpg",
+    "sort_order": 164
+  },
+  {
+    "id": "165quadri",
+    "typeofpainting": "figure",
+    "name": "ragazza seduta",
+    "date": "1950",
+    "size": "35x25",
+    "path": "quadri/165.jpg",
+    "sort_order": 165
+  },
+  {
+    "id": "166quadri",
+    "typeofpainting": "figure",
+    "name": "tre sulla spiaggia",
+    "date": null,
+    "size": "20x35",
+    "path": "quadri/166.jpg",
+    "sort_order": 166
+  },
+  {
+    "id": "167quadri",
+    "typeofpainting": "ritratti",
+    "name": "enrico",
+    "date": null,
+    "size": "35x25",
+    "path": "quadri/167.jpg",
+    "sort_order": 167
+  },
+  {
+    "id": "168quadri",
+    "typeofpainting": "marine",
+    "name": "cielo rosa",
+    "date": "1966",
+    "size": "23x40",
+    "path": "quadri/168.jpg",
+    "sort_order": 168
+  },
+  {
+    "id": "169quadri",
+    "typeofpainting": "figure",
+    "name": "maschera",
+    "date": null,
+    "size": "37x28",
+    "path": "quadri/169.jpg",
+    "sort_order": 169
+  },
+  {
+    "id": "170quadri",
+    "typeofpainting": "arte sacra",
+    "name": "crocifisso",
+    "date": "1983",
+    "size": "35x20",
+    "path": "quadri/170.jpg",
+    "sort_order": 170
+  },
+  {
+    "id": "171quadri",
+    "typeofpainting": "figure",
+    "name": "s.martino",
+    "date": "1950",
+    "size": "37x30",
+    "path": "quadri/171.jpg",
+    "sort_order": 171
+  },
+  {
+    "id": "172quadri",
+    "typeofpainting": "paesaggi",
+    "name": "muro e cipresso",
+    "date": null,
+    "size": "30x37",
+    "path": "quadri/172.jpg",
+    "sort_order": 172
+  },
+  {
+    "id": "173quadri",
+    "typeofpainting": "figure",
+    "name": "uomo sdraiato al mare",
+    "date": null,
+    "size": "30x40",
+    "path": "quadri/173.jpg",
+    "sort_order": 173
+  },
+  {
+    "id": "174quadri",
+    "typeofpainting": "figure",
+    "name": "nudo in mare blu",
+    "date": null,
+    "size": "40x25",
+    "path": "quadri/174.jpg",
+    "sort_order": 174
+  },
+  {
+    "id": "175quadri",
+    "typeofpainting": "figure",
+    "name": "madre e bimbo",
+    "date": null,
+    "size": "35x28",
+    "path": "quadri/175.jpg",
+    "sort_order": 175
+  },
+  {
+    "id": "176quadri",
+    "typeofpainting": "figure",
+    "name": "ciclisti",
+    "date": null,
+    "size": "30x40",
+    "path": "quadri/176.jpg",
+    "sort_order": 176
+  },
+  {
+    "id": "177quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo",
+    "date": null,
+    "size": "35x25",
+    "path": "quadri/177.jpg",
+    "sort_order": 177
+  },
+  {
+    "id": "178quadri",
+    "typeofpainting": "paesaggi",
+    "name": "paese",
+    "date": "1951",
+    "size": "26x38",
+    "path": "quadri/178.jpg",
+    "sort_order": 178
+  },
+  {
+    "id": "179quadri",
+    "typeofpainting": "nature morte",
+    "name": "fichi e uva",
+    "date": "1953",
+    "size": "22x35",
+    "path": "quadri/179.jpg",
+    "sort_order": 179
+  },
+  {
+    "id": "180quadri",
+    "typeofpainting": "paesaggi",
+    "name": "senza titolo",
+    "date": null,
+    "size": "21x36",
+    "path": "quadri/180.jpg",
+    "sort_order": 180
+  },
+  {
+    "id": "181quadri",
+    "typeofpainting": "figure",
+    "name": "tre bagnanti",
+    "date": null,
+    "size": "36x38",
+    "path": "quadri/181.jpg",
+    "sort_order": 181
+  },
+  {
+    "id": "182quadri",
+    "typeofpainting": "figure",
+    "name": "sdraiato sulla spiaggia",
+    "date": "1972",
+    "size": "18x40",
+    "path": "quadri/182.jpg",
+    "sort_order": 182
+  },
+  {
+    "id": "183quadri",
+    "typeofpainting": "nature morte",
+    "name": "vaso di fiori",
+    "date": "1976",
+    "size": "40x18",
+    "path": "quadri/183.jpg",
+    "sort_order": 183
+  },
+  {
+    "id": "184quadri",
+    "typeofpainting": "figure",
+    "name": "abbracciati",
+    "date": "1989",
+    "size": "33x25",
+    "path": "quadri/184.jpg",
+    "sort_order": 184
+  },
+  {
+    "id": "185quadri",
+    "typeofpainting": "paesaggio",
+    "name": "tre aerei cielo giallo",
+    "date": "1988",
+    "size": "60x70",
+    "path": "quadri/185.jpg",
+    "sort_order": 185
+  },
+  {
+    "id": "186quadri",
+    "typeofpainting": "nature morte",
+    "name": "peperoni",
+    "date": "1975",
+    "size": "60x70",
+    "path": "quadri/186.jpg",
+    "sort_order": 186
+  },
+  {
+    "id": "187quadri",
+    "typeofpainting": "figure",
+    "name": "coppia su barca",
+    "date": null,
+    "size": "60x70",
+    "path": "quadri/187.jpg",
+    "sort_order": 187
+  },
+  {
+    "id": "188quadri",
+    "typeofpainting": "animali",
+    "name": "piccioni sul prato",
+    "date": "1965",
+    "size": "60x70",
+    "path": "quadri/188.jpg",
+    "sort_order": 188
+  },
+  {
+    "id": "189quadri",
+    "typeofpainting": "autoritratto",
+    "name": "con maglia verde",
+    "date": "1989",
+    "size": "70x60",
+    "path": "quadri/189.jpg",
+    "sort_order": 189
+  },
+  {
+    "id": "190quadri",
+    "typeofpainting": "figure",
+    "name": "due donne e cabine",
+    "date": "1987",
+    "size": "60x70",
+    "path": "quadri/190.jpg",
+    "sort_order": 190
+  },
+  {
+    "id": "191quadri",
+    "typeofpainting": "animali",
+    "name": "gatta grigia",
+    "date": "1987",
+    "size": "60x70",
+    "path": "quadri/191.jpg",
+    "sort_order": 191
+  },
+  {
+    "id": "192quadri",
+    "typeofpainting": "figure",
+    "name": "fuma la pipa donne",
+    "date": null,
+    "size": "30x40",
+    "path": "quadri/192.jpg",
+    "sort_order": 192
+  },
+  {
+    "id": "193quadri",
+    "typeofpainting": "bagnanti",
+    "name": "due donne mare verde",
+    "date": "1972",
+    "size": "30x40",
+    "path": "quadri/193.jpg",
+    "sort_order": 193
+  },
+  {
+    "id": "194quadri",
+    "typeofpainting": "figure",
+    "name": "l'affogata",
+    "date": "1993",
+    "size": "30x40",
+    "path": "quadri/194.jpg",
+    "sort_order": 194
+  },
+  {
+    "id": "195quadri",
+    "typeofpainting": "autoritratti",
+    "name": "testa",
+    "date": "1966",
+    "size": "40x30",
+    "path": "quadri/195.jpg",
+    "sort_order": 195
+  },
+  {
+    "id": "196quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donna su giallo",
+    "date": null,
+    "size": "30x40",
+    "path": "quadri/196.jpg",
+    "sort_order": 196
+  },
+  {
+    "id": "197quadri",
+    "typeofpainting": "nature morte",
+    "name": "vaso con cardi",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/197.jpg",
+    "sort_order": 197
+  },
+  {
+    "id": "198quadri",
+    "typeofpainting": "marine",
+    "name": "spiaggia libera e mare",
+    "date": "1968",
+    "size": "30x40",
+    "path": "quadri/198.jpg",
+    "sort_order": 198
+  },
+  {
+    "id": "199quadri",
+    "typeofpainting": "ritratti",
+    "name": "studio x marina",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/199.jpg",
+    "sort_order": 199
+  },
+  {
+    "id": "200quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donna tra le onde dx",
+    "date": null,
+    "size": "40x25",
+    "path": "quadri/200.jpg",
+    "sort_order": 200
+  },
+  {
+    "id": "201quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donna tra le onde sx",
+    "date": "1970",
+    "size": "40x30",
+    "path": "quadri/201.jpg",
+    "sort_order": 201
+  },
+  {
+    "id": "202quadri",
+    "typeofpainting": "figure",
+    "name": "si spoglia e borsa verde",
+    "date": "1987",
+    "size": "60x60",
+    "path": "quadri/202.jpg",
+    "sort_order": 202
+  },
+  {
+    "id": "203quadri",
+    "typeofpainting": "figure",
+    "name": "coppia su barca",
+    "date": "1987",
+    "size": "60x60",
+    "path": "quadri/203.jpg",
+    "sort_order": 203
+  },
+  {
+    "id": "204quadri",
+    "typeofpainting": "nature morte",
+    "name": "bucranio grigio",
+    "date": "1992",
+    "size": "60x60",
+    "path": "quadri/204.jpg",
+    "sort_order": 204
+  },
+  {
+    "id": "205quadri",
+    "typeofpainting": "figure",
+    "name": "si spoglia su scoglio",
+    "date": "1987",
+    "size": "60x60",
+    "path": "quadri/205.jpg",
+    "sort_order": 205
+  },
+  {
+    "id": "206quadri",
+    "typeofpainting": "marine",
+    "name": "barchino viola",
+    "date": "1983",
+    "size": "50x70",
+    "path": "quadri/206.jpg",
+    "sort_order": 206
+  },
+  {
+    "id": "207quadri",
+    "typeofpainting": "bagnanti",
+    "name": "sul molo e in acqua",
+    "date": "1972",
+    "size": "50x70",
+    "path": "quadri/207.jpg",
+    "sort_order": 207
+  },
+  {
+    "id": "208quadri",
+    "typeofpainting": "figure",
+    "name": "pescatore stende la rete",
+    "date": "1958",
+    "size": "70x50",
+    "path": "quadri/208.jpg",
+    "sort_order": 208
+  },
+  {
+    "id": "209quadri",
+    "typeofpainting": "figure",
+    "name": "famiglia del pescatore",
+    "date": "1957",
+    "size": "50x70",
+    "path": "quadri/209.jpg",
+    "sort_order": 209
+  },
+  {
+    "id": "210quadri",
+    "typeofpainting": "figure",
+    "name": "sdraiata con telo bianco",
+    "date": null,
+    "size": "70x50",
+    "path": "quadri/210.jpg",
+    "sort_order": 210
+  },
+  {
+    "id": "211quadri",
+    "typeofpainting": "animali",
+    "name": "due piccioni sul muro",
+    "date": null,
+    "size": "70x50",
+    "path": "quadri/211.jpg",
+    "sort_order": 211
+  },
+  {
+    "id": "212quadri",
+    "typeofpainting": "figure",
+    "name": "donna scogli gabbiano",
+    "date": "1972",
+    "size": "50x70",
+    "path": "quadri/212.jpg",
+    "sort_order": 212
+  },
+  {
+    "id": "213quadri",
+    "typeofpainting": "nature morte",
+    "name": "pesche",
+    "date": "1962",
+    "size": "50x70",
+    "path": "quadri/213.jpg",
+    "sort_order": 213
+  },
+  {
+    "id": "214quadri",
+    "typeofpainting": "nature morte",
+    "name": "melograno su arancio",
+    "date": null,
+    "size": "50x60",
+    "path": "quadri/214.jpg",
+    "sort_order": 214
+  },
+  {
+    "id": "215quadri",
+    "typeofpainting": "ritratti",
+    "name": "marina",
+    "date": null,
+    "size": "60x50",
+    "path": "quadri/215.jpg",
+    "sort_order": 215
+  },
+  {
+    "id": "216quadri",
+    "typeofpainting": "ritratti",
+    "name": "donna seduta",
+    "date": null,
+    "size": "60x50",
+    "path": "quadri/216.jpg",
+    "sort_order": 216
+  },
+  {
+    "id": "217quadri",
+    "typeofpainting": "nature morte",
+    "name": "bottiglia",
+    "date": "1965",
+    "size": "50x60",
+    "path": "quadri/217.jpg",
+    "sort_order": 217
+  },
+  {
+    "id": "218quadri",
+    "typeofpainting": "paesaggi",
+    "name": "pinetina cielo giallo",
+    "date": "1988",
+    "size": "50x60",
+    "path": "quadri/218.jpg",
+    "sort_order": 218
+  },
+  {
+    "id": "219quadri",
+    "typeofpainting": "paesaggi",
+    "name": "macchia migliarino",
+    "date": "1992",
+    "size": "60x50",
+    "path": "quadri/219.jpg",
+    "sort_order": 219
+  },
+  {
+    "id": "220quadri",
+    "typeofpainting": "figure",
+    "name": "ragazza macchia migl.",
+    "date": "1993",
+    "size": "60x50",
+    "path": "quadri/220.jpg",
+    "sort_order": 220
+  },
+  {
+    "id": "221quadri",
+    "typeofpainting": "nature morte",
+    "name": "due conchiglie su grigio",
+    "date": "1973",
+    "size": "50x60",
+    "path": "quadri/221.jpg",
+    "sort_order": 221
+  },
+  {
+    "id": "222quadri",
+    "typeofpainting": "figure",
+    "name": "gente sul molo",
+    "date": null,
+    "size": "60x50",
+    "path": "quadri/222.jpg",
+    "sort_order": 222
+  },
+  {
+    "id": "223quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli controluce",
+    "date": "1969",
+    "size": "60x50",
+    "path": "quadri/223.jpg",
+    "sort_order": 223
+  },
+  {
+    "id": "224quadri",
+    "typeofpainting": "ritratti",
+    "name": "silvio micheli",
+    "date": "1970",
+    "size": "60x50",
+    "path": "quadri/224.jpg",
+    "sort_order": 224
+  },
+  {
+    "id": "225quadri",
+    "typeofpainting": "animali",
+    "name": "gallina",
+    "date": "1965",
+    "size": "50x60",
+    "path": "quadri/225.jpg",
+    "sort_order": 225
+  },
+  {
+    "id": "226quadri",
+    "typeofpainting": "marine",
+    "name": "notturno su barchino",
+    "date": "1983",
+    "size": "50x60",
+    "path": "quadri/226.jpg",
+    "sort_order": 226
+  },
+  {
+    "id": "227quadri",
+    "typeofpainting": "animali",
+    "name": "corsa al trotto",
+    "date": "1991",
+    "size": "50x60",
+    "path": "quadri/227.jpg",
+    "sort_order": 227
+  },
+  {
+    "id": "228quadri",
+    "typeofpainting": "figure",
+    "name": "s.anna brucia",
+    "date": null,
+    "size": "60x50",
+    "path": "quadri/228.jpg",
+    "sort_order": 228
+  },
+  {
+    "id": "229quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglia e gabbiano",
+    "date": "1978",
+    "size": "50x60",
+    "path": "quadri/229.jpg",
+    "sort_order": 229
+  },
+  {
+    "id": "230quadri",
+    "typeofpainting": "bagnanti",
+    "name": "due donne su scoglio",
+    "date": "1988",
+    "size": "50x60",
+    "path": "quadri/230.jpg",
+    "sort_order": 230
+  },
+  {
+    "id": "231quadri",
+    "typeofpainting": "figure",
+    "name": "bambino nella tenda",
+    "date": null,
+    "size": "50x60",
+    "path": "quadri/231.jpg",
+    "sort_order": 231
+  },
+  {
+    "id": "232quadri",
+    "typeofpainting": "autoritratti",
+    "name": "allegorico",
+    "date": "1950",
+    "size": "50x40",
+    "path": "quadri/232.jpg",
+    "sort_order": 232
+  },
+  {
+    "id": "233quadri",
+    "typeofpainting": "figure",
+    "name": "madre al balcone",
+    "date": null,
+    "size": "50x40",
+    "path": "quadri/233.jpg",
+    "sort_order": 233
+  },
+  {
+    "id": "234quadri",
+    "typeofpainting": "marine",
+    "name": "spiaggia",
+    "date": "1989",
+    "size": "40x50",
+    "path": "quadri/234.jpg",
+    "sort_order": 234
+  },
+  {
+    "id": "235quadri",
+    "typeofpainting": "paesaggi",
+    "name": "carriola",
+    "date": null,
+    "size": "40x50",
+    "path": "quadri/235.jpg",
+    "sort_order": 235
+  },
+  {
+    "id": "236quadri",
+    "typeofpainting": "ritratti",
+    "name": "donna su fondo giallo",
+    "date": "1990",
+    "size": "50x40",
+    "path": "quadri/236.jpg",
+    "sort_order": 236
+  },
+  {
+    "id": "237quadri",
+    "typeofpainting": "figure",
+    "name": "donna viola al sole",
+    "date": "1989",
+    "size": "40x50",
+    "path": "quadri/237.jpg",
+    "sort_order": 237
+  },
+  {
+    "id": "238quadri",
+    "typeofpainting": "allegorie",
+    "name": "testa su verde",
+    "date": null,
+    "size": "50x40",
+    "path": "quadri/238.jpg",
+    "sort_order": 238
+  },
+  {
+    "id": "239quadri",
+    "typeofpainting": "autoritratti",
+    "name": "Blu-verde",
+    "date": null,
+    "size": "50x40",
+    "path": "quadri/239.jpg",
+    "sort_order": 239
+  },
+  {
+    "id": "240quadri",
+    "typeofpainting": "paesaggi",
+    "name": "carnevale p.zza mazzini",
+    "date": "1996",
+    "size": "40x50",
+    "path": "quadri/240.jpg",
+    "sort_order": 240
+  },
+  {
+    "id": "241quadri",
+    "typeofpainting": "marine",
+    "name": "scogli e gabbiano",
+    "date": "1973",
+    "size": "50x40",
+    "path": "quadri/241.jpg",
+    "sort_order": 241
+  },
+  {
+    "id": "242quadri",
+    "typeofpainting": "bagnanti",
+    "name": "due donne tra le onde",
+    "date": "1971",
+    "size": "40x50",
+    "path": "quadri/242.jpg",
+    "sort_order": 242
+  },
+  {
+    "id": "243quadri",
+    "typeofpainting": "allegorie",
+    "name": "manifestazione violenta",
+    "date": "1990",
+    "size": "50x40",
+    "path": "quadri/243.jpg",
+    "sort_order": 243
+  },
+  {
+    "id": "244quadri",
+    "typeofpainting": "animali",
+    "name": "gabbiani nero-viola",
+    "date": "1978",
+    "size": "40x50",
+    "path": "quadri/244.jpg",
+    "sort_order": 244
+  },
+  {
+    "id": "245quadri",
+    "typeofpainting": "ritratti",
+    "name": "uomo con cravatta",
+    "date": null,
+    "size": "50x40",
+    "path": "quadri/245.jpg",
+    "sort_order": 245
+  },
+  {
+    "id": "246quadri",
+    "typeofpainting": "figure",
+    "name": "donna al moletto",
+    "date": "1978",
+    "size": "50x40",
+    "path": "quadri/246.jpg",
+    "sort_order": 246
+  },
+  {
+    "id": "247quadri",
+    "typeofpainting": "figure",
+    "name": "tramonto scogli",
+    "date": null,
+    "size": "40x50",
+    "path": "quadri/247.jpg",
+    "sort_order": 247
+  },
+  {
+    "id": "248quadri",
+    "typeofpainting": "figure",
+    "name": "uomo pontile gabbiano",
+    "date": "1971",
+    "size": "40x50",
+    "path": "quadri/248.jpg",
+    "sort_order": 248
+  },
+  {
+    "id": "249quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donna cielo rosa",
+    "date": "1977",
+    "size": "50x40",
+    "path": "quadri/249.jpg",
+    "sort_order": 249
+  },
+  {
+    "id": "250quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donna e due tende",
+    "date": "1973",
+    "size": "40x50",
+    "path": "quadri/250.jpg",
+    "sort_order": 250
+  },
+  {
+    "id": "251quadri",
+    "typeofpainting": "figure",
+    "name": "fuma la pipa",
+    "date": null,
+    "size": "40x50",
+    "path": "quadri/251.jpg",
+    "sort_order": 251
+  },
+  {
+    "id": "252quadri",
+    "typeofpainting": "figure",
+    "name": "due sullo scooter",
+    "date": "1983",
+    "size": "40x50",
+    "path": "quadri/252.jpg",
+    "sort_order": 252
+  },
+  {
+    "id": "253quadri",
+    "typeofpainting": "figure",
+    "name": "due donne su scoglio",
+    "date": "1978",
+    "size": "40x50",
+    "path": "quadri/253.jpg",
+    "sort_order": 253
+  },
+  {
+    "id": "254quadri",
+    "typeofpainting": "figure",
+    "name": "motociclista e sciarpa",
+    "date": "1990",
+    "size": "40x50",
+    "path": "quadri/254.jpg",
+    "sort_order": 254
+  },
+  {
+    "id": "255quadri",
+    "typeofpainting": "figure",
+    "name": "la pizza",
+    "date": "1990",
+    "size": "50x40",
+    "path": "quadri/255.jpg",
+    "sort_order": 255
+  },
+  {
+    "id": "256quadri",
+    "typeofpainting": "figure",
+    "name": "donna su sdraio",
+    "date": "1966",
+    "size": "50x40",
+    "path": "quadri/256.jpg",
+    "sort_order": 256
+  },
+  {
+    "id": "257quadri",
+    "typeofpainting": "figure",
+    "name": "due donne sul molo",
+    "date": "1973",
+    "size": "50x40",
+    "path": "quadri/257.jpg",
+    "sort_order": 257
+  },
+  {
+    "id": "258quadri",
+    "typeofpainting": "figure",
+    "name": "donne nuvola rossa",
+    "date": "1971",
+    "size": "50x40",
+    "path": "quadri/258.jpg",
+    "sort_order": 258
+  },
+  {
+    "id": "259quadri",
+    "typeofpainting": "figure",
+    "name": "paggio",
+    "date": "1973",
+    "size": "50x40",
+    "path": "quadri/259.jpg",
+    "sort_order": 259
+  },
+  {
+    "id": "260quadri",
+    "typeofpainting": "figure",
+    "name": "donna scogli gabbiano",
+    "date": null,
+    "size": "50x40",
+    "path": "quadri/260.jpg",
+    "sort_order": 260
+  },
+  {
+    "id": "261quadri",
+    "typeofpainting": "figure",
+    "name": "sdraiata scogli gabbiano",
+    "date": "1971",
+    "size": "40x50",
+    "path": "quadri/261.jpg",
+    "sort_order": 261
+  },
+  {
+    "id": "262quadri",
+    "typeofpainting": "autoritratti",
+    "name": "maglia blu verde",
+    "date": "1988",
+    "size": "50x40",
+    "path": "quadri/262.jpg",
+    "sort_order": 262
+  },
+  {
+    "id": "263quadri",
+    "typeofpainting": "marine",
+    "name": "sul patino grigio azzurro",
+    "date": "1973",
+    "size": "50x35",
+    "path": "quadri/263.jpg",
+    "sort_order": 263
+  },
+  {
+    "id": "264quadri",
+    "typeofpainting": "figure",
+    "name": "salta sugli scogli",
+    "date": "1971",
+    "size": "40x50",
+    "path": "quadri/264.jpg",
+    "sort_order": 264
+  },
+  {
+    "id": "265quadri",
+    "typeofpainting": "allegorie",
+    "name": "leone e mare",
+    "date": "1993",
+    "size": "50x40",
+    "path": "quadri/265.jpg",
+    "sort_order": 265
+  },
+  {
+    "id": "266quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli e specchio",
+    "date": "1971",
+    "size": "60x50",
+    "path": "quadri/266.jpg",
+    "sort_order": 266
+  },
+  {
+    "id": "267quadri",
+    "typeofpainting": "ritratti",
+    "name": "donna maglia blu",
+    "date": null,
+    "size": "60x50",
+    "path": "quadri/267.jpg",
+    "sort_order": 267
+  },
+  {
+    "id": "268quadri",
+    "typeofpainting": "marine",
+    "name": "tenda su spiaggia",
+    "date": "1965",
+    "size": "60x50",
+    "path": "quadri/268.jpg",
+    "sort_order": 268
+  },
+  {
+    "id": "269quadri",
+    "typeofpainting": "figure",
+    "name": "uomo con cane",
+    "date": "1988",
+    "size": "60x50",
+    "path": "quadri/269.jpg",
+    "sort_order": 269
+  },
+  {
+    "id": "270quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo a ltrotto",
+    "date": null,
+    "size": "50x60",
+    "path": "quadri/270.jpg",
+    "sort_order": 270
+  },
+  {
+    "id": "271quadri",
+    "typeofpainting": "paesaggi",
+    "name": "bruciano s.anna",
+    "date": null,
+    "size": "60x50",
+    "path": "quadri/271.jpg",
+    "sort_order": 271
+  },
+  {
+    "id": "272quadri",
+    "typeofpainting": "allegorie",
+    "name": "granchio e mare",
+    "date": "1993",
+    "size": "60x50",
+    "path": "quadri/272.jpg",
+    "sort_order": 272
+  },
+  {
+    "id": "273quadri",
+    "typeofpainting": "animali",
+    "name": "gabb. macchie rosse",
+    "date": null,
+    "size": "50x60",
+    "path": "quadri/273.jpg",
+    "sort_order": 273
+  },
+  {
+    "id": "274quadri",
+    "typeofpainting": "figure",
+    "name": "pesca agli scogli",
+    "date": "1980",
+    "size": "50x60",
+    "path": "quadri/274.jpg",
+    "sort_order": 274
+  },
+  {
+    "id": "275quadri",
+    "typeofpainting": "figure",
+    "name": "amore alla spiaggia",
+    "date": "1989",
+    "size": "50x60",
+    "path": "quadri/275.jpg",
+    "sort_order": 275
+  },
+  {
+    "id": "276quadri",
+    "typeofpainting": "figure",
+    "name": "uomo seduto",
+    "date": "1966",
+    "size": "60x50",
+    "path": "quadri/276.jpg",
+    "sort_order": 276
+  },
+  {
+    "id": "277quadri",
+    "typeofpainting": "nature morte",
+    "name": "foglie e melograno",
+    "date": null,
+    "size": "50x60",
+    "path": "quadri/277.jpg",
+    "sort_order": 277
+  },
+  {
+    "id": "278quadri",
+    "typeofpainting": "nature morte",
+    "name": "brocca nera",
+    "date": "1993",
+    "size": "80x80",
+    "path": "quadri/278.jpg",
+    "sort_order": 278
+  },
+  {
+    "id": "279quadri",
+    "typeofpainting": "figure",
+    "name": "nudo",
+    "date": null,
+    "size": "80x80",
+    "path": "quadri/279.jpg",
+    "sort_order": 279
+  },
+  {
+    "id": "280quadri",
+    "typeofpainting": "figure",
+    "name": "la pace",
+    "date": null,
+    "size": "80x80",
+    "path": "quadri/280.jpg",
+    "sort_order": 280
+  },
+  {
+    "id": "281quadri",
+    "typeofpainting": "figure",
+    "name": "madre spiaggia libera",
+    "date": null,
+    "size": "80x80",
+    "path": "quadri/281.jpg",
+    "sort_order": 281
+  },
+  {
+    "id": "282quadri",
+    "typeofpainting": "figure",
+    "name": "donna e gabbiano",
+    "date": "1969",
+    "size": "70x80",
+    "path": "quadri/282.jpg",
+    "sort_order": 282
+  },
+  {
+    "id": "283quadri",
+    "typeofpainting": "figure",
+    "name": "uomo gabbiano rosso",
+    "date": "1972",
+    "size": "70x80",
+    "path": "quadri/283.jpg",
+    "sort_order": 283
+  },
+  {
+    "id": "284quadri",
+    "typeofpainting": "figure",
+    "name": "uomo gabbiano giallo",
+    "date": "1974",
+    "size": "70x80",
+    "path": "quadri/284.jpg",
+    "sort_order": 284
+  },
+  {
+    "id": "285quadri",
+    "typeofpainting": "figure",
+    "name": "tre grazie",
+    "date": "1988",
+    "size": "70x80",
+    "path": "quadri/285.jpg",
+    "sort_order": 285
+  },
+  {
+    "id": "286quadri",
+    "typeofpainting": "ritratti",
+    "name": "dalia mencarini",
+    "date": "1987",
+    "size": "80x70",
+    "path": "quadri/286.jpg",
+    "sort_order": 286
+  },
+  {
+    "id": "287quadri",
+    "typeofpainting": "figure",
+    "name": "pittore di elefante",
+    "date": "1989",
+    "size": "80x70",
+    "path": "quadri/287.jpg",
+    "sort_order": 287
+  },
+  {
+    "id": "288quadri",
+    "typeofpainting": "allegorie",
+    "name": "luna",
+    "date": "1984",
+    "size": "53x37",
+    "path": "quadri/288.jpg",
+    "sort_order": 288
+  },
+  {
+    "id": "289quadri",
+    "typeofpainting": "figure",
+    "name": "carta blu",
+    "date": null,
+    "size": "32x43",
+    "path": "quadri/289.jpg",
+    "sort_order": 289
+  },
+  {
+    "id": "290quadri",
+    "typeofpainting": "figure",
+    "name": "fantino",
+    "date": "1985",
+    "size": "40x50",
+    "path": "quadri/290.jpg",
+    "sort_order": 290
+  },
+  {
+    "id": "291quadri",
+    "typeofpainting": "figure",
+    "name": "donna al mare",
+    "date": "1978",
+    "size": "40x53",
+    "path": "quadri/291.jpg",
+    "sort_order": 291
+  },
+  {
+    "id": "292quadri",
+    "typeofpainting": "ritratti",
+    "name": "ada",
+    "date": "1950",
+    "size": "40x35",
+    "path": "quadri/292.jpg",
+    "sort_order": 292
+  },
+  {
+    "id": "293quadri",
+    "typeofpainting": "paesaggi",
+    "name": "mietitura",
+    "date": "1993",
+    "size": "50x40",
+    "path": "quadri/293.jpg",
+    "sort_order": 293
+  },
+  {
+    "id": "294quadri",
+    "typeofpainting": "autoritratti",
+    "name": "celeste",
+    "date": "1991",
+    "size": "50x40",
+    "path": "quadri/294.jpg",
+    "sort_order": 294
+  },
+  {
+    "id": "295quadri",
+    "typeofpainting": "paesaggi",
+    "name": "palma e donna",
+    "date": null,
+    "size": "40x50",
+    "path": "quadri/295.jpg",
+    "sort_order": 295
+  },
+  {
+    "id": "296quadri",
+    "typeofpainting": "allegorie",
+    "name": "s.martino",
+    "date": "1950",
+    "size": "40x50",
+    "path": "quadri/296.jpg",
+    "sort_order": 296
+  },
+  {
+    "id": "297quadri",
+    "typeofpainting": "ritratti",
+    "name": "franco signorini",
+    "date": "1968",
+    "size": "40x50",
+    "path": "quadri/297.jpg",
+    "sort_order": 297
+  },
+  {
+    "id": "298quadri",
+    "typeofpainting": "ritratti",
+    "name": "antonella",
+    "date": "1982",
+    "size": "70x50",
+    "path": "quadri/298.jpg",
+    "sort_order": 298
+  },
+  {
+    "id": "299quadri",
+    "typeofpainting": "ritratti",
+    "name": "tomei",
+    "date": null,
+    "size": "70x50",
+    "path": "quadri/299.jpg",
+    "sort_order": 299
+  },
+  {
+    "id": "300quadri",
+    "typeofpainting": "paesaggi",
+    "name": "tramonto e figure",
+    "date": "1960",
+    "size": "50x70",
+    "path": "quadri/300.jpg",
+    "sort_order": 300
+  },
+  {
+    "id": "301quadri",
+    "typeofpainting": "figure",
+    "name": "maschera bianca",
+    "date": null,
+    "size": "70x40",
+    "path": "quadri/301.jpg",
+    "sort_order": 301
+  },
+  {
+    "id": "302quadri",
+    "typeofpainting": "figure",
+    "name": "pagliaccio",
+    "date": null,
+    "size": "70x40",
+    "path": "quadri/302.jpg",
+    "sort_order": 302
+  },
+  {
+    "id": "303quadri",
+    "typeofpainting": "figure",
+    "name": "madre nudo",
+    "date": "1955",
+    "size": "65x45",
+    "path": "quadri/303.jpg",
+    "sort_order": 303
+  },
+  {
+    "id": "304quadri",
+    "typeofpainting": "figure",
+    "name": "sdraiato fondo giallo",
+    "date": null,
+    "size": "45x65",
+    "path": "quadri/304.jpg",
+    "sort_order": 304
+  },
+  {
+    "id": "305quadri",
+    "typeofpainting": "allegorie",
+    "name": "annunciazione",
+    "date": "1978",
+    "size": "40x70",
+    "path": "quadri/305.jpg",
+    "sort_order": 305
+  },
+  {
+    "id": "306quadri",
+    "typeofpainting": "figure",
+    "name": "madre",
+    "date": "1955",
+    "size": "70x45",
+    "path": "quadri/306.jpg",
+    "sort_order": 306
+  },
+  {
+    "id": "307quadri",
+    "typeofpainting": "arte sacra",
+    "name": "crocifisso",
+    "date": "1963",
+    "size": "70x35",
+    "path": "quadri/307.jpg",
+    "sort_order": 307
+  },
+  {
+    "id": "308quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglie",
+    "date": "1967",
+    "size": "50x70",
+    "path": "quadri/308.jpg",
+    "sort_order": 308
+  },
+  {
+    "id": "309quadri",
+    "typeofpainting": "arte sacra",
+    "name": "salomè",
+    "date": "1958",
+    "size": "90x55",
+    "path": "quadri/309.jpg",
+    "sort_order": 309
+  },
+  {
+    "id": "310quadri",
+    "typeofpainting": "figure",
+    "name": "donna su balena",
+    "date": null,
+    "size": "57x85",
+    "path": "quadri/310.jpg",
+    "sort_order": 310
+  },
+  {
+    "id": "311quadri",
+    "typeofpainting": "figure",
+    "name": "carro con buoi",
+    "date": null,
+    "size": "49x93",
+    "path": "quadri/311.jpg",
+    "sort_order": 311
+  },
+  {
+    "id": "312quadri",
+    "typeofpainting": "figure",
+    "name": "maschera",
+    "date": "1958",
+    "size": "90x55",
+    "path": "quadri/312.jpg",
+    "sort_order": 312
+  },
+  {
+    "id": "313quadri",
+    "typeofpainting": "marine",
+    "name": "tramonto",
+    "date": null,
+    "size": "40x75",
+    "path": "quadri/313.jpg",
+    "sort_order": 313
+  },
+  {
+    "id": "314quadri",
+    "typeofpainting": "nature morte",
+    "name": "pesche",
+    "date": null,
+    "size": "35x45",
+    "path": "quadri/314.jpg",
+    "sort_order": 314
+  },
+  {
+    "id": "315quadri",
+    "typeofpainting": "figure",
+    "name": "donna su sdraia",
+    "date": null,
+    "size": "45x30",
+    "path": "quadri/315.jpg",
+    "sort_order": 315
+  },
+  {
+    "id": "316quadri",
+    "typeofpainting": "figure",
+    "name": "macellaio",
+    "date": "1952",
+    "size": "40x32",
+    "path": "quadri/316.jpg",
+    "sort_order": 316
+  },
+  {
+    "id": "317quadri",
+    "typeofpainting": "nature morte",
+    "name": "cardi fondo rosso",
+    "date": "1981",
+    "size": "40x30",
+    "path": "quadri/317.jpg",
+    "sort_order": 317
+  },
+  {
+    "id": "318quadri",
+    "typeofpainting": "figure",
+    "name": "madre nudo",
+    "date": null,
+    "size": "45x33",
+    "path": "quadri/318.jpg",
+    "sort_order": 318
+  },
+  {
+    "id": "319quadri",
+    "typeofpainting": "nature morte",
+    "name": "meloni",
+    "date": "1953",
+    "size": "35x45",
+    "path": "quadri/319.jpg",
+    "sort_order": 319
+  },
+  {
+    "id": "320quadri",
+    "typeofpainting": "figure",
+    "name": "donna su scogli",
+    "date": "1991",
+    "size": "30x40",
+    "path": "quadri/320.jpg",
+    "sort_order": 320
+  },
+  {
+    "id": "321quadri",
+    "typeofpainting": "nature morte",
+    "name": "frutta e brocca",
+    "date": "1948",
+    "size": "27x40",
+    "path": "quadri/321.jpg",
+    "sort_order": 321
+  },
+  {
+    "id": "322quadri",
+    "typeofpainting": "animali",
+    "name": "toro",
+    "date": "1975",
+    "size": "25x35",
+    "path": "quadri/322.jpg",
+    "sort_order": 322
+  },
+  {
+    "id": "323quadri",
+    "typeofpainting": "figure",
+    "name": "donna nudo",
+    "date": "1951",
+    "size": "45x25",
+    "path": "quadri/323.jpg",
+    "sort_order": 323
+  },
+  {
+    "id": "324quadri",
+    "typeofpainting": "ritratti",
+    "name": "ada",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/324.jpg",
+    "sort_order": 324
+  },
+  {
+    "id": "325quadri",
+    "typeofpainting": "figure",
+    "name": "deportati",
+    "date": "1945",
+    "size": "27x16",
+    "path": "quadri/325.jpg",
+    "sort_order": 325
+  },
+  {
+    "id": "326quadri",
+    "typeofpainting": "marine",
+    "name": "tramonto",
+    "date": null,
+    "size": "30x45",
+    "path": "quadri/326.jpg",
+    "sort_order": 326
+  },
+  {
+    "id": "327quadri",
+    "typeofpainting": "marine",
+    "name": "notte",
+    "date": null,
+    "size": "35x50",
+    "path": "quadri/327.jpg",
+    "sort_order": 327
+  },
+  {
+    "id": "328quadri",
+    "typeofpainting": "figure",
+    "name": "testa d'uomo",
+    "date": null,
+    "size": "45x33",
+    "path": "quadri/328.jpg",
+    "sort_order": 328
+  },
+  {
+    "id": "329quadri",
+    "typeofpainting": "ritratti",
+    "name": "ada profilo",
+    "date": "1975",
+    "size": "40x35",
+    "path": "quadri/329.jpg",
+    "sort_order": 329
+  },
+  {
+    "id": "330quadri",
+    "typeofpainting": "figure",
+    "name": "leda e il cigno",
+    "date": "1995",
+    "size": "25x35",
+    "path": "quadri/330.jpg",
+    "sort_order": 330
+  },
+  {
+    "id": "331quadri",
+    "typeofpainting": "figure",
+    "name": "manichino a cavallo",
+    "date": null,
+    "size": "35x25",
+    "path": "quadri/331.jpg",
+    "sort_order": 331
+  },
+  {
+    "id": "332quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donne tra le onde",
+    "date": null,
+    "size": "30x40",
+    "path": "quadri/332.jpg",
+    "sort_order": 332
+  },
+  {
+    "id": "333quadri",
+    "typeofpainting": "autoritratti",
+    "name": "con basco",
+    "date": "1953",
+    "size": "45x35",
+    "path": "quadri/333.jpg",
+    "sort_order": 333
+  },
+  {
+    "id": "334quadri",
+    "typeofpainting": "figure",
+    "name": "coppia al ristorante",
+    "date": "1990",
+    "size": "30x40",
+    "path": "quadri/334.jpg",
+    "sort_order": 334
+  },
+  {
+    "id": "335quadri",
+    "typeofpainting": "figure",
+    "name": "rigoletto",
+    "date": null,
+    "size": "40x50",
+    "path": "quadri/335.jpg",
+    "sort_order": 335
+  },
+  {
+    "id": "336quadri",
+    "typeofpainting": "figure",
+    "name": "bagnanti all'alba",
+    "date": "1953",
+    "size": "50x40",
+    "path": "quadri/336.jpg",
+    "sort_order": 336
+  },
+  {
+    "id": "337quadri",
+    "typeofpainting": "figure",
+    "name": "caffè al bagno",
+    "date": "1965",
+    "size": "35x50",
+    "path": "quadri/337.jpg",
+    "sort_order": 337
+  },
+  {
+    "id": "338quadri",
+    "typeofpainting": "animali",
+    "name": "gabbiano",
+    "date": null,
+    "size": "35x50",
+    "path": "quadri/338.jpg",
+    "sort_order": 338
+  },
+  {
+    "id": "339quadri",
+    "typeofpainting": "animali",
+    "name": "Carro con buoi",
+    "date": "1970",
+    "size": "35x50",
+    "path": "quadri/339.jpg",
+    "sort_order": 339
+  },
+  {
+    "id": "340quadri",
+    "typeofpainting": "paesaggi",
+    "name": "sardegna",
+    "date": "1964",
+    "size": "35x50",
+    "path": "quadri/340.jpg",
+    "sort_order": 340
+  },
+  {
+    "id": "341quadri",
+    "typeofpainting": "paesaggi",
+    "name": "darsena",
+    "date": "1947",
+    "size": "35x45",
+    "path": "quadri/341.jpg",
+    "sort_order": 341
+  },
+  {
+    "id": "342quadri",
+    "typeofpainting": "figure",
+    "name": "nudo",
+    "date": null,
+    "size": "50x30",
+    "path": "quadri/342.jpg",
+    "sort_order": 342
+  },
+  {
+    "id": "343quadri",
+    "typeofpainting": "figure",
+    "name": "ballo sardo",
+    "date": "1966",
+    "size": "20x27",
+    "path": "quadri/343.jpg",
+    "sort_order": 343
+  },
+  {
+    "id": "344quadri",
+    "typeofpainting": "figure",
+    "name": "patino",
+    "date": null,
+    "size": "25x35",
+    "path": "quadri/344.jpg",
+    "sort_order": 344
+  },
+  {
+    "id": "345quadri",
+    "typeofpainting": "allegorie",
+    "name": "donna col minotauro",
+    "date": null,
+    "size": "50x60",
+    "path": "quadri/345.jpg",
+    "sort_order": 345
+  },
+  {
+    "id": "346quadri",
+    "typeofpainting": "ritratti",
+    "name": "silvio micheli",
+    "date": null,
+    "size": "60x50",
+    "path": "quadri/346.jpg",
+    "sort_order": 346
+  },
+  {
+    "id": "347quadri",
+    "typeofpainting": "figure",
+    "name": "il giudice",
+    "date": null,
+    "size": "60x50",
+    "path": "quadri/347.jpg",
+    "sort_order": 347
+  },
+  {
+    "id": "348quadri",
+    "typeofpainting": "ritratti",
+    "name": "corinna",
+    "date": "1956",
+    "size": "60x50",
+    "path": "quadri/348.jpg",
+    "sort_order": 348
+  },
+  {
+    "id": "349quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli e conchiglia",
+    "date": "1969",
+    "size": "60x50",
+    "path": "quadri/349.jpg",
+    "sort_order": 349
+  },
+  {
+    "id": "350quadri",
+    "typeofpainting": "marine",
+    "name": "figure molo e scogli",
+    "date": "1977",
+    "size": "50x60",
+    "path": "quadri/350.jpg",
+    "sort_order": 350
+  },
+  {
+    "id": "351quadri",
+    "typeofpainting": "ritratti",
+    "name": "corinna",
+    "date": "1959",
+    "size": "60x45",
+    "path": "quadri/351.jpg",
+    "sort_order": 351
+  },
+  {
+    "id": "352quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglie",
+    "date": "1973",
+    "size": "50x60",
+    "path": "quadri/352.jpg",
+    "sort_order": 352
+  },
+  {
+    "id": "353quadri",
+    "typeofpainting": "figure",
+    "name": "maschere di notte",
+    "date": null,
+    "size": "50x35",
+    "path": "quadri/353.jpg",
+    "sort_order": 353
+  },
+  {
+    "id": "354quadri",
+    "typeofpainting": "ritratti",
+    "name": "donna",
+    "date": "1990",
+    "size": "50x40",
+    "path": "quadri/354.jpg",
+    "sort_order": 354
+  },
+  {
+    "id": "355quadri",
+    "typeofpainting": "autoritratti",
+    "name": "fazzoletto in testa",
+    "date": null,
+    "size": "50x40",
+    "path": "quadri/355.jpg",
+    "sort_order": 355
+  },
+  {
+    "id": "356quadri",
+    "typeofpainting": "figure",
+    "name": "donna sul mare",
+    "date": "1965",
+    "size": "60x40",
+    "path": "quadri/356.jpg",
+    "sort_order": 356
+  },
+  {
+    "id": "357quadri",
+    "typeofpainting": "nature morte",
+    "name": "cesto e oggetti",
+    "date": null,
+    "size": "60x40",
+    "path": "quadri/357.jpg",
+    "sort_order": 357
+  },
+  {
+    "id": "358quadri",
+    "typeofpainting": "figure",
+    "name": "nudo spiaggia libera",
+    "date": null,
+    "size": "60x40",
+    "path": "quadri/358.jpg",
+    "sort_order": 358
+  },
+  {
+    "id": "359quadri",
+    "typeofpainting": "figure",
+    "name": "nudo seduto sul letto",
+    "date": "1965",
+    "size": "60x40",
+    "path": "quadri/359.jpg",
+    "sort_order": 359
+  },
+  {
+    "id": "360quadri",
+    "typeofpainting": "animali",
+    "name": "gatto con uccello",
+    "date": null,
+    "size": "45x60",
+    "path": "quadri/360.jpg",
+    "sort_order": 360
+  },
+  {
+    "id": "361quadri",
+    "typeofpainting": "paesaggi",
+    "name": "casa e fienile",
+    "date": null,
+    "size": "65x70",
+    "path": "quadri/361.jpg",
+    "sort_order": 361
+  },
+  {
+    "id": "362quadri",
+    "typeofpainting": "figure",
+    "name": "s.anna",
+    "date": null,
+    "size": "70x65",
+    "path": "quadri/362.jpg",
+    "sort_order": 362
+  },
+  {
+    "id": "363quadri",
+    "typeofpainting": "arte sacra",
+    "name": "sogno di isacco",
+    "date": null,
+    "size": "80x65",
+    "path": "quadri/363.jpg",
+    "sort_order": 363
+  },
+  {
+    "id": "364quadri",
+    "typeofpainting": "ritratti",
+    "name": "brunetto dell'assassino",
+    "date": "1970",
+    "size": "50x70",
+    "path": "quadri/364.jpg",
+    "sort_order": 364
+  },
+  {
+    "id": "365quadri",
+    "typeofpainting": "marine",
+    "name": "figure sul moletto",
+    "date": null,
+    "size": "50x80",
+    "path": "quadri/365.jpg",
+    "sort_order": 365
+  },
+  {
+    "id": "366quadri",
+    "typeofpainting": "figure",
+    "name": "ragazzo e lampada",
+    "date": "1989",
+    "size": "80x60",
+    "path": "quadri/366.jpg",
+    "sort_order": 366
+  },
+  {
+    "id": "367quadri",
+    "typeofpainting": "ritratti",
+    "name": "angeletti",
+    "date": "1980",
+    "size": "80x60",
+    "path": "quadri/367.jpg",
+    "sort_order": 367
+  },
+  {
+    "id": "368quadri",
+    "typeofpainting": "nature morte",
+    "name": "tavolo da gioco",
+    "date": "1986",
+    "size": "70x60",
+    "path": "quadri/368.jpg",
+    "sort_order": 368
+  },
+  {
+    "id": "369quadri",
+    "typeofpainting": "ritratti",
+    "name": "piercarlo santini",
+    "date": "1964",
+    "size": "75x60",
+    "path": "quadri/369.jpg",
+    "sort_order": 369
+  },
+  {
+    "id": "370quadri",
+    "typeofpainting": "nature morte",
+    "name": "vaso con fiori rossi",
+    "date": "1976",
+    "size": "70x60",
+    "path": "quadri/370.jpg",
+    "sort_order": 370
+  },
+  {
+    "id": "371quadri",
+    "typeofpainting": "nature morte",
+    "name": "brocca e divano",
+    "date": "1967",
+    "size": "70x60",
+    "path": "quadri/371.jpg",
+    "sort_order": 371
+  },
+  {
+    "id": "372quadri",
+    "typeofpainting": "nature morte",
+    "name": "corbelli",
+    "date": null,
+    "size": "70x60",
+    "path": "quadri/372.jpg",
+    "sort_order": 372
+  },
+  {
+    "id": "373quadri",
+    "typeofpainting": "autoritratti",
+    "name": "camicia bianca",
+    "date": "1954",
+    "size": "70x50",
+    "path": "quadri/373.jpg",
+    "sort_order": 373
+  },
+  {
+    "id": "374quadri",
+    "typeofpainting": "nature morte",
+    "name": "vaso e conchiglia",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/374.jpg",
+    "sort_order": 374
+  },
+  {
+    "id": "375quadri",
+    "typeofpainting": "figure",
+    "name": "donne al bar sera",
+    "date": "1969",
+    "size": "55x65",
+    "path": "quadri/375.jpg",
+    "sort_order": 375
+  },
+  {
+    "id": "376quadri",
+    "typeofpainting": "nature morte",
+    "name": "stampa e oggetti",
+    "date": null,
+    "size": "60x55",
+    "path": "quadri/376.jpg",
+    "sort_order": 376
+  },
+  {
+    "id": "377quadri",
+    "typeofpainting": "autoritratti",
+    "name": "camicia a righe",
+    "date": "1988",
+    "size": "60x60",
+    "path": "quadri/377.jpg",
+    "sort_order": 377
+  },
+  {
+    "id": "378quadri",
+    "typeofpainting": "figure",
+    "name": "ragazzo pesca mitili",
+    "date": "1979",
+    "size": "80x80",
+    "path": "quadri/378.jpg",
+    "sort_order": 378
+  },
+  {
+    "id": "379quadri",
+    "typeofpainting": "marine",
+    "name": "scogliera",
+    "date": "1974",
+    "size": "80x80",
+    "path": "quadri/379.jpg",
+    "sort_order": 379
+  },
+  {
+    "id": "380quadri",
+    "typeofpainting": "paesaggi",
+    "name": "trottatore",
+    "date": "1991",
+    "size": "80x80",
+    "path": "quadri/380.jpg",
+    "sort_order": 380
+  },
+  {
+    "id": "381quadri",
+    "typeofpainting": "figure",
+    "name": "suonatore di chitarra",
+    "date": "1981",
+    "size": "80x80",
+    "path": "quadri/381.jpg",
+    "sort_order": 381
+  },
+  {
+    "id": "382quadri",
+    "typeofpainting": "figure",
+    "name": "ragazza della costanza",
+    "date": "1992",
+    "size": "80x80",
+    "path": "quadri/382.jpg",
+    "sort_order": 382
+  },
+  {
+    "id": "383quadri",
+    "typeofpainting": "figure",
+    "name": "uomo con cane",
+    "date": "1979",
+    "size": "80x80",
+    "path": "quadri/383.jpg",
+    "sort_order": 383
+  },
+  {
+    "id": "384quadri",
+    "typeofpainting": "ritratti",
+    "name": "stalin",
+    "date": "1976",
+    "size": "80x80",
+    "path": "quadri/384.jpg",
+    "sort_order": 384
+  },
+  {
+    "id": "385quadri",
+    "typeofpainting": "allegorie",
+    "name": "s.martino",
+    "date": null,
+    "size": "90x100",
+    "path": "quadri/385.jpg",
+    "sort_order": 385
+  },
+  {
+    "id": "386quadri",
+    "typeofpainting": "marine",
+    "name": "libecciata",
+    "date": "1980",
+    "size": "90x90",
+    "path": "quadri/386.jpg",
+    "sort_order": 386
+  },
+  {
+    "id": "387quadri",
+    "typeofpainting": "figure",
+    "name": "pesca agli scogli",
+    "date": null,
+    "size": "90x90",
+    "path": "quadri/387.jpg",
+    "sort_order": 387
+  },
+  {
+    "id": "388quadri",
+    "typeofpainting": "marine",
+    "name": "mare grosso",
+    "date": "1965",
+    "size": "87x100",
+    "path": "quadri/388.jpg",
+    "sort_order": 388
+  },
+  {
+    "id": "389quadri",
+    "typeofpainting": "paesaggi",
+    "name": "monte carchio",
+    "date": "1965",
+    "size": "90x100",
+    "path": "quadri/389.jpg",
+    "sort_order": 389
+  },
+  {
+    "id": "390quadri",
+    "typeofpainting": "paesaggi",
+    "name": "massaciuccoli",
+    "date": "1965",
+    "size": "90x100",
+    "path": "quadri/390.jpg",
+    "sort_order": 390
+  },
+  {
+    "id": "391quadri",
+    "typeofpainting": "animali",
+    "name": "uccello notturno",
+    "date": null,
+    "size": "90x80",
+    "path": "quadri/391.jpg",
+    "sort_order": 391
+  },
+  {
+    "id": "392quadri",
+    "typeofpainting": "figure",
+    "name": "tre donne mare",
+    "date": "1971",
+    "size": "80x90",
+    "path": "quadri/392.jpg",
+    "sort_order": 392
+  },
+  {
+    "id": "393quadri",
+    "typeofpainting": "ritratti",
+    "name": "leone sbrana",
+    "date": "1969",
+    "size": "80x90",
+    "path": "quadri/393.jpg",
+    "sort_order": 393
+  },
+  {
+    "id": "394quadri",
+    "typeofpainting": "paesaggi",
+    "name": "spiaggia libera",
+    "date": "1970",
+    "size": "80x90",
+    "path": "quadri/394.jpg",
+    "sort_order": 394
+  },
+  {
+    "id": "395quadri",
+    "typeofpainting": "figure",
+    "name": "estate",
+    "date": "1974",
+    "size": "90x90",
+    "path": "quadri/395.jpg",
+    "sort_order": 395
+  },
+  {
+    "id": "396quadri",
+    "typeofpainting": "ritratti",
+    "name": "aliboni",
+    "date": "1975",
+    "size": "100x90",
+    "path": "quadri/396.jpg",
+    "sort_order": 396
+  },
+  {
+    "id": "397quadri",
+    "typeofpainting": "figure",
+    "name": "madre vietnamita",
+    "date": "1965",
+    "size": "100x90",
+    "path": "quadri/397.jpg",
+    "sort_order": 397
+  },
+  {
+    "id": "398quadri",
+    "typeofpainting": "paesaggi",
+    "name": "castelvecchio",
+    "date": "1967",
+    "size": "90x80",
+    "path": "quadri/398.jpg",
+    "sort_order": 398
+  },
+  {
+    "id": "399quadri",
+    "typeofpainting": "figure",
+    "name": "nudo spiaggia libera",
+    "date": "1967",
+    "size": "90x75",
+    "path": "quadri/399.jpg",
+    "sort_order": 399
+  },
+  {
+    "id": "400quadri",
+    "typeofpainting": "paesaggi",
+    "name": "campi di grano",
+    "date": "1963",
+    "size": "65x90",
+    "path": "quadri/400.jpg",
+    "sort_order": 400
+  },
+  {
+    "id": "401quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglie tramonto",
+    "date": "1978",
+    "size": "70x90",
+    "path": "quadri/401.jpg",
+    "sort_order": 401
+  },
+  {
+    "id": "402quadri",
+    "typeofpainting": "nature morte",
+    "name": "corbelli",
+    "date": "1965",
+    "size": "80x90",
+    "path": "quadri/402.jpg",
+    "sort_order": 402
+  },
+  {
+    "id": "403quadri",
+    "typeofpainting": "figure",
+    "name": "donna mare giallo",
+    "date": "1980",
+    "size": "95x80",
+    "path": "quadri/403.jpg",
+    "sort_order": 403
+  },
+  {
+    "id": "404quadri",
+    "typeofpainting": "allegorie",
+    "name": "angelo e cavallo",
+    "date": "1984",
+    "size": "100x60",
+    "path": "quadri/404.jpg",
+    "sort_order": 404
+  },
+  {
+    "id": "405quadri",
+    "typeofpainting": "figure",
+    "name": "madre in piedi",
+    "date": null,
+    "size": "90x50",
+    "path": "quadri/405.jpg",
+    "sort_order": 405
+  },
+  {
+    "id": "406quadri",
+    "typeofpainting": "allegorie",
+    "name": "bucranio verde-giallo",
+    "date": "1979",
+    "size": "60x100",
+    "path": "quadri/406.jpg",
+    "sort_order": 406
+  },
+  {
+    "id": "407quadri",
+    "typeofpainting": "figure",
+    "name": "donne su scogli",
+    "date": null,
+    "size": "75x105",
+    "path": "quadri/407.jpg",
+    "sort_order": 407
+  },
+  {
+    "id": "408quadri",
+    "typeofpainting": "marine",
+    "name": "rete di notte",
+    "date": "1964",
+    "size": "75x105",
+    "path": "quadri/408.jpg",
+    "sort_order": 408
+  },
+  {
+    "id": "409quadri",
+    "typeofpainting": "figure",
+    "name": "bombardamento a viar.",
+    "date": "1966",
+    "size": "80x80",
+    "path": "quadri/409.jpg",
+    "sort_order": 409
+  },
+  {
+    "id": "410quadri",
+    "typeofpainting": "figure",
+    "name": "ragazzo e maschera",
+    "date": "1989",
+    "size": "80x70",
+    "path": "quadri/410.jpg",
+    "sort_order": 410
+  },
+  {
+    "id": "411quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donne rosse su scogli",
+    "date": "1977",
+    "size": "80x70",
+    "path": "quadri/411.jpg",
+    "sort_order": 411
+  },
+  {
+    "id": "412quadri",
+    "typeofpainting": "autoritratti",
+    "name": "berretto bianco",
+    "date": "1977",
+    "size": "80x65",
+    "path": "quadri/412.jpg",
+    "sort_order": 412
+  },
+  {
+    "id": "413quadri",
+    "typeofpainting": "marine",
+    "name": "spiaggia e scogli",
+    "date": "1973",
+    "size": "70x70",
+    "path": "quadri/413.jpg",
+    "sort_order": 413
+  },
+  {
+    "id": "414quadri",
+    "typeofpainting": "ritratti",
+    "name": "giovanni beconi",
+    "date": "1969",
+    "size": "70x70",
+    "path": "quadri/414.jpg",
+    "sort_order": 414
+  },
+  {
+    "id": "415quadri",
+    "typeofpainting": "figure",
+    "name": "cavalieri e tramonto",
+    "date": "1961",
+    "size": "67x70",
+    "path": "quadri/415.jpg",
+    "sort_order": 415
+  },
+  {
+    "id": "416quadri",
+    "typeofpainting": "figure",
+    "name": "donna su sdraio",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/416.jpg",
+    "sort_order": 416
+  },
+  {
+    "id": "417quadri",
+    "typeofpainting": "ritratti",
+    "name": "corinna tondo",
+    "date": null,
+    "size": "70x50",
+    "path": "quadri/417.jpg",
+    "sort_order": 417
+  },
+  {
+    "id": "418quadri",
+    "typeofpainting": "marine",
+    "name": "tramonto",
+    "date": null,
+    "size": "50x75",
+    "path": "quadri/418.jpg",
+    "sort_order": 418
+  },
+  {
+    "id": "419quadri",
+    "typeofpainting": "marine",
+    "name": "spiaggia colorata",
+    "date": null,
+    "size": "50x75",
+    "path": "quadri/419.jpg",
+    "sort_order": 419
+  },
+  {
+    "id": "420quadri",
+    "typeofpainting": "figure",
+    "name": "donna sdraiata",
+    "date": null,
+    "size": "40x70",
+    "path": "quadri/420.jpg",
+    "sort_order": 420
+  },
+  {
+    "id": "421quadri",
+    "typeofpainting": "ritratti",
+    "name": "ragazza capelli rossi",
+    "date": "1962",
+    "size": "60x40",
+    "path": "quadri/421.jpg",
+    "sort_order": 421
+  },
+  {
+    "id": "422quadri",
+    "typeofpainting": "figure",
+    "name": "ciclisti",
+    "date": "1970",
+    "size": "50x60",
+    "path": "quadri/422.jpg",
+    "sort_order": 422
+  },
+  {
+    "id": "423quadri",
+    "typeofpainting": "ritratti",
+    "name": "tomei",
+    "date": "1955",
+    "size": "70x50",
+    "path": "quadri/423.jpg",
+    "sort_order": 423
+  },
+  {
+    "id": "424quadri",
+    "typeofpainting": "figure",
+    "name": "nudi spiaggia ?",
+    "date": "1956",
+    "size": "70x50",
+    "path": "quadri/424.jpg",
+    "sort_order": 424
+  },
+  {
+    "id": "425quadri",
+    "typeofpainting": "figure",
+    "name": "folla?",
+    "date": null,
+    "size": "40x70",
+    "path": "quadri/425.jpg",
+    "sort_order": 425
+  },
+  {
+    "id": "426quadri",
+    "typeofpainting": "allegorie",
+    "name": "re magi",
+    "date": "1970",
+    "size": "60x65",
+    "path": "quadri/426.jpg",
+    "sort_order": 426
+  },
+  {
+    "id": "427quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglia e pesci",
+    "date": null,
+    "size": "40x70",
+    "path": "quadri/427.jpg",
+    "sort_order": 427
+  },
+  {
+    "id": "428quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli",
+    "date": "1970",
+    "size": "80x60",
+    "path": "quadri/428.jpg",
+    "sort_order": 428
+  },
+  {
+    "id": "429quadri",
+    "typeofpainting": "autoritratti",
+    "name": "berretto verde",
+    "date": "1991",
+    "size": "80x60",
+    "path": "quadri/429.jpg",
+    "sort_order": 429
+  },
+  {
+    "id": "430quadri",
+    "typeofpainting": "nature morte",
+    "name": "pesce su piatto",
+    "date": "1982",
+    "size": "60x80",
+    "path": "quadri/430.jpg",
+    "sort_order": 430
+  },
+  {
+    "id": "431quadri",
+    "typeofpainting": "nature morte",
+    "name": "peperoni gialli",
+    "date": "1965",
+    "size": "60x70",
+    "path": "quadri/431.jpg",
+    "sort_order": 431
+  },
+  {
+    "id": "432quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donna tra le onde",
+    "date": "1971",
+    "size": "60x80",
+    "path": "quadri/432.jpg",
+    "sort_order": 432
+  },
+  {
+    "id": "433quadri",
+    "typeofpainting": "paesaggi",
+    "name": "scaricano la nave",
+    "date": "1955",
+    "size": "60x75",
+    "path": "quadri/433.jpg",
+    "sort_order": 433
+  },
+  {
+    "id": "434quadri",
+    "typeofpainting": "figure",
+    "name": "mangia il cocomero",
+    "date": "1957",
+    "size": "75x60",
+    "path": "quadri/434.jpg",
+    "sort_order": 434
+  },
+  {
+    "id": "435quadri",
+    "typeofpainting": "nature morte",
+    "name": "peperoni verdi",
+    "date": "1965",
+    "size": "60x70",
+    "path": "quadri/435.jpg",
+    "sort_order": 435
+  },
+  {
+    "id": "436quadri",
+    "typeofpainting": "figure",
+    "name": "acrobati e cavallo",
+    "date": "1991",
+    "size": "100x75",
+    "path": "quadri/436.jpg",
+    "sort_order": 436
+  },
+  {
+    "id": "437quadri",
+    "typeofpainting": "nature morte",
+    "name": "teiera e fiori",
+    "date": null,
+    "size": "70x100",
+    "path": "quadri/437.jpg",
+    "sort_order": 437
+  },
+  {
+    "id": "438quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo e clown",
+    "date": "1956",
+    "size": "100x70",
+    "path": "quadri/438.jpg",
+    "sort_order": 438
+  },
+  {
+    "id": "439quadri",
+    "typeofpainting": "figure",
+    "name": "donna spiaggia libera",
+    "date": null,
+    "size": "60x100",
+    "path": "quadri/439.jpg",
+    "sort_order": 439
+  },
+  {
+    "id": "440quadri",
+    "typeofpainting": "figure",
+    "name": "pesca di notte",
+    "date": "1987",
+    "size": "100x70",
+    "path": "quadri/440.jpg",
+    "sort_order": 440
+  },
+  {
+    "id": "441quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli rosa",
+    "date": null,
+    "size": "100x70",
+    "path": "quadri/441.jpg",
+    "sort_order": 441
+  },
+  {
+    "id": "442quadri",
+    "typeofpainting": "ritratti",
+    "name": "corinna e maschera",
+    "date": null,
+    "size": "100x60",
+    "path": "quadri/442.jpg",
+    "sort_order": 442
+  },
+  {
+    "id": "443quadri",
+    "typeofpainting": "nature morte",
+    "name": "stampe",
+    "date": "1979",
+    "size": "70x100",
+    "path": "quadri/443.jpg",
+    "sort_order": 443
+  },
+  {
+    "id": "444quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo e domatore",
+    "date": "1956",
+    "size": "100x70",
+    "path": "quadri/444.jpg",
+    "sort_order": 444
+  },
+  {
+    "id": "445quadri",
+    "typeofpainting": "figure",
+    "name": "coppia abbracciata",
+    "date": null,
+    "size": "23x14",
+    "path": "quadri/445.jpg",
+    "sort_order": 445
+  },
+  {
+    "id": "446quadri",
+    "typeofpainting": "nature morte",
+    "name": "cestino di fichi",
+    "date": null,
+    "size": "20x35",
+    "path": "quadri/446.jpg",
+    "sort_order": 446
+  },
+  {
+    "id": "447quadri",
+    "typeofpainting": "allegorie",
+    "name": "ovo sapiens",
+    "date": "1995",
+    "size": "27x27",
+    "path": "quadri/447.jpg",
+    "sort_order": 447
+  },
+  {
+    "id": "448quadri",
+    "typeofpainting": "animali",
+    "name": "gallo",
+    "date": null,
+    "size": "35x20",
+    "path": "quadri/448.jpg",
+    "sort_order": 448
+  },
+  {
+    "id": "449quadri",
+    "typeofpainting": "autoritratti",
+    "name": "con capelli neri",
+    "date": null,
+    "size": "35x25",
+    "path": "quadri/449.jpg",
+    "sort_order": 449
+  },
+  {
+    "id": "450quadri",
+    "typeofpainting": "animali",
+    "name": "toro",
+    "date": "1995",
+    "size": "25x35",
+    "path": "quadri/450.jpg",
+    "sort_order": 450
+  },
+  {
+    "id": "451quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo circo",
+    "date": "1985",
+    "size": "25x20",
+    "path": "quadri/451.jpg",
+    "sort_order": 451
+  },
+  {
+    "id": "452quadri",
+    "typeofpainting": "figura",
+    "name": "nudo alla finestra",
+    "date": "1975",
+    "size": "30x20",
+    "path": "quadri/452.jpg",
+    "sort_order": 452
+  },
+  {
+    "id": "453quadri",
+    "typeofpainting": "figura",
+    "name": "seminudo bosco",
+    "date": null,
+    "size": "30x25",
+    "path": "quadri/453.jpg",
+    "sort_order": 453
+  },
+  {
+    "id": "454quadri",
+    "typeofpainting": "marine",
+    "name": "donna spiaggia libera",
+    "date": null,
+    "size": "25x35",
+    "path": "quadri/454.jpg",
+    "sort_order": 454
+  },
+  {
+    "id": "455quadri",
+    "typeofpainting": "figure",
+    "name": "giovane fondo giallo",
+    "date": "1984",
+    "size": "35x25",
+    "path": "quadri/455.jpg",
+    "sort_order": 455
+  },
+  {
+    "id": "456quadri",
+    "typeofpainting": "figure",
+    "name": "bambino(antonella)",
+    "date": null,
+    "size": "35x25",
+    "path": "quadri/456.jpg",
+    "sort_order": 456
+  },
+  {
+    "id": "457quadri",
+    "typeofpainting": "figure",
+    "name": "donna spiaggia tenda",
+    "date": null,
+    "size": "20x30",
+    "path": "quadri/457.jpg",
+    "sort_order": 457
+  },
+  {
+    "id": "458quadri",
+    "typeofpainting": "figure",
+    "name": "donna seduta a riva",
+    "date": null,
+    "size": "25x35",
+    "path": "quadri/458.jpg",
+    "sort_order": 458
+  },
+  {
+    "id": "459quadri",
+    "typeofpainting": "figure",
+    "name": "sul molo grigio",
+    "date": "1971",
+    "size": "20x25",
+    "path": "quadri/459.jpg",
+    "sort_order": 459
+  },
+  {
+    "id": "460quadri",
+    "typeofpainting": "figure",
+    "name": "tiro a segno",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/460.jpg",
+    "sort_order": 460
+  },
+  {
+    "id": "461quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donna tra le onde",
+    "date": "1987",
+    "size": "27x40",
+    "path": "quadri/461.jpg",
+    "sort_order": 461
+  },
+  {
+    "id": "462quadri",
+    "typeofpainting": "figure",
+    "name": "corrono sul molo",
+    "date": "1995",
+    "size": "50x35",
+    "path": "quadri/462.jpg",
+    "sort_order": 462
+  },
+  {
+    "id": "463quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo e artiere",
+    "date": null,
+    "size": "35x50",
+    "path": "quadri/463.jpg",
+    "sort_order": 463
+  },
+  {
+    "id": "464quadri",
+    "typeofpainting": "figure",
+    "name": "donna sul molo",
+    "date": "1970",
+    "size": "50x35",
+    "path": "quadri/464.jpg",
+    "sort_order": 464
+  },
+  {
+    "id": "465quadri",
+    "typeofpainting": "figure",
+    "name": "tre donne sul molo",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/465.jpg",
+    "sort_order": 465
+  },
+  {
+    "id": "466quadri",
+    "typeofpainting": "figure",
+    "name": "uomo con cane",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/466.jpg",
+    "sort_order": 466
+  },
+  {
+    "id": "467quadri",
+    "typeofpainting": "figure",
+    "name": "in piedi spiaggia",
+    "date": null,
+    "size": "30x20",
+    "path": "quadri/467.jpg",
+    "sort_order": 467
+  },
+  {
+    "id": "468quadri",
+    "typeofpainting": "figure",
+    "name": "gruppo sul molo",
+    "date": "1971",
+    "size": "35x35",
+    "path": "quadri/468.jpg",
+    "sort_order": 468
+  },
+  {
+    "id": "469quadri",
+    "typeofpainting": "ritratti",
+    "name": "pezzini in maremma",
+    "date": "1978",
+    "size": "25x33",
+    "path": "quadri/469.jpg",
+    "sort_order": 469
+  },
+  {
+    "id": "470quadri",
+    "typeofpainting": "figure",
+    "name": "rema sul patino blu",
+    "date": "1974",
+    "size": "37x37",
+    "path": "quadri/470.jpg",
+    "sort_order": 470
+  },
+  {
+    "id": "471quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglia e bottiglia",
+    "date": "1966",
+    "size": "40x50",
+    "path": "quadri/471.jpg",
+    "sort_order": 471
+  },
+  {
+    "id": "472quadri",
+    "typeofpainting": "allegorie",
+    "name": "donna e minotauro",
+    "date": null,
+    "size": "35x50",
+    "path": "quadri/472.jpg",
+    "sort_order": 472
+  },
+  {
+    "id": "473quadri",
+    "typeofpainting": "allegorie",
+    "name": "minotauro",
+    "date": "1970",
+    "size": "35x50",
+    "path": "quadri/473.jpg",
+    "sort_order": 473
+  },
+  {
+    "id": "474quadri",
+    "typeofpainting": "figure",
+    "name": "seduta alla spiaggia lib.",
+    "date": "1970",
+    "size": "40x40",
+    "path": "quadri/474.jpg",
+    "sort_order": 474
+  },
+  {
+    "id": "475quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli",
+    "date": "1970",
+    "size": "50x35",
+    "path": "quadri/475.jpg",
+    "sort_order": 475
+  },
+  {
+    "id": "476quadri",
+    "typeofpainting": "figure",
+    "name": "nudo di spalle",
+    "date": null,
+    "size": "50x35",
+    "path": "quadri/476.jpg",
+    "sort_order": 476
+  },
+  {
+    "id": "477quadri",
+    "typeofpainting": "figure",
+    "name": "nudo giallo e nero",
+    "date": null,
+    "size": "50x35",
+    "path": "quadri/477.jpg",
+    "sort_order": 477
+  },
+  {
+    "id": "478quadri",
+    "typeofpainting": "allegorie",
+    "name": "minotauro spiaggia",
+    "date": null,
+    "size": "30x20",
+    "path": "quadri/478.jpg",
+    "sort_order": 478
+  },
+  {
+    "id": "479quadri",
+    "typeofpainting": "figure",
+    "name": "salomè",
+    "date": null,
+    "size": "30x25",
+    "path": "quadri/479.jpg",
+    "sort_order": 479
+  },
+  {
+    "id": "480quadri",
+    "typeofpainting": "figure",
+    "name": "uomo seduto",
+    "date": null,
+    "size": "50x35",
+    "path": "quadri/480.jpg",
+    "sort_order": 480
+  },
+  {
+    "id": "481quadri",
+    "typeofpainting": "figure",
+    "name": "nudo seduto",
+    "date": null,
+    "size": "40x30",
+    "path": "quadri/481.jpg",
+    "sort_order": 481
+  },
+  {
+    "id": "482quadri",
+    "typeofpainting": "figure",
+    "name": "maschere",
+    "date": "1980",
+    "size": "40x50",
+    "path": "quadri/482.jpg",
+    "sort_order": 482
+  },
+  {
+    "id": "483quadri",
+    "typeofpainting": "figure",
+    "name": "alla costanza",
+    "date": "1993",
+    "size": "40x30",
+    "path": "quadri/483.jpg",
+    "sort_order": 483
+  },
+  {
+    "id": "484quadri",
+    "typeofpainting": "figure",
+    "name": "donna sarda",
+    "date": null,
+    "size": "45x30",
+    "path": "quadri/484.jpg",
+    "sort_order": 484
+  },
+  {
+    "id": "485quadri",
+    "typeofpainting": "nature morte",
+    "name": "melograni e pannocchia",
+    "date": "1977",
+    "size": "60x50",
+    "path": "quadri/485.jpg",
+    "sort_order": 485
+  },
+  {
+    "id": "486quadri",
+    "typeofpainting": "figure",
+    "name": "sale sugli scogli",
+    "date": "1979",
+    "size": "50x60",
+    "path": "quadri/486.jpg",
+    "sort_order": 486
+  },
+  {
+    "id": "487quadri",
+    "typeofpainting": "paesaggi",
+    "name": "palma e auto",
+    "date": "1991",
+    "size": "28x66",
+    "path": "quadri/487.jpg",
+    "sort_order": 487
+  },
+  {
+    "id": "488quadri",
+    "typeofpainting": "nature morte",
+    "name": "folaghe",
+    "date": "1979",
+    "size": "40x70",
+    "path": "quadri/488.jpg",
+    "sort_order": 488
+  },
+  {
+    "id": "489quadri",
+    "typeofpainting": "allegorie",
+    "name": "re magi",
+    "date": null,
+    "size": "50x60",
+    "path": "quadri/489.jpg",
+    "sort_order": 489
+  },
+  {
+    "id": "490quadri",
+    "typeofpainting": "marine",
+    "name": "notturno e gabbiani",
+    "date": "1973",
+    "size": "70x90",
+    "path": "quadri/490.jpg",
+    "sort_order": 490
+  },
+  {
+    "id": "491quadri",
+    "typeofpainting": "bagnanti",
+    "name": "sul pontile e gabbiano",
+    "date": "1971",
+    "size": "70x90",
+    "path": "quadri/491.jpg",
+    "sort_order": 491
+  },
+  {
+    "id": "492quadri",
+    "typeofpainting": "nature morte",
+    "name": "comò",
+    "date": "1980",
+    "size": "60x90",
+    "path": "quadri/492.jpg",
+    "sort_order": 492
+  },
+  {
+    "id": "493quadri",
+    "typeofpainting": "allegorie",
+    "name": "narciso",
+    "date": "1979",
+    "size": "90x70",
+    "path": "quadri/493.jpg",
+    "sort_order": 493
+  },
+  {
+    "id": "494quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli spiaggia",
+    "date": null,
+    "size": "90x60",
+    "path": "quadri/494.jpg",
+    "sort_order": 494
+  },
+  {
+    "id": "495quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli maglia azz.",
+    "date": "1970",
+    "size": "90x60",
+    "path": "quadri/495.jpg",
+    "sort_order": 495
+  },
+  {
+    "id": "496quadri",
+    "typeofpainting": "ritratti",
+    "name": "corinna e sole",
+    "date": "1969",
+    "size": "50x70",
+    "path": "quadri/496.jpg",
+    "sort_order": 496
+  },
+  {
+    "id": "497quadri",
+    "typeofpainting": "ritratti",
+    "name": "corinna",
+    "date": "1969",
+    "size": "50x70",
+    "path": "quadri/497.jpg",
+    "sort_order": 497
+  },
+  {
+    "id": "498quadri",
+    "typeofpainting": "figure",
+    "name": "lampara sul patino",
+    "date": "1972",
+    "size": "40x60",
+    "path": "quadri/498.jpg",
+    "sort_order": 498
+  },
+  {
+    "id": "499quadri",
+    "typeofpainting": "paesaggi",
+    "name": "cave m.altissimo",
+    "date": "1971",
+    "size": "50x70",
+    "path": "quadri/499.jpg",
+    "sort_order": 499
+  },
+  {
+    "id": "500quadri",
+    "typeofpainting": "Cronaca 44",
+    "name": "razzia del bestiame",
+    "date": null,
+    "size": "40x60",
+    "path": "quadri/500.jpg",
+    "sort_order": 500
+  },
+  {
+    "id": "501quadri",
+    "typeofpainting": "animali",
+    "name": "lepre",
+    "date": "1976",
+    "size": "45x40",
+    "path": "quadri/501.jpg",
+    "sort_order": 501
+  },
+  {
+    "id": "502quadri",
+    "typeofpainting": "figure",
+    "name": "patino",
+    "date": "1984",
+    "size": "50x35",
+    "path": "quadri/502.jpg",
+    "sort_order": 502
+  },
+  {
+    "id": "503quadri",
+    "typeofpainting": "figure",
+    "name": "donne sul molo",
+    "date": "1973",
+    "size": "65x50",
+    "path": "quadri/503.jpg",
+    "sort_order": 503
+  },
+  {
+    "id": "504quadri",
+    "typeofpainting": "allegorie",
+    "name": "ninfa e fauno",
+    "date": null,
+    "size": "40x55",
+    "path": "quadri/504.jpg",
+    "sort_order": 504
+  },
+  {
+    "id": "505quadri",
+    "typeofpainting": "ritratti",
+    "name": "ada",
+    "date": "1969",
+    "size": "60x45",
+    "path": "quadri/505.jpg",
+    "sort_order": 505
+  },
+  {
+    "id": "506quadri",
+    "typeofpainting": "ritratti",
+    "name": "suonatore banda",
+    "date": "1972",
+    "size": "50x40",
+    "path": "quadri/506.jpg",
+    "sort_order": 506
+  },
+  {
+    "id": "507quadri",
+    "typeofpainting": "paesaggi",
+    "name": "colonna s.marco",
+    "date": null,
+    "size": "90x75",
+    "path": "quadri/507.jpg",
+    "sort_order": 507
+  },
+  {
+    "id": "508quadri",
+    "typeofpainting": "figure",
+    "name": "sandrelli spiaggia",
+    "date": "1969",
+    "size": "70x90",
+    "path": "quadri/508.jpg",
+    "sort_order": 508
+  },
+  {
+    "id": "509quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli studio",
+    "date": null,
+    "size": "90x70",
+    "path": "quadri/509.jpg",
+    "sort_order": 509
+  },
+  {
+    "id": "510quadri",
+    "typeofpainting": "Cronaca 44",
+    "name": "studio bassorilievo",
+    "date": null,
+    "size": "90x70",
+    "path": "quadri/510.jpg",
+    "sort_order": 510
+  },
+  {
+    "id": "511quadri",
+    "typeofpainting": "allegorie",
+    "name": "s.martino",
+    "date": null,
+    "size": "110x90",
+    "path": "quadri/511.jpg",
+    "sort_order": 511
+  },
+  {
+    "id": "512quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli notte",
+    "date": "1971",
+    "size": "90x120",
+    "path": "quadri/512.jpg",
+    "sort_order": 512
+  },
+  {
+    "id": "513quadri",
+    "typeofpainting": "figure",
+    "name": "nudo telo rosso",
+    "date": "1984",
+    "size": "75x105",
+    "path": "quadri/513.jpg",
+    "sort_order": 513
+  },
+  {
+    "id": "514quadri",
+    "typeofpainting": "figure",
+    "name": "gruppo in mare",
+    "date": "1974",
+    "size": "100x100",
+    "path": "quadri/514.jpg",
+    "sort_order": 514
+  },
+  {
+    "id": "515quadri",
+    "typeofpainting": "allegorie",
+    "name": "icaro",
+    "date": "1987",
+    "size": "100x100",
+    "path": "quadri/515.jpg",
+    "sort_order": 515
+  },
+  {
+    "id": "516quadri",
+    "typeofpainting": "figure",
+    "name": "pescatore di polpi",
+    "date": "1990",
+    "size": "100x90",
+    "path": "quadri/516.jpg",
+    "sort_order": 516
+  },
+  {
+    "id": "517quadri",
+    "typeofpainting": "figure",
+    "name": "nudo su sofà",
+    "date": null,
+    "size": "55x95",
+    "path": "quadri/517.jpg",
+    "sort_order": 517
+  },
+  {
+    "id": "518quadri",
+    "typeofpainting": "Cronaca 44",
+    "name": "soldato e bambino",
+    "date": null,
+    "size": "50x65",
+    "path": "quadri/518.jpg",
+    "sort_order": 518
+  },
+  {
+    "id": "519quadri",
+    "typeofpainting": "figure",
+    "name": "ragazzo seduto",
+    "date": "1976",
+    "size": "70x45",
+    "path": "quadri/519.jpg",
+    "sort_order": 519
+  },
+  {
+    "id": "520quadri",
+    "typeofpainting": "nature morte",
+    "name": "strumenti",
+    "date": "1973",
+    "size": "65x75",
+    "path": "quadri/520.jpg",
+    "sort_order": 520
+  },
+  {
+    "id": "521quadri",
+    "typeofpainting": "Cronache 44",
+    "name": "madre e martiri",
+    "date": null,
+    "size": "80x60",
+    "path": "quadri/521.jpg",
+    "sort_order": 521
+  },
+  {
+    "id": "522quadri",
+    "typeofpainting": "ritratti",
+    "name": "arciv.agresti",
+    "date": "1986",
+    "size": "100x120",
+    "path": "quadri/522.jpg",
+    "sort_order": 522
+  },
+  {
+    "id": "523quadri",
+    "typeofpainting": "figure",
+    "name": "corre sul molo",
+    "date": "1978-81",
+    "size": "105x140",
+    "path": "quadri/523.jpg",
+    "sort_order": 523
+  },
+  {
+    "id": "524quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli sul divano",
+    "date": "1970",
+    "size": "90x120",
+    "path": "quadri/524.jpg",
+    "sort_order": 524
+  },
+  {
+    "id": "525quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli notturno",
+    "date": "1969",
+    "size": "110x90",
+    "path": "quadri/525.jpg",
+    "sort_order": 525
+  },
+  {
+    "id": "526quadri",
+    "typeofpainting": "figure",
+    "name": "barca con pescatori",
+    "date": "1995",
+    "size": "110x120",
+    "path": "quadri/526.jpg",
+    "sort_order": 526
+  },
+  {
+    "id": "527quadri",
+    "typeofpainting": "allegorie",
+    "name": "lucca",
+    "date": "1996",
+    "size": "120x100",
+    "path": "quadri/527.jpg",
+    "sort_order": 527
+  },
+  {
+    "id": "528quadri",
+    "typeofpainting": "figure",
+    "name": "olga",
+    "date": "1993",
+    "size": "120x100",
+    "path": "quadri/528.jpg",
+    "sort_order": 528
+  },
+  {
+    "id": "529quadri",
+    "typeofpainting": "figure",
+    "name": "coppia su vespa",
+    "date": "1983",
+    "size": "100x120",
+    "path": "quadri/529.jpg",
+    "sort_order": 529
+  },
+  {
+    "id": "530quadri",
+    "typeofpainting": "paesaggi",
+    "name": "caffè tramonto",
+    "date": "1963",
+    "size": "100x120",
+    "path": "quadri/530.jpg",
+    "sort_order": 530
+  },
+  {
+    "id": "531quadri",
+    "typeofpainting": "allegorie",
+    "name": "processione s.gius.",
+    "date": "1996",
+    "size": "100x120",
+    "path": "quadri/531.jpg",
+    "sort_order": 531
+  },
+  {
+    "id": "532quadri",
+    "typeofpainting": "figure",
+    "name": "fantino e cavallo",
+    "date": "1983",
+    "size": "120x100",
+    "path": "quadri/532.jpg",
+    "sort_order": 532
+  },
+  {
+    "id": "533quadri",
+    "typeofpainting": "figure",
+    "name": "Cammina sul molo",
+    "date": "1984",
+    "size": "120x100",
+    "path": "quadri/533.jpg",
+    "sort_order": 533
+  },
+  {
+    "id": "534quadri",
+    "typeofpainting": "figure",
+    "name": "ginecologo",
+    "date": "1964",
+    "size": "120x60",
+    "path": "quadri/534.jpg",
+    "sort_order": 534
+  },
+  {
+    "id": "535quadri",
+    "typeofpainting": "figure",
+    "name": "si spoglia di spalle",
+    "date": null,
+    "size": "60x120",
+    "path": "quadri/535.jpg",
+    "sort_order": 535
+  },
+  {
+    "id": "536quadri",
+    "typeofpainting": "figure",
+    "name": "dalmazia",
+    "date": "1980",
+    "size": "80x140",
+    "path": "quadri/536.jpg",
+    "sort_order": 536
+  },
+  {
+    "id": "537quadri",
+    "typeofpainting": "marine",
+    "name": "scogli e patino",
+    "date": "1978",
+    "size": "80x120",
+    "path": "quadri/537.jpg",
+    "sort_order": 537
+  },
+  {
+    "id": "538quadri",
+    "typeofpainting": "allegorie",
+    "name": "s.marco a venezia",
+    "date": "1981-83",
+    "size": "150x100",
+    "path": "quadri/538.jpg",
+    "sort_order": 538
+  },
+  {
+    "id": "539quadri",
+    "typeofpainting": "figure",
+    "name": "donna nel mare",
+    "date": "1994",
+    "size": "150x100",
+    "path": "quadri/539.jpg",
+    "sort_order": 539
+  },
+  {
+    "id": "540quadri",
+    "typeofpainting": "ritratti",
+    "name": "l'orzo della sera",
+    "date": "1991",
+    "size": "160x200",
+    "path": "quadri/540.jpg",
+    "sort_order": 540
+  },
+  {
+    "id": "541quadri",
+    "typeofpainting": "marine",
+    "name": "gabbiani notturno",
+    "date": "1977",
+    "size": "130x190",
+    "path": "quadri/541.jpg",
+    "sort_order": 541
+  },
+  {
+    "id": "542quadri",
+    "typeofpainting": "marine",
+    "name": "spiaggia libera",
+    "date": "1966",
+    "size": "90x120",
+    "path": "quadri/542.jpg",
+    "sort_order": 542
+  },
+  {
+    "id": "543quadri",
+    "typeofpainting": "paesaggi",
+    "name": "alba sul roseto",
+    "date": "1964",
+    "size": "90x120",
+    "path": "quadri/543.jpg",
+    "sort_order": 543
+  },
+  {
+    "id": "544quadri",
+    "typeofpainting": "figure",
+    "name": "croazia",
+    "date": "1992",
+    "size": "150x150",
+    "path": "quadri/544.jpg",
+    "sort_order": 544
+  },
+  {
+    "id": "545quadri",
+    "typeofpainting": "figure",
+    "name": "coppia danzante",
+    "date": "1991",
+    "size": "160x100",
+    "path": "quadri/545.jpg",
+    "sort_order": 545
+  },
+  {
+    "id": "546quadri",
+    "typeofpainting": "allegorie",
+    "name": "tunica",
+    "date": null,
+    "size": "170x120",
+    "path": "quadri/546.jpg",
+    "sort_order": 546
+  },
+  {
+    "id": "547quadri",
+    "typeofpainting": "paesaggi",
+    "name": "palma",
+    "date": "1990",
+    "size": "165x65",
+    "path": "quadri/547.jpg",
+    "sort_order": 547
+  },
+  {
+    "id": "548quadri",
+    "typeofpainting": "allegorie",
+    "name": "annunciazione",
+    "date": "1985",
+    "size": "220x100",
+    "path": "quadri/548.jpg",
+    "sort_order": 548
+  },
+  {
+    "id": "549quadri",
+    "typeofpainting": "figure",
+    "name": "piccionaia",
+    "date": "1991",
+    "size": "150x150",
+    "path": "quadri/549.jpg",
+    "sort_order": 549
+  },
+  {
+    "id": "550quadri",
+    "typeofpainting": "allegorie",
+    "name": "specchio",
+    "date": "1982",
+    "size": "180x100",
+    "path": "quadri/550.jpg",
+    "sort_order": 550
+  },
+  {
+    "id": "551quadri",
+    "typeofpainting": "figure",
+    "name": "maschere",
+    "date": null,
+    "size": "50x105",
+    "path": "quadri/551.jpg",
+    "sort_order": 551
+  },
+  {
+    "id": "552quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli camicia rossa",
+    "date": null,
+    "size": "100x70",
+    "path": "quadri/552.jpg",
+    "sort_order": 552
+  },
+  {
+    "id": "553quadri",
+    "typeofpainting": "ritratti",
+    "name": "aliboni",
+    "date": "1970",
+    "size": "100x70",
+    "path": "quadri/553.jpg",
+    "sort_order": 553
+  },
+  {
+    "id": "554quadri",
+    "typeofpainting": "figure",
+    "name": "lo sfollamento",
+    "date": null,
+    "size": "90x60",
+    "path": "quadri/554.jpg",
+    "sort_order": 554
+  },
+  {
+    "id": "555quadri",
+    "typeofpainting": "ritratti",
+    "name": "uomo",
+    "date": "1989",
+    "size": "100x70",
+    "path": "quadri/555.jpg",
+    "sort_order": 555
+  },
+  {
+    "id": "556quadri",
+    "typeofpainting": "figure",
+    "name": "alluvionati a firenze",
+    "date": "1966",
+    "size": "70x100",
+    "path": "quadri/556.jpg",
+    "sort_order": 556
+  },
+  {
+    "id": "557quadri",
+    "typeofpainting": "paesaggi",
+    "name": "filettole",
+    "date": "1970",
+    "size": "60x80",
+    "path": "quadri/557.jpg",
+    "sort_order": 557
+  },
+  {
+    "id": "558quadri",
+    "typeofpainting": "maternità",
+    "name": "antonella e bimbo",
+    "date": null,
+    "size": "100x70",
+    "path": "quadri/558.jpg",
+    "sort_order": 558
+  },
+  {
+    "id": "559quadri",
+    "typeofpainting": "figure",
+    "name": "donna su sdraio",
+    "date": null,
+    "size": "70x100",
+    "path": "quadri/559.jpg",
+    "sort_order": 559
+  },
+  {
+    "id": "560quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli fiamma verde",
+    "date": null,
+    "size": "100x70",
+    "path": "quadri/560.jpg",
+    "sort_order": 560
+  },
+  {
+    "id": "561quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli bionda",
+    "date": "1967",
+    "size": "100x70",
+    "path": "quadri/561.jpg",
+    "sort_order": 561
+  },
+  {
+    "id": "562quadri",
+    "typeofpainting": "figure",
+    "name": "due donne fondo rosso",
+    "date": "1980",
+    "size": "80x105",
+    "path": "quadri/562.jpg",
+    "sort_order": 562
+  },
+  {
+    "id": "563quadri",
+    "typeofpainting": "ritratti",
+    "name": "aliboni",
+    "date": "1970",
+    "size": "100x70",
+    "path": "quadri/563.jpg",
+    "sort_order": 563
+  },
+  {
+    "id": "564quadri",
+    "typeofpainting": "allegorie",
+    "name": "simboli della passione",
+    "date": "1991",
+    "size": "150x70",
+    "path": "quadri/564.jpg",
+    "sort_order": 564
+  },
+  {
+    "id": "565quadri",
+    "typeofpainting": "allegorie",
+    "name": "angelo e famiglia minot.",
+    "date": "1987",
+    "size": "70x100",
+    "path": "quadri/565.jpg",
+    "sort_order": 565
+  },
+  {
+    "id": "566quadri",
+    "typeofpainting": "allegorie",
+    "name": "filosofo e cavaliere",
+    "date": "1978",
+    "size": "80x115",
+    "path": "quadri/566.jpg",
+    "sort_order": 566
+  },
+  {
+    "id": "567quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli e patino stud.",
+    "date": null,
+    "size": "70x100",
+    "path": "quadri/567.jpg",
+    "sort_order": 567
+  },
+  {
+    "id": "568quadri",
+    "typeofpainting": "figure",
+    "name": "st.bassorilievo",
+    "date": null,
+    "size": "100x60",
+    "path": "quadri/568.jpg",
+    "sort_order": 568
+  },
+  {
+    "id": "569quadri",
+    "typeofpainting": "figure",
+    "name": "nudo rosa e scogli",
+    "date": null,
+    "size": "90x110",
+    "path": "quadri/569.jpg",
+    "sort_order": 569
+  },
+  {
+    "id": "570quadri",
+    "typeofpainting": "ritratti",
+    "name": "anna dotti",
+    "date": "1970",
+    "size": "70x50",
+    "path": "quadri/570.jpg",
+    "sort_order": 570
+  },
+  {
+    "id": "571quadri",
+    "typeofpainting": "allegorie",
+    "name": "donna e minot.bianco",
+    "date": "1982",
+    "size": "40x70",
+    "path": "quadri/571.jpg",
+    "sort_order": 571
+  },
+  {
+    "id": "572quadri",
+    "typeofpainting": "autoritratti",
+    "name": "con basco",
+    "date": "1950",
+    "size": "50x40",
+    "path": "quadri/572.jpg",
+    "sort_order": 572
+  },
+  {
+    "id": "573quadri",
+    "typeofpainting": "animali",
+    "name": "gatto con uccello",
+    "date": null,
+    "size": "50x55",
+    "path": "quadri/573.jpg",
+    "sort_order": 573
+  },
+  {
+    "id": "574quadri",
+    "typeofpainting": "marine",
+    "name": "luci arancioni",
+    "date": "1960",
+    "size": "45x65",
+    "path": "quadri/574.jpg",
+    "sort_order": 574
+  },
+  {
+    "id": "575quadri",
+    "typeofpainting": "autoritratti",
+    "name": "nel tondo",
+    "date": "1964",
+    "size": "50x50",
+    "path": "quadri/575.jpg",
+    "sort_order": 575
+  },
+  {
+    "id": "576quadri",
+    "typeofpainting": "figure",
+    "name": "vescovo",
+    "date": "1974",
+    "size": "65x40",
+    "path": "quadri/576.jpg",
+    "sort_order": 576
+  },
+  {
+    "id": "577quadri",
+    "typeofpainting": "paesaggi",
+    "name": "piazzetta",
+    "date": "1956",
+    "size": "50x70",
+    "path": "quadri/577.jpg",
+    "sort_order": 577
+  },
+  {
+    "id": "578quadri",
+    "typeofpainting": "bagnanti",
+    "name": "donna sugli scogli",
+    "date": "1972",
+    "size": "45x60",
+    "path": "quadri/578.jpg",
+    "sort_order": 578
+  },
+  {
+    "id": "579quadri",
+    "typeofpainting": "figure",
+    "name": "donna nella vasca",
+    "date": "1952",
+    "size": "45x35",
+    "path": "quadri/579.jpg",
+    "sort_order": 579
+  },
+  {
+    "id": "580quadri",
+    "typeofpainting": "figure",
+    "name": "uomo al bar",
+    "date": null,
+    "size": "40x35",
+    "path": "quadri/580.jpg",
+    "sort_order": 580
+  },
+  {
+    "id": "581quadri",
+    "typeofpainting": "figure",
+    "name": "pallacanestro",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/581.jpg",
+    "sort_order": 581
+  },
+  {
+    "id": "582quadri",
+    "typeofpainting": "bagnanti",
+    "name": "due donne fondo rosso",
+    "date": "1973",
+    "size": "50x75",
+    "path": "quadri/582.jpg",
+    "sort_order": 582
+  },
+  {
+    "id": "583quadri",
+    "typeofpainting": "figure",
+    "name": "nudo su divano",
+    "date": "1967",
+    "size": "55x80",
+    "path": "quadri/583.jpg",
+    "sort_order": 583
+  },
+  {
+    "id": "584quadri",
+    "typeofpainting": "figure",
+    "name": "bozzetto maternità",
+    "date": null,
+    "size": "50x65",
+    "path": "quadri/584.jpg",
+    "sort_order": 584
+  },
+  {
+    "id": "585quadri",
+    "typeofpainting": "paesaggi",
+    "name": "darsena",
+    "date": null,
+    "size": "70x70",
+    "path": "quadri/585.jpg",
+    "sort_order": 585
+  },
+  {
+    "id": "586quadri",
+    "typeofpainting": "figure",
+    "name": "paola e la mamma",
+    "date": "1984",
+    "size": "60x77",
+    "path": "quadri/586.jpg",
+    "sort_order": 586
+  },
+  {
+    "id": "587quadri",
+    "typeofpainting": "autoritratti",
+    "name": "in piedi",
+    "date": null,
+    "size": "70x35",
+    "path": "quadri/587.jpg",
+    "sort_order": 587
+  },
+  {
+    "id": "588quadri",
+    "typeofpainting": "figure",
+    "name": "maternità",
+    "date": "1955",
+    "size": "70x50",
+    "path": "quadri/588.jpg",
+    "sort_order": 588
+  },
+  {
+    "id": "589quadri",
+    "typeofpainting": "bagnanti",
+    "name": "sdraiata su scogli",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/589.jpg",
+    "sort_order": 589
+  },
+  {
+    "id": "590quadri",
+    "typeofpainting": "paesaggi",
+    "name": "bombardamento",
+    "date": null,
+    "size": "75x65",
+    "path": "quadri/590.jpg",
+    "sort_order": 590
+  },
+  {
+    "id": "591quadri",
+    "typeofpainting": "ritratti",
+    "name": "sandrelli spiaggia lib.",
+    "date": null,
+    "size": "70x60",
+    "path": "quadri/591.jpg",
+    "sort_order": 591
+  },
+  {
+    "id": "592quadri",
+    "typeofpainting": "animali",
+    "name": "gallina e uova",
+    "date": "1970",
+    "size": "70x70",
+    "path": "quadri/592.jpg",
+    "sort_order": 592
+  },
+  {
+    "id": "593quadri",
+    "typeofpainting": "figure",
+    "name": "madre vietnamita",
+    "date": null,
+    "size": "70x60",
+    "path": "quadri/593.jpg",
+    "sort_order": 593
+  },
+  {
+    "id": "594quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo",
+    "date": null,
+    "size": "20x40",
+    "path": "quadri/594.jpg",
+    "sort_order": 594
+  },
+  {
+    "id": "595quadri",
+    "typeofpainting": "animali",
+    "name": "piccioni",
+    "date": null,
+    "size": "35x25",
+    "path": "quadri/595.jpg",
+    "sort_order": 595
+  },
+  {
+    "id": "596quadri",
+    "typeofpainting": "animali",
+    "name": "gabbiano +nero e azz.",
+    "date": null,
+    "size": "30x25",
+    "path": "quadri/596.jpg",
+    "sort_order": 596
+  },
+  {
+    "id": "597quadri",
+    "typeofpainting": "animali",
+    "name": "gabbiano +rosso e bian",
+    "date": null,
+    "size": "30x45",
+    "path": "quadri/597.jpg",
+    "sort_order": 597
+  },
+  {
+    "id": "598quadri",
+    "typeofpainting": "animali",
+    "name": "lepre e luna",
+    "date": null,
+    "size": "25x35",
+    "path": "quadri/598.jpg",
+    "sort_order": 598
+  },
+  {
+    "id": "599quadri",
+    "typeofpainting": "ritratti",
+    "name": "giovane",
+    "date": null,
+    "size": "35x25",
+    "path": "quadri/599.jpg",
+    "sort_order": 599
+  },
+  {
+    "id": "600quadri",
+    "typeofpainting": "animali",
+    "name": "lepre rossa",
+    "date": null,
+    "size": "25x35",
+    "path": "quadri/600.jpg",
+    "sort_order": 600
+  },
+  {
+    "id": "601quadri",
+    "typeofpainting": "paesaggi",
+    "name": "spiaggia e darsena",
+    "date": null,
+    "size": "13x27",
+    "path": "quadri/601.jpg",
+    "sort_order": 601
+  },
+  {
+    "id": "602quadri",
+    "typeofpainting": "animali",
+    "name": "merli su rami",
+    "date": null,
+    "size": "50x35",
+    "path": "quadri/602.jpg",
+    "sort_order": 602
+  },
+  {
+    "id": "603quadri",
+    "typeofpainting": "animali",
+    "name": "giraffe",
+    "date": null,
+    "size": "50x35",
+    "path": "quadri/603.jpg",
+    "sort_order": 603
+  },
+  {
+    "id": "604quadri",
+    "typeofpainting": "animali",
+    "name": "civetta",
+    "date": "1980",
+    "size": "50x35",
+    "path": "quadri/604.jpg",
+    "sort_order": 604
+  },
+  {
+    "id": "605quadri",
+    "typeofpainting": "animali",
+    "name": "toro",
+    "date": null,
+    "size": "35x50",
+    "path": "quadri/605.jpg",
+    "sort_order": 605
+  },
+  {
+    "id": "606quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo",
+    "date": null,
+    "size": "35x50",
+    "path": "quadri/606.jpg",
+    "sort_order": 606
+  },
+  {
+    "id": "607quadri",
+    "typeofpainting": "animali",
+    "name": "pesci nel lago",
+    "date": null,
+    "size": "45x45",
+    "path": "quadri/607.jpg",
+    "sort_order": 607
+  },
+  {
+    "id": "608quadri",
+    "typeofpainting": "animali",
+    "name": "gabbiano grigio",
+    "date": null,
+    "size": "35x45",
+    "path": "quadri/608.jpg",
+    "sort_order": 608
+  },
+  {
+    "id": "609quadri",
+    "typeofpainting": "ritratti",
+    "name": "giovane",
+    "date": null,
+    "size": "25x20",
+    "path": "quadri/609.jpg",
+    "sort_order": 609
+  },
+  {
+    "id": "610quadri",
+    "typeofpainting": "nature morte",
+    "name": "cestino di fichi",
+    "date": null,
+    "size": "20x25",
+    "path": "quadri/610.jpg",
+    "sort_order": 610
+  },
+  {
+    "id": "611quadri",
+    "typeofpainting": "figure",
+    "name": "donna azzurro blu",
+    "date": null,
+    "size": "23x10",
+    "path": "quadri/611.jpg",
+    "sort_order": 611
+  },
+  {
+    "id": "612quadri",
+    "typeofpainting": "ritratti",
+    "name": "paradisi?",
+    "date": "1985",
+    "size": "25x20",
+    "path": "quadri/612.jpg",
+    "sort_order": 612
+  },
+  {
+    "id": "613quadri",
+    "typeofpainting": "allegorie",
+    "name": "la tempesta",
+    "date": null,
+    "size": "20x30",
+    "path": "quadri/613.jpg",
+    "sort_order": 613
+  },
+  {
+    "id": "614quadri",
+    "typeofpainting": "figure",
+    "name": "nudo spiaggia libera",
+    "date": null,
+    "size": "20x30",
+    "path": "quadri/614.jpg",
+    "sort_order": 614
+  },
+  {
+    "id": "615quadri",
+    "typeofpainting": "paesaggi",
+    "name": "spiaggia libera",
+    "date": null,
+    "size": "20x30",
+    "path": "quadri/615.jpg",
+    "sort_order": 615
+  },
+  {
+    "id": "616quadri",
+    "typeofpainting": "figure",
+    "name": "nudo viola",
+    "date": "1974",
+    "size": "30x25",
+    "path": "quadri/616.jpg",
+    "sort_order": 616
+  },
+  {
+    "id": "617quadri",
+    "typeofpainting": "figure",
+    "name": "giovane in mare",
+    "date": "1989",
+    "size": "25x17",
+    "path": "quadri/617.jpg",
+    "sort_order": 617
+  },
+  {
+    "id": "618quadri",
+    "typeofpainting": "figure",
+    "name": "donna camm.a riva",
+    "date": null,
+    "size": "30x25",
+    "path": "quadri/618.jpg",
+    "sort_order": 618
+  },
+  {
+    "id": "619quadri",
+    "typeofpainting": "figure",
+    "name": "si spoglia spiaggia",
+    "date": null,
+    "size": "25x20",
+    "path": "quadri/619.jpg",
+    "sort_order": 619
+  },
+  {
+    "id": "620quadri",
+    "typeofpainting": "figure",
+    "name": "indiano seduto",
+    "date": null,
+    "size": "30x25",
+    "path": "quadri/620.jpg",
+    "sort_order": 620
+  },
+  {
+    "id": "621quadri",
+    "typeofpainting": "figure",
+    "name": "donna in mare busto",
+    "date": null,
+    "size": "20x25",
+    "path": "quadri/621.jpg",
+    "sort_order": 621
+  },
+  {
+    "id": "622quadri",
+    "typeofpainting": "autoritratti",
+    "name": "fondo blu",
+    "date": "1987",
+    "size": "30x30",
+    "path": "quadri/622.jpg",
+    "sort_order": 622
+  },
+  {
+    "id": "623quadri",
+    "typeofpainting": "marine",
+    "name": "spiaggia libera",
+    "date": null,
+    "size": "18x35",
+    "path": "quadri/623.jpg",
+    "sort_order": 623
+  },
+  {
+    "id": "624quadri",
+    "typeofpainting": "figure",
+    "name": "due donne spiaggia",
+    "date": "1974",
+    "size": "25x30",
+    "path": "quadri/624.jpg",
+    "sort_order": 624
+  },
+  {
+    "id": "625quadri",
+    "typeofpainting": "figure",
+    "name": "due grigioazzurro",
+    "date": null,
+    "size": "25x30",
+    "path": "quadri/625.jpg",
+    "sort_order": 625
+  },
+  {
+    "id": "626quadri",
+    "typeofpainting": "animali",
+    "name": "due cani",
+    "date": "1978",
+    "size": "20x25",
+    "path": "quadri/626.jpg",
+    "sort_order": 626
+  },
+  {
+    "id": "627quadri",
+    "typeofpainting": "marine",
+    "name": "notturno e gabbiano",
+    "date": "1989",
+    "size": "17x23",
+    "path": "quadri/627.jpg",
+    "sort_order": 627
+  },
+  {
+    "id": "628quadri",
+    "typeofpainting": "paesaggi",
+    "name": "paese in collina",
+    "date": null,
+    "size": "20x15",
+    "path": "quadri/628.jpg",
+    "sort_order": 628
+  },
+  {
+    "id": "629quadri",
+    "typeofpainting": "autoritratti",
+    "name": "maglia blu",
+    "date": "1978",
+    "size": "30x20",
+    "path": "quadri/629.jpg",
+    "sort_order": 629
+  },
+  {
+    "id": "630quadri",
+    "typeofpainting": "marine",
+    "name": "mare mosso",
+    "date": "1980",
+    "size": "25x30",
+    "path": "quadri/630.jpg",
+    "sort_order": 630
+  },
+  {
+    "id": "631quadri",
+    "typeofpainting": "figure",
+    "name": "testa di donna-pierrot",
+    "date": null,
+    "size": "30x25",
+    "path": "quadri/631.jpg",
+    "sort_order": 631
+  },
+  {
+    "id": "632quadri",
+    "typeofpainting": "figure",
+    "name": "uomo fondo viola",
+    "date": null,
+    "size": "15x20",
+    "path": "quadri/632.jpg",
+    "sort_order": 632
+  },
+  {
+    "id": "633quadri",
+    "typeofpainting": "allegorie",
+    "name": "angelo",
+    "date": "1986",
+    "size": "20x17",
+    "path": "quadri/633.jpg",
+    "sort_order": 633
+  },
+  {
+    "id": "634quadri",
+    "typeofpainting": "animali",
+    "name": "gabbiano su palo",
+    "date": null,
+    "size": "15x20",
+    "path": "quadri/634.jpg",
+    "sort_order": 634
+  },
+  {
+    "id": "635quadri",
+    "typeofpainting": "marine",
+    "name": "scogli e gabbiano",
+    "date": "1977",
+    "size": "15x22",
+    "path": "quadri/635.jpg",
+    "sort_order": 635
+  },
+  {
+    "id": "636quadri",
+    "typeofpainting": "figure",
+    "name": "metro",
+    "date": "1969",
+    "size": "30x20",
+    "path": "quadri/636.jpg",
+    "sort_order": 636
+  },
+  {
+    "id": "637quadri",
+    "typeofpainting": "figure",
+    "name": "ragazzo e chitarra",
+    "date": "1970",
+    "size": "30x30",
+    "path": "quadri/637.jpg",
+    "sort_order": 637
+  },
+  {
+    "id": "638quadri",
+    "typeofpainting": "bagnante",
+    "name": "figura in acqua",
+    "date": "1970",
+    "size": "30x20",
+    "path": "quadri/638.jpg",
+    "sort_order": 638
+  },
+  {
+    "id": "639quadri",
+    "typeofpainting": "paesaggi",
+    "name": "barchino nel lago",
+    "date": null,
+    "size": "20x32",
+    "path": "quadri/639.jpg",
+    "sort_order": 639
+  },
+  {
+    "id": "640quadri",
+    "typeofpainting": "animali",
+    "name": "rapace notturno",
+    "date": null,
+    "size": "20x30",
+    "path": "quadri/640.jpg",
+    "sort_order": 640
+  },
+  {
+    "id": "641quadri",
+    "typeofpainting": "paesaggi",
+    "name": "lago e fabbrica",
+    "date": null,
+    "size": "27x23",
+    "path": "quadri/641.jpg",
+    "sort_order": 641
+  },
+  {
+    "id": "642quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglia bianca",
+    "date": "1970",
+    "size": "23x32",
+    "path": "quadri/642.jpg",
+    "sort_order": 642
+  },
+  {
+    "id": "643quadri",
+    "typeofpainting": "nature morte",
+    "name": "conchiglia fondo nero",
+    "date": null,
+    "size": "20x20",
+    "path": "quadri/643.jpg",
+    "sort_order": 643
+  },
+  {
+    "id": "644quadri",
+    "typeofpainting": "animali",
+    "name": "mandria al guado",
+    "date": null,
+    "size": "25x30",
+    "path": "quadri/644.jpg",
+    "sort_order": 644
+  },
+  {
+    "id": "645quadri",
+    "typeofpainting": "animali",
+    "name": "rondini",
+    "date": null,
+    "size": "25x30",
+    "path": "quadri/645.jpg",
+    "sort_order": 645
+  },
+  {
+    "id": "646quadri",
+    "typeofpainting": "figure",
+    "name": "sedute sul molo",
+    "date": null,
+    "size": "20x30",
+    "path": "quadri/646.jpg",
+    "sort_order": 646
+  },
+  {
+    "id": "647quadri",
+    "typeofpainting": "figure",
+    "name": "ragazzo con scimmietta",
+    "date": "1948",
+    "size": "30x26",
+    "path": "quadri/647.jpg",
+    "sort_order": 647
+  },
+  {
+    "id": "648quadri",
+    "typeofpainting": "animali",
+    "name": "lepre rossa",
+    "date": null,
+    "size": "32x23",
+    "path": "quadri/648.jpg",
+    "sort_order": 648
+  },
+  {
+    "id": "649quadri",
+    "typeofpainting": "paesaggi",
+    "name": "barca di notte",
+    "date": "1987",
+    "size": "20x30",
+    "path": "quadri/649.jpg",
+    "sort_order": 649
+  },
+  {
+    "id": "650quadri",
+    "typeofpainting": "figure",
+    "name": "studi in piedi e seduto",
+    "date": null,
+    "size": "23x32",
+    "path": "quadri/650.jpg",
+    "sort_order": 650
+  },
+  {
+    "id": "651quadri",
+    "typeofpainting": "figure",
+    "name": "due donne mare",
+    "date": "1974",
+    "size": "23x27",
+    "path": "quadri/651.jpg",
+    "sort_order": 651
+  },
+  {
+    "id": "652quadri",
+    "typeofpainting": "figure",
+    "name": "studio ovo sapiens",
+    "date": "1995",
+    "size": "17x20",
+    "path": "quadri/652.jpg",
+    "sort_order": 652
+  },
+  {
+    "id": "653quadri",
+    "typeofpainting": "paesaggi",
+    "name": "aosta",
+    "date": null,
+    "size": "20x30",
+    "path": "quadri/653.jpg",
+    "sort_order": 653
+  },
+  {
+    "id": "654quadri",
+    "typeofpainting": "figure",
+    "name": "pesca su patino",
+    "date": null,
+    "size": "Diam.25",
+    "path": "quadri/654.jpg",
+    "sort_order": 654
+  },
+  {
+    "id": "655quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo bianco",
+    "date": null,
+    "size": "25x16",
+    "path": "quadri/655.jpg",
+    "sort_order": 655
+  },
+  {
+    "id": "656quadri",
+    "typeofpainting": "animali",
+    "name": "cavallo marronenero",
+    "date": null,
+    "size": "20x25",
+    "path": "quadri/656.jpg",
+    "sort_order": 656
+  },
+  {
+    "id": "657quadri",
+    "typeofpainting": "paesaggi",
+    "name": "senna",
+    "date": "1969",
+    "size": "20x25",
+    "path": "quadri/657.jpg",
+    "sort_order": 657
+  },
+  {
+    "id": "658quadri",
+    "typeofpainting": "allegorie",
+    "name": "cervo trittico n, 1",
+    "date": null,
+    "size": "30x25",
+    "path": "quadri/658.jpg",
+    "sort_order": 658
+  },
+  {
+    "id": "659quadri",
+    "typeofpainting": "allegorie",
+    "name": "uccisione trittico n.2",
+    "date": null,
+    "size": "30x25",
+    "path": "quadri/659.jpg",
+    "sort_order": 659
+  },
+  {
+    "id": "660quadri",
+    "typeofpainting": "allegorie",
+    "name": "fauno che ride tritt.n.3",
+    "date": null,
+    "size": "30x25",
+    "path": "quadri/660.jpg",
+    "sort_order": 660
+  },
+  {
+    "id": "661quadri",
+    "typeofpainting": "figure",
+    "name": "nudo (scatolina)",
+    "date": null,
+    "size": "12x8",
+    "path": "quadri/661.jpg",
+    "sort_order": 661
+  },
+  {
+    "id": "662quadri",
+    "typeofpainting": "autoritratti",
+    "name": "di profilo",
+    "date": null,
+    "size": "12x8",
+    "path": "quadri/662.jpg",
+    "sort_order": 662
+  },
+  {
+    "id": "663quadri",
+    "typeofpainting": "autoritratti",
+    "name": "fondo verde",
+    "date": null,
+    "size": "12x8",
+    "path": "quadri/663.jpg",
+    "sort_order": 663
+  },
+  {
+    "id": "664quadri",
+    "typeofpainting": "allegorie",
+    "name": "cristo",
+    "date": null,
+    "size": "160x32",
+    "path": "quadri/664.jpg",
+    "sort_order": 664
+  }
+]

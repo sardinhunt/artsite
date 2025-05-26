@@ -1,0 +1,839 @@
+[
+  {
+    "id": "1sculture",
+    "name": "cavaliere su cavallo blu",
+    "material": "terracotta dipinta",
+    "size": "38cm",
+    "base": null,
+    "path": "sculture/1.jpg",
+    "sort_order": "S1"
+  },
+  {
+    "id": "2sculture",
+    "name": "testa di bimba",
+    "material": "cemento dipinto",
+    "size": "37cm",
+    "base": "marmo",
+    "path": "sculture/2.jpg",
+    "sort_order": "S2"
+  },
+  {
+    "id": "3sculture",
+    "name": "chimera",
+    "material": "terracotta dipinta",
+    "size": "39cm",
+    "base": null,
+    "path": "sculture/3.jpg",
+    "sort_order": "S3"
+  },
+  {
+    "id": "4sculture",
+    "name": "lepre",
+    "material": "terracotta dipinta",
+    "size": "34cm",
+    "base": null,
+    "path": "sculture/4.jpg",
+    "sort_order": "S4"
+  },
+  {
+    "id": "5sculture",
+    "name": "gufo",
+    "material": "terracotta dipinta",
+    "size": "25cm",
+    "base": null,
+    "path": "sculture/5.jpg",
+    "sort_order": "S5"
+  },
+  {
+    "id": "6sculture",
+    "name": "testuggine",
+    "material": "teracotta dipinta",
+    "size": "35cm",
+    "base": null,
+    "path": "sculture/6.jpg",
+    "sort_order": "S6"
+  },
+  {
+    "id": "7sculture",
+    "name": "tre danzatrici",
+    "material": "terracotta dipinta",
+    "size": "31cm",
+    "base": null,
+    "path": "sculture/7.jpg",
+    "sort_order": "S7"
+  },
+  {
+    "id": "8sculture",
+    "name": "torso classico",
+    "material": "terracotta",
+    "size": "35cm",
+    "base": null,
+    "path": "sculture/8.jpg",
+    "sort_order": "S8"
+  },
+  {
+    "id": "9sculture",
+    "name": "cavaliere",
+    "material": "teracotta dipinta",
+    "size": "24cm",
+    "base": null,
+    "path": "sculture/9.jpg",
+    "sort_order": "S9"
+  },
+  {
+    "id": "10sculture",
+    "name": "irene",
+    "material": "teracotta cerata",
+    "size": "35cm",
+    "base": "marmo",
+    "path": "sculture/10.jpg",
+    "sort_order": "S10"
+  },
+  {
+    "id": "11sculture",
+    "name": "amanti",
+    "material": "terracotta dipinta",
+    "size": "19cm",
+    "base": null,
+    "path": "sculture/11.jpg",
+    "sort_order": "S11"
+  },
+  {
+    "id": "12sculture",
+    "name": "madre",
+    "material": "bronzo",
+    "size": "43cm",
+    "base": "pietra",
+    "path": "sculture/12.jpg",
+    "sort_order": "S12"
+  },
+  {
+    "id": "13sculture",
+    "name": "uomo",
+    "material": "bronzo",
+    "size": "40cm",
+    "base": "marmo",
+    "path": "sculture/13.jpg",
+    "sort_order": "S13"
+  },
+  {
+    "id": "14sculture",
+    "name": "donna",
+    "material": "bronzo",
+    "size": "28cm",
+    "base": "marmo",
+    "path": "sculture/14.jpg",
+    "sort_order": "S14"
+  },
+  {
+    "id": "15sculture",
+    "name": "donna e velo",
+    "material": "bronzo",
+    "size": "37cm",
+    "base": "marmo",
+    "path": "sculture/15.jpg",
+    "sort_order": "S15"
+  },
+  {
+    "id": "16sculture",
+    "name": "donna seduta",
+    "material": "terracotta cerata",
+    "size": "38cm",
+    "base": "legno",
+    "path": "sculture/16.jpg",
+    "sort_order": "S16"
+  },
+  {
+    "id": "17sculture",
+    "name": "donna sdraiata",
+    "material": "terracotta dipinta",
+    "size": "32cm",
+    "base": null,
+    "path": "sculture/17.jpg",
+    "sort_order": "S17"
+  },
+  {
+    "id": "18sculture",
+    "name": "colombo",
+    "material": "terracotta",
+    "size": "21cm",
+    "base": null,
+    "path": "sculture/18.jpg",
+    "sort_order": "S18"
+  },
+  {
+    "id": "19sculture",
+    "name": "testa gialla",
+    "material": "terracotta dipinta",
+    "size": "25cm",
+    "base": null,
+    "path": "sculture/19.jpg",
+    "sort_order": "S19"
+  },
+  {
+    "id": "20sculture",
+    "name": "testa diavolo",
+    "material": "terracotta dipinta",
+    "size": "36cm",
+    "base": "pietra",
+    "path": "sculture/20.jpg",
+    "sort_order": "S20"
+  },
+  {
+    "id": "21sculture",
+    "name": "carro del sole",
+    "material": "terracotta dipinta",
+    "size": "36x38cm",
+    "base": null,
+    "path": "sculture/21.jpg",
+    "sort_order": "S21"
+  },
+  {
+    "id": "22sculture",
+    "name": "tartaruga",
+    "material": "terracotta dipinta",
+    "size": "24x39cm",
+    "base": null,
+    "path": "sculture/22.jpg",
+    "sort_order": "S22"
+  },
+  {
+    "id": "23sculture",
+    "name": "presepe",
+    "material": "terracotta dipinta",
+    "size": "30cm",
+    "base": null,
+    "path": "sculture/23.jpg",
+    "sort_order": "S23"
+  },
+  {
+    "id": "24sculture",
+    "name": "testa",
+    "material": "terracotta dipinta",
+    "size": "23cm",
+    "base": null,
+    "path": "sculture/24.jpg",
+    "sort_order": "S24"
+  },
+  {
+    "id": "25sculture",
+    "name": "Ariete candelabro",
+    "material": "terracotta dipinta",
+    "size": "23cm",
+    "base": null,
+    "path": "sculture/25.jpg",
+    "sort_order": "S25"
+  },
+  {
+    "id": "26sculture",
+    "name": "demone",
+    "material": "terracotta cerata",
+    "size": "23 cm",
+    "base": null,
+    "path": "sculture/26.jpg",
+    "sort_order": "S26"
+  },
+  {
+    "id": "27sculture",
+    "name": "scrofa con piccoli",
+    "material": "terracotta",
+    "size": "23 x 44 cm",
+    "base": null,
+    "path": "sculture/27.jpg",
+    "sort_order": "S27"
+  },
+  {
+    "id": "28sculture",
+    "name": "civetta",
+    "material": "terracotta dipinta",
+    "size": "30 cm",
+    "base": null,
+    "path": "sculture/28.jpg",
+    "sort_order": "S28"
+  },
+  {
+    "id": "29sculture",
+    "name": "donna seduta",
+    "material": "terracotta dipinta",
+    "size": "23 cm",
+    "base": null,
+    "path": "sculture/29.jpg",
+    "sort_order": "S29"
+  },
+  {
+    "id": "30sculture",
+    "name": "cavaliere",
+    "material": "terracotta",
+    "size": "24 cm",
+    "base": null,
+    "path": "sculture/30.jpg",
+    "sort_order": "S30"
+  },
+  {
+    "id": "31sculture",
+    "name": "figura seduta",
+    "material": "terracotta dipinta",
+    "size": "23 cm",
+    "base": null,
+    "path": "sculture/31.jpg",
+    "sort_order": "S31"
+  },
+  {
+    "id": "32sculture",
+    "name": "angelo e sirena",
+    "material": "terracotta dipinta",
+    "size": "28 cm",
+    "base": "marmo",
+    "path": "sculture/32.jpg",
+    "sort_order": "S32"
+  },
+  {
+    "id": "33sculture",
+    "name": "testina",
+    "material": "terracotta",
+    "size": "14 cm",
+    "base": null,
+    "path": "sculture/33.jpg",
+    "sort_order": "S33"
+  },
+  {
+    "id": "34sculture",
+    "name": "donna sdraiata",
+    "material": "terracotta bianca",
+    "size": "16 cm",
+    "base": null,
+    "path": "sculture/34.jpg",
+    "sort_order": "S34"
+  },
+  {
+    "id": "35sculture",
+    "name": "donna sdraiata",
+    "material": "terracotta dipinta",
+    "size": "13 cm",
+    "base": null,
+    "path": "sculture/35.jpg",
+    "sort_order": "S35"
+  },
+  {
+    "id": "36sculture",
+    "name": "violinista",
+    "material": "terra cruda",
+    "size": "30 cm",
+    "base": null,
+    "path": "sculture/36.jpg",
+    "sort_order": "S36"
+  },
+  {
+    "id": "37sculture",
+    "name": "violinista",
+    "material": "bronzo",
+    "size": "30 cm",
+    "base": null,
+    "path": "sculture/37.jpg",
+    "sort_order": "S37"
+  },
+  {
+    "id": "38sculture",
+    "name": "sole",
+    "material": "terracotta",
+    "size": "35 cm",
+    "base": null,
+    "path": "sculture/38.jpg",
+    "sort_order": "S38"
+  },
+  {
+    "id": "39sculture",
+    "name": "figura sdraiata",
+    "material": "terracotta",
+    "size": "58 cm",
+    "base": null,
+    "path": "sculture/39.jpg",
+    "sort_order": "S39"
+  },
+  {
+    "id": "40sculture",
+    "name": "demone",
+    "material": "terracotta dipinta",
+    "size": "22 cm",
+    "base": "pietra",
+    "path": "sculture/40.jpg",
+    "sort_order": "S40"
+  },
+  {
+    "id": "41sculture",
+    "name": "medaglione",
+    "material": "terracotta dipinta",
+    "size": "15 cm diam.",
+    "base": null,
+    "path": "sculture/41.jpg",
+    "sort_order": "S41"
+  },
+  {
+    "id": "42sculture",
+    "name": "tartaruga",
+    "material": "terracotta dipinta",
+    "size": "15 cm",
+    "base": null,
+    "path": "sculture/42.jpg",
+    "sort_order": "S42"
+  },
+  {
+    "id": "43sculture",
+    "name": "uomo a cavallo",
+    "material": "terracotta dipinta",
+    "size": "43 x 32 cm",
+    "base": null,
+    "path": "sculture/43.jpg",
+    "sort_order": "S43"
+  },
+  {
+    "id": "44sculture",
+    "name": "donna e soldato",
+    "material": "gesso cerato",
+    "size": "25 x 48 cm",
+    "base": null,
+    "path": "sculture/44.jpg",
+    "sort_order": "S44"
+  },
+  {
+    "id": "45sculture",
+    "name": "tartaruga",
+    "material": "terracotta dipinta",
+    "size": "26 x 50 cm",
+    "base": null,
+    "path": "sculture/45.jpg",
+    "sort_order": "S45"
+  },
+  {
+    "id": "46sculture",
+    "name": "gatto blu",
+    "material": "terracotta dipinta",
+    "size": "30 x 60 cm",
+    "base": null,
+    "path": "sculture/46.jpg",
+    "sort_order": "S46"
+  },
+  {
+    "id": "47sculture",
+    "name": "tre grazie",
+    "material": "terracotta dipinta",
+    "size": "67 cm",
+    "base": "marmo",
+    "path": "sculture/47.jpg",
+    "sort_order": "S47"
+  },
+  {
+    "id": "48sculture",
+    "name": "donna",
+    "material": "terracotta",
+    "size": "55 cm",
+    "base": null,
+    "path": "sculture/48.jpg",
+    "sort_order": "S48"
+  },
+  {
+    "id": "49sculture",
+    "name": "uomo",
+    "material": "terracotta",
+    "size": "65 cm",
+    "base": null,
+    "path": "sculture/49.jpg",
+    "sort_order": "S49"
+  },
+  {
+    "id": "50sculture",
+    "name": "angelo e sirena",
+    "material": "terracotta dipinta",
+    "size": "58 x 47 cm",
+    "base": null,
+    "path": "sculture/50.jpg",
+    "sort_order": "S50"
+  },
+  {
+    "id": "51sculture",
+    "name": "profeta",
+    "material": "terracotta dipinta",
+    "size": "72 cm",
+    "base": null,
+    "path": "sculture/51.jpg",
+    "sort_order": "S51"
+  },
+  {
+    "id": "52sculture",
+    "name": "donna seduta",
+    "material": "terracotta dipinta",
+    "size": "72 cm",
+    "base": null,
+    "path": "sculture/52.jpg",
+    "sort_order": "S52"
+  },
+  {
+    "id": "53sculture",
+    "name": "profilo",
+    "material": "terracotta dipinta",
+    "size": "73 cm",
+    "base": null,
+    "path": "sculture/53.jpg",
+    "sort_order": "S53"
+  },
+  {
+    "id": "54sculture",
+    "name": "testa donna",
+    "material": "terracotta dipinta",
+    "size": "58 x 40 cm",
+    "base": null,
+    "path": "sculture/54.jpg",
+    "sort_order": "S54"
+  },
+  {
+    "id": "55sculture",
+    "name": "testa divinità",
+    "material": "terracotta dipinta",
+    "size": "50cm",
+    "base": null,
+    "path": "sculture/55.jpg",
+    "sort_order": "S55"
+  },
+  {
+    "id": "56sculture",
+    "name": "madre e bambino",
+    "material": "terracotta",
+    "size": "48 cm",
+    "base": null,
+    "path": "sculture/56.jpg",
+    "sort_order": "S56"
+  },
+  {
+    "id": "57sculture",
+    "name": "coppia seduta",
+    "material": "terracotta",
+    "size": "45 cm",
+    "base": null,
+    "path": "sculture/57.jpg",
+    "sort_order": "S57"
+  },
+  {
+    "id": "58sculture",
+    "name": "testa sandrelli",
+    "material": "bronzo",
+    "size": "47 cm",
+    "base": null,
+    "path": "sculture/58.jpg",
+    "sort_order": "S58"
+  },
+  {
+    "id": "59sculture",
+    "name": "testa eliseo",
+    "material": "gesso",
+    "size": "35 cm",
+    "base": null,
+    "path": "sculture/59.jpg",
+    "sort_order": "S59"
+  },
+  {
+    "id": "60sculture",
+    "name": "torso di uomo",
+    "material": "terracotta dipinta",
+    "size": "74 cm",
+    "base": null,
+    "path": "sculture/60.jpg",
+    "sort_order": "S60"
+  },
+  {
+    "id": "61sculture",
+    "name": "stemma",
+    "material": "bassor.terracotta",
+    "size": "48 cm",
+    "base": null,
+    "path": "sculture/61.jpg",
+    "sort_order": "S61"
+  },
+  {
+    "id": "62sculture",
+    "name": "tondo con cavaliere",
+    "material": "terracotta dipinta",
+    "size": "28 cm",
+    "base": null,
+    "path": "sculture/62.jpg",
+    "sort_order": "S62"
+  },
+  {
+    "id": "63sculture",
+    "name": "donna su ippocampo",
+    "material": "terracotta",
+    "size": "22 cm",
+    "base": null,
+    "path": "sculture/63.jpg",
+    "sort_order": "S63"
+  },
+  {
+    "id": "64sculture",
+    "name": "base di urna",
+    "material": "terracotta",
+    "size": "27 cm",
+    "base": null,
+    "path": "sculture/64.jpg",
+    "sort_order": "S64"
+  },
+  {
+    "id": "65sculture",
+    "name": "base di urna",
+    "material": "terracotta dipinta",
+    "size": "28 cm",
+    "base": null,
+    "path": "sculture/65.jpg",
+    "sort_order": "S65"
+  },
+  {
+    "id": "66sculture",
+    "name": "centauro",
+    "material": "terracotta dipinta",
+    "size": "70 x 43 cm",
+    "base": null,
+    "path": "sculture/66.jpg",
+    "sort_order": "S66"
+  },
+  {
+    "id": "67sculture",
+    "name": "donna stele",
+    "material": "terracotta",
+    "size": "82 cm",
+    "base": null,
+    "path": "sculture/67.jpg",
+    "sort_order": "S67"
+  },
+  {
+    "id": "68sculture",
+    "name": "torso di donna",
+    "material": "cemento",
+    "size": "57 cm",
+    "base": null,
+    "path": "sculture/68.jpg",
+    "sort_order": "S68"
+  },
+  {
+    "id": "69sculture",
+    "name": "auriga",
+    "material": "terracotta dipinta",
+    "size": "80 cm",
+    "base": null,
+    "path": "sculture/69.jpg",
+    "sort_order": "S69"
+  },
+  {
+    "id": "70sculture",
+    "name": "madre",
+    "material": "terracotta",
+    "size": "55 x 40 cm",
+    "base": null,
+    "path": "sculture/70.jpg",
+    "sort_order": "S70"
+  },
+  {
+    "id": "71sculture",
+    "name": "famiglia",
+    "material": "gesso dipinto",
+    "size": "85 x 50 cm",
+    "base": "legno",
+    "path": "sculture/71.jpg",
+    "sort_order": "S71"
+  },
+  {
+    "id": "72sculture",
+    "name": "crocifissione",
+    "material": "terracotta dipinta",
+    "size": "57 x 57 cm",
+    "base": null,
+    "path": "sculture/72.jpg",
+    "sort_order": "S72"
+  },
+  {
+    "id": "73sculture",
+    "name": "donna studio",
+    "material": "gesso",
+    "size": "50 x 26 cm",
+    "base": null,
+    "path": "sculture/73.jpg",
+    "sort_order": "S73"
+  },
+  {
+    "id": "74sculture",
+    "name": "ragazzo e fiori",
+    "material": "gesso dipinto",
+    "size": "50 x 25 cm",
+    "base": null,
+    "path": "sculture/74.jpg",
+    "sort_order": "S74"
+  },
+  {
+    "id": "75sculture",
+    "name": "tartaruga",
+    "material": "terracotta dipinta",
+    "size": "28 x 36 cm",
+    "base": null,
+    "path": "sculture/75.jpg",
+    "sort_order": "S75"
+  },
+  {
+    "id": "76sculture",
+    "name": "testa uomo",
+    "material": "terracotta",
+    "size": "30 cm",
+    "base": null,
+    "path": "sculture/76.jpg",
+    "sort_order": "S76"
+  },
+  {
+    "id": "77sculture",
+    "name": "testa gianni",
+    "material": "gesso dipinto",
+    "size": "30 cm",
+    "base": null,
+    "path": "sculture/77.jpg",
+    "sort_order": "S77"
+  },
+  {
+    "id": "78sculture",
+    "name": "beconi",
+    "material": "terracotta dipinta",
+    "size": "50 x 38 cm",
+    "base": null,
+    "path": "sculture/78.jpg",
+    "sort_order": "S78"
+  },
+  {
+    "id": "79sculture",
+    "name": "donare sangue",
+    "material": "gesso",
+    "size": "26 x 47 cm",
+    "base": null,
+    "path": "sculture/79.jpg",
+    "sort_order": "S79"
+  },
+  {
+    "id": "80sculture",
+    "name": "centauri lotta",
+    "material": "terracotta dipinta",
+    "size": "40 x 91 cm",
+    "base": null,
+    "path": "sculture/80.jpg",
+    "sort_order": "S80"
+  },
+  {
+    "id": "81sculture",
+    "name": "la pelle (studio)",
+    "material": "terracotta",
+    "size": "46 x 42 cm",
+    "base": null,
+    "path": "sculture/81.jpg",
+    "sort_order": "S81"
+  },
+  {
+    "id": "82sculture",
+    "name": "lkuk",
+    "material": "terracotta",
+    "size": "54 x 36 cm",
+    "base": null,
+    "path": "sculture/82.jpg",
+    "sort_order": "S82"
+  },
+  {
+    "id": "83sculture",
+    "name": "maternità",
+    "material": "terracotta dipinta",
+    "size": "43 x 36 cm",
+    "base": null,
+    "path": "sculture/83.jpg",
+    "sort_order": "S83"
+  },
+  {
+    "id": "84sculture",
+    "name": "anatra",
+    "material": "legno",
+    "size": "60 x 130 cm",
+    "base": null,
+    "path": "sculture/84.jpg",
+    "sort_order": "S84"
+  },
+  {
+    "id": "85sculture",
+    "name": "bagnante",
+    "material": "terracotta",
+    "size": "53 cm",
+    "base": null,
+    "path": "sculture/85.jpg",
+    "sort_order": "S85"
+  },
+  {
+    "id": "86sculture",
+    "name": "Giovane centauro",
+    "material": "terracotta dipinta",
+    "size": "55 x 36 cm",
+    "base": null,
+    "path": "sculture/86.jpg",
+    "sort_order": "S86"
+  },
+  {
+    "id": "87sculture",
+    "name": "vespista",
+    "material": "terracotta dipinta",
+    "size": "56 x 56 cm",
+    "base": null,
+    "path": "sculture/87.jpg",
+    "sort_order": "S87"
+  },
+  {
+    "id": "88sculture",
+    "name": "testa cavallo",
+    "material": "cemento dipinto",
+    "size": "39 x 42 cm",
+    "base": null,
+    "path": "sculture/88.jpg",
+    "sort_order": "S88"
+  },
+  {
+    "id": "89sculture",
+    "name": "piante",
+    "material": "ferro dipinto",
+    "size": "64 x 70 cm",
+    "base": null,
+    "path": "sculture/89.jpg",
+    "sort_order": "S89"
+  },
+  {
+    "id": "90sculture",
+    "name": "scena di guerra",
+    "material": "legno",
+    "size": "23 x 35 cm",
+    "base": null,
+    "path": "sculture/90.jpg",
+    "sort_order": "S90"
+  },
+  {
+    "id": "91sculture",
+    "name": "gianni",
+    "material": "gesso dipinto",
+    "size": "34 cm",
+    "base": null,
+    "path": "sculture/91.jpg",
+    "sort_order": "S91"
+  },
+  {
+    "id": "92sculture",
+    "name": "assisi",
+    "material": "legno",
+    "size": "120 x 50 cm",
+    "base": null,
+    "path": "sculture/92.jpg",
+    "sort_order": "S92"
+  },
+  {
+    "id": "93sculture",
+    "name": "torso donna",
+    "material": "terracotta dipiunta",
+    "size": "105 cm",
+    "base": null,
+    "path": "sculture/93.jpg",
+    "sort_order": "S93"
+  }
+]
