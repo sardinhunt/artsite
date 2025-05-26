@@ -53,14 +53,25 @@
   <div class="header">
     <h1>Serafino Beconi</h1>
     <p>Pittore e Scuoltore toscano 1925-1997</p>
+	<p>Contact: <span id="email"></span></p>
+
+<script>
+  const user = "serafinobeconi";
+  const domain = "gmail.com";
+  const email = `${user}@${domain}`;
+  const link = `<a href="mailto:${email}">${email}</a>`;
+  document.getElementById("email").innerHTML = link;
+</script>
     <div class="divider"></div>
   </div>
-
-  <a href="https://beconi.gumroad.com/l/firstbite" class="img-link">
-    <img src="shop.jpg" alt="Link 1">
+    <a href="inventory.html" class="img-link">
+    <img src="archiviodifamiglia.jpg" alt="Link 3">
   </a>
   <a href="https://www.instagram.com/serafinobeconi/" class="img-link">
     <img src="instagram.jpg" alt="Link 2">
+  </a>
+  <a href="https://beconi.gumroad.com/l/firstbite" class="img-link">
+    <img src="shop.jpg" alt="Link 1">
   </a>
   <a href="https://www.booking.com/hotel/it/lo-chalet-dell-39-artista.it.html" class="img-link">
     <img src="chalet.jpg" alt="Link 3">
