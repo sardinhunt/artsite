@@ -774,22 +774,13 @@
     "sort_order": "S86"
   },
   {
-    "id": "87sculture",
-    "name": "vespista",
-    "material": "terracotta dipinta",
-    "size": "56 x 56 cm",
-    "base": null,
-    "path": "sculture/87.jpg",
-    "sort_order": "S87"
-  },
-  {
     "id": "88sculture",
     "name": "testa cavallo",
     "material": "cemento dipinto",
     "size": "39 x 42 cm",
     "base": null,
     "path": "sculture/88.jpg",
-    "sort_order": "S88"
+    "sort_order": "S87"
   },
   {
     "id": "89sculture",
@@ -798,7 +789,7 @@
     "size": "64 x 70 cm",
     "base": null,
     "path": "sculture/89.jpg",
-    "sort_order": "S89"
+    "sort_order": "S88"
   },
   {
     "id": "90sculture",
