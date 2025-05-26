@@ -1,5 +1,14 @@
 [
   {
+    "id": "16quadri",
+    "typeofpainting": "figure",
+    "name": "spiaggia d'agosto",
+    "date": null,
+    "size": "100x100",
+    "path": "quadri/16.jpg",
+    "sort_order": 16
+  },
+  {
     "id": "1quadri",
     "typeofpainting": "ritratti",
     "name": "caffè alla televisione",
@@ -133,15 +142,6 @@
     "size": "100x100",
     "path": "quadri/15.jpg",
     "sort_order": 15
-  },
-  {
-    "id": "16quadri",
-    "typeofpainting": "figure",
-    "name": "spiaggia d'agosto",
-    "date": null,
-    "size": "100x100",
-    "path": "quadri/16.jpg",
-    "sort_order": 16
   },
   {
     "id": "17quadri",
