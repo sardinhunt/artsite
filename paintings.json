@@ -6,7 +6,7 @@
     "date": "1990",
     "size": "100x120",
     "path": "quadri/1.jpg",
-    "sort_order": 1
+    "sort_order": 11
   },
   {
     "id": "2quadri",
@@ -96,7 +96,7 @@
     "date": "1991",
     "size": "100x100",
     "path": "quadri/11.jpg",
-    "sort_order": 11
+    "sort_order": 1
   },
   {
     "id": "12quadri",
