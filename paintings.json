@@ -1062,15 +1062,6 @@
     "sort_order": 118
   },
   {
-    "id": "119quadri",
-    "typeofpainting": "ritratti",
-    "name": "nonna al camino",
-    "date": null,
-    "size": "50x35",
-    "path": "quadri/119.jpg",
-    "sort_order": 119
-  },
-  {
     "id": "120quadri",
     "typeofpainting": "autoritratti",
     "name": "testa sul mare",
