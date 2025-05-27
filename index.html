@@ -1,80 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chalet Beconi</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 40px 20px;
-      font-family: sans-serif;
-      background: #f9f9f9;
-      text-align: center;
-    }
-    .img-link {
-      display: block;
-      margin: 30px auto;
-      max-width: 90%;
-    }
-    img {
-      width: 100%;
-      max-width: 370px;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease;
-    }
-    img:hover {
-      transform: scale(1.03);
-    }
-    .header {
-      margin-bottom: 30px;
-    }
-    .header h1 {
-      margin: 0;
-      font-size: 1.8em;
-    }
-    .header p {
-      margin: 5px 0 15px;
-      font-size: 1em;
-      color: #444;
-    }
-    .divider {
-      width: 80px;
-      height: 3px;
-      background: #aaa;
-      margin: 0 auto 30px;
-      border-radius: 2px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Serafino Beconi - Artista</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="header">
-    <h1>Serafino Beconi</h1>
-    <p>Pittore e Scuoltore toscano 1925-1997</p>
-	<p>Contact: <span id="email"></span></p>
 
-<script>
-  const user = "serafinobeconi";
-  const domain = "gmail.com";
-  const email = `${user}@${domain}`;
-  const link = `<a href="mailto:${email}">${email}</a>`;
-  document.getElementById("email").innerHTML = link;
-</script>
-    <div class="divider"></div>
-  </div>
+	
+<button id="inquire-button" class="fixed top-5 right-5 z-50 bg-blue-600 text-white px-4 py-2 rounded-md shadow-lg hover:bg-blue-700 transition-colors">
+    Contattaci da qui
+</button>
+
+    <div class="header">
+        <h1>Serafino Beconi</h1>
+        <p>Pittore e Scultore Toscano 1925-1997</p>
+        <p>Contact: <span id="email"></span></p>
+
+        <script>
+            // JavaScript to construct the email address to prevent scraping
+            document.addEventListener('DOMContentLoaded', function() {
+                const user = "serafinobeconi";
+                const domain = "gmail.com";
+                const email = `${user}@${domain}`;
+                const link = `<a href="mailto:${email}">${email}</a>`;
+                const emailSpan = document.getElementById("email");
+                if (emailSpan) {
+                    emailSpan.innerHTML = link;
+                }
+            });
+        </script>
+        <div class="divider"></div>
+    </div>
+    
     <a href="inventory.html" class="img-link">
-    <img src="archiviodifamiglia.jpg" alt="Link 3">
-  </a>
-  <a href="https://www.instagram.com/serafinobeconi/" class="img-link">
-    <img src="instagram.jpg" alt="Link 2">
-  </a>
-  <a href="https://beconi.gumroad.com/l/firstbite" class="img-link">
-    <img src="shop.jpg" alt="Link 1">
-  </a>
-  <a href="https://www.booking.com/hotel/it/lo-chalet-dell-39-artista.it.html" class="img-link">
-    <img src="chalet.jpg" alt="Link 3">
-  </a>
+        <img src="archiviodifamiglia.jpg" alt="Archivio Famiglia">
+    </a>
+    <a href="https://www.instagram.com/serafinobeconi/" class="img-link" target="_blank" rel="noopener noreferrer">
+        <img src="instagram.jpg" alt="Instagram Serafino Beconi">
+    </a>
+    <a href="https://beconi.gumroad.com/l/firstbite" class="img-link" target="_blank" rel="noopener noreferrer">
+        <img src="shop.jpg" alt="Shop Opere">
+    </a>
+    <a href="https://www.booking.com/hotel/it/lo-chalet-dell-39-artista.it.html" class="img-link" target="_blank" rel="noopener noreferrer">
+        <img src="chalet.jpg" alt="Lo Chalet dell'Artista">
+    </a>
+    
+    <footer class="page-footer">
+        <div class="footer-content">
+            &copy; 2025 Serafino Beconi. Tutti i diritti riservati. | 
+            <a href="trattamento_dati.html" class="footer-link">Informativa sul Trattamento dei Dati Personali</a>
+        </div>
+    </footer>
+
+
+<div id="inquiry-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center z-50 p-4 sm:p-8 hidden">
+    <div class="bg-white p-8 rounded-lg shadow-xl max-w-md w-full max-h-[90vh] overflow-y-auto relative">
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">Contattaci su Opere Selezionate</h3>
+        <form id="inquiry-form" action="https://formspree.io/f/xovdgjev" method="POST" class="space-y-4">
+            <p id="inquiry-count" class="text-gray-600 mb-4"></p>
+            <textarea name="message" id="inquiry-message" class="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-gray-800" rows="8"></textarea>
+            <div class="flex justify-end mt-2">
+                <button type="button" id="clear-message-text-button" class="px-3 py-1 bg-gray-100 text-gray-600 rounded-md shadow-sm hover:bg-gray-200 transition-colors duration-200 text-xs">Cancella testo</button>
+            </div>
+            <input type="text" name="name" placeholder="Il tuo nome" required class="w-full p-3 border border-gray-300 rounded-md">
+            <input type="email" name="email" placeholder="La tua email" required class="w-full p-3 border border-gray-300 rounded-md">
+            <input type="tel" name="phone" placeholder="Il tuo telefono (opzionale)" class="w-full p-3 border border-gray-300 rounded-md">
+            <div class="flex justify-end space-x-3 mt-4">
+                <button type="button" id="close-inquiry-modal" class="px-5 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">Annulla</button>
+                <button type="submit" class="px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Invia</button>
+            </div>
+            <div class="text-center mt-4 pt-4 border-t border-gray-200 text-sm">
+                <a href="trattamento_dati.html" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Informativa sul Trattamento dei Dati Personali</a>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="message-box" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden z-50">
+    <div class="bg-white p-6 rounded-lg shadow-xl max-w-sm w-full">
+        <h3 id="message-title" class="text-xl font-bold mb-4"></h3>
+        <p id="message-content" class="text-gray-700 mb-6"></p>
+        <button id="message-close-button" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Chiudi</button>
+    </div>
+</div>
 </body>
 </html>

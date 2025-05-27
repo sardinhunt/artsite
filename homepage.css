@@ -1,0 +1,77 @@
+/* Styling specific to the homepage (index.html) */
+
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0 20px; /* Removed top and bottom padding here */
+    font-family: sans-serif;
+    background: #f9f9f9;
+    text-align: center;
+    display: flex; /* Added for footer sticky to bottom */
+    flex-direction: column; /* Added for footer sticky to bottom */
+    min-height: 100vh; /* Added for footer sticky to bottom */
+}
+
+/* Header styling */
+.header {
+    margin-top: 40px; /* Added margin-top here to restore the top spacing for the header */
+    margin-bottom: 30px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+.header p {
+    margin: 5px 0 15px;
+    font-size: 1em;
+    color: #444;
+}
+.divider {
+    width: 80px;
+    height: 3px;
+    background: #aaa;
+    margin: 0 auto 0px;
+    border-radius: 2px;
+}
+
+/* Image link styling */
+.img-link {
+    display: block;
+    margin: 8px auto;
+    max-width: 90%;
+}
+.img-link img { /* Target img inside img-link */
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+.img-link img:hover {
+    transform: scale(1.03);
+}
+
+/* Custom CSS for the footer to ensure consistent appearance */
+.page-footer {
+    background-color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Shadow similar to shadow-inner */
+    padding: 24px; /* p-6 in Tailwind */
+    margin-top: auto; /* Pushes footer to the bottom */
+    width: 100%; /* Spans full width */
+}
+.footer-content {
+    max-width: 1280px; /* container mx-auto equivalent */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #4b5563; /* text-gray-600 */
+    font-size: 0.875rem; /* text-sm */
+}
+.footer-link {
+    color: #2563eb; /* text-blue-600 */
+    text-decoration: none; /* No underline by default */
+}
+.footer-link:hover {
+    text-decoration: underline; /* hover:underline */
+}

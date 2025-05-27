@@ -6,21 +6,21 @@ let currentFilters = {
     type: 'all'  // specific typeofpainting or 'all'
 };
 
-// DOM elements
-const artGrid = document.getElementById('art-grid');
-const loadingIndicator = document.getElementById('loading-indicator');
-const messageBox = document.getElementById('message-box');
-const messageTitle = document.getElementById('message-title');
-const messageContent = document.getElementById('message-content');
-const messageCloseButton = document.getElementById('message-close-button');
+// DOM elements - Declare them here but assign within DOMContentLoaded
+let artGrid;
+let loadingIndicator;
+let messageBox;
+let messageTitle;
+let messageContent;
+let messageCloseButton;
 
-// New DOM elements for Inquiry Modal
-const inquireButton = document.getElementById('inquire-button');
-const inquiryModal = document.getElementById('inquiry-modal');
-const closeInquiryModalButton = document.getElementById('close-inquiry-modal');
-const inquiryForm = document.getElementById('inquiry-form');
-const inquiryMessageField = document.getElementById('inquiry-message');
-const inquiryCountDisplay = document.getElementById('inquiry-count'); // New element to show count
+let inquireButton;
+let inquiryModal;
+let closeInquiryModalButton;
+let inquiryForm;
+let inquiryMessageField;
+let inquiryCountDisplay;
+let clearMessageTextButton; // Declared for later assignment
 
 // Formspree endpoint URL
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/xovdgjev"; // Your Formspree endpoint
@@ -31,11 +31,6 @@ function showMessageBox(title, message) {
     messageContent.textContent = message;
     messageBox.classList.remove('hidden');
 }
-
-// Close message box handler
-messageCloseButton.addEventListener('click', () => {
-    messageBox.classList.add('hidden');
-});
 
 // Mapping for inconsistent typeofpainting names
 const typeMapping = {
@@ -104,7 +99,9 @@ const favorites = {
  * Renders the art pieces to the grid based on current filters and favorites.
  */
 function renderArtPieces() {
-    artGrid.innerHTML = ''; // Clear existing content
+    if (artGrid) { // Check if artGrid is defined (only applicable in inventory.html)
+        artGrid.innerHTML = ''; // Clear existing content
+    }
 
     const favoritedIds = favorites.get();
     let favoritePieces = [];
@@ -158,7 +155,9 @@ function renderArtPieces() {
 
 
     if (piecesToRender.length === 0) {
-        artGrid.innerHTML = '<p class="text-gray-600 text-center col-span-full">No art pieces found matching your filters.</p>';
+        if (artGrid) {
+            artGrid.innerHTML = '<p class="text-gray-600 text-center col-span-full">No art pieces found matching your filters.</p>';
+        }
         return;
     }
 
@@ -205,7 +204,9 @@ function renderArtPieces() {
                 </button>
             </div>
         `;
-        artGrid.appendChild(artCard);
+        if (artGrid) {
+            artGrid.appendChild(artCard);
+        }
     });
 
     // Add event listeners for favorite buttons after rendering
@@ -244,9 +245,13 @@ function handleInquiryButtonClick() {
     if (favoritedIds.length === 0) {
         inquiryTitle = "Richiesta informazioni generali:";
         messageContent = "Desidero richiedere informazioni generali sulle opere d'arte o sull'archivio.";
-        inquiryCountDisplay.textContent = "Nessuna opera selezionata. Puoi inviare una richiesta generica.";
+        if (inquiryCountDisplay) {
+            inquiryCountDisplay.textContent = "Nessuna opera selezionata. Puoi inviare una richiesta generica.";
+        }
         // Ensure editable if no favorites are selected, as it's a general inquiry
-        inquiryMessageField.readOnly = false;
+        if (inquiryMessageField) {
+            inquiryMessageField.readOnly = false;
+        }
     } else {
         inquiryTitle = "Richiesta informazioni per le seguenti opere:";
         const selectedPieces = allArtPieces.filter(piece => favoritedIds.includes(piece.id));
@@ -255,61 +260,72 @@ function handleInquiryButtonClick() {
             const imageNumber = extractImageNumber(piece.path);
             messageContent += `${piece.name || 'Sconosciuto'} #${imageNumber}\n`;
         });
-        inquiryCountDisplay.textContent = `Hai selezionato ${favoritedIds.length} opere.`;
+        if (inquiryCountDisplay) {
+            inquiryCountDisplay.textContent = `Hai selezionato ${favoritedIds.length} opere.`;
+        }
         // Make editable if favorites are selected as well
-        inquiryMessageField.readOnly = false;
+        if (inquiryMessageField) {
+            inquiryMessageField.readOnly = false;
+        }
     }
 
     // Set the title for the modal
-    document.querySelector('#inquiry-modal h3').textContent = inquiryTitle;
-    inquiryMessageField.value = messageContent.trim(); // Trim any leading/trailing newlines
+    const modalTitleElement = document.querySelector('#inquiry-modal h3');
+    if (modalTitleElement) {
+        modalTitleElement.textContent = inquiryTitle;
+    }
+    if (inquiryMessageField) {
+        inquiryMessageField.value = messageContent.trim(); // Trim any leading/trailing newlines
+    }
 
-    inquiryModal.classList.remove('hidden');
+    if (inquiryModal) {
+        inquiryModal.classList.remove('hidden');
+    }
 }
 
 /**
  * Handles the submission of the inquiry form.
  */
-inquiryForm.addEventListener('submit', async (event) => {
-    event.preventDefault(); // Prevent default form submission
+function setupFormSubmission() {
+    if (inquiryForm) { // Check if inquiryForm exists
+        inquiryForm.addEventListener('submit', async (event) => {
+            event.preventDefault(); // Prevent default form submission
 
-    const form = event.target;
-    const formData = new FormData(form);
+            const form = event.target;
+            const formData = new FormData(form);
 
-    try {
-        const response = await fetch(FORMSPREE_ENDPOINT, {
-            method: 'POST',
-            body: formData,
-            headers: {
-                'Accept': 'application/json'
+            try {
+                const response = await fetch(FORMSPREE_ENDPOINT, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    showMessageBox("Richiesta Inviata!", "Grazie per il tuo interesse. Ti contatteremo a breve.");
+                    if (inquiryModal) {
+                        inquiryModal.classList.add('hidden'); // Close modal
+                    }
+                    form.reset(); // Clear form fields
+                    // favorites.set([]); // NO LONGER CLEAR FAVORITES after successful inquiry
+                    renderArtPieces(); // Re-render to update display if needed
+                } else {
+                    const data = await response.json();
+                    if (data.errors) {
+                        showMessageBox("Errore nell'invio", data.errors.map(err => data.errors[0].message).join(", "));
+                    } else {
+                        showMessageBox("Errore nell'invio", "C'è stato un problema con l'invio della tua richiesta. Riprova più tardi.");
+                    }
+                }
+            } catch (error) {
+                console.error("Errore durante l'invio della richiesta:", error);
+                showMessageBox("Errore di Connessione", "Non è possibile connettersi al server. Controlla la tua connessione e riprova.");
             }
         });
-
-        if (response.ok) {
-            showMessageBox("Richiesta Inviata!", "Grazie per il tuo interesse. Ti contatteremo a breve.");
-            inquiryModal.classList.add('hidden'); // Close modal
-            form.reset(); // Clear form fields
-            // favorites.set([]); // NO LONGER CLEAR FAVORITES after successful inquiry
-            renderArtPieces(); // Re-render to update display if needed
-        } else {
-            const data = await response.json();
-            if (data.errors) {
-                showMessageBox("Errore nell'invio", data.errors.map(err => data.errors[0].message).join(", ")); // Fixed error mapping
-            } else {
-                showMessageBox("Errore nell'invio", "C'è stato un problema con l'invio della tua richiesta. Riprova più tardi.");
-            }
-        }
-    } catch (error) {
-        console.error("Errore durante l'invio della richiesta:", error);
-        showMessageBox("Errore di Connessione", "Non è possibile connettersi al server. Controlla la tua connessione e riprova.");
     }
-});
-
-// Event listeners for modal
-inquireButton.addEventListener('click', handleInquiryButtonClick);
-closeInquiryModalButton.addEventListener('click', () => {
-    inquiryModal.classList.add('hidden');
-});
+}
 
 
 /**
@@ -320,8 +336,7 @@ function initializeFilters() {
         link.addEventListener('click', (event) => {
             event.preventDefault();
             const group = event.target.dataset.filterGroup;
-            // FIX: Corrected typo from dataset.dataset to dataset
-            const value = event.target.dataset.filterValue.toLowerCase(); // Ensure lowercase for consistency
+            const value = event.target.dataset.filterValue.toLowerCase();
 
             // Logic to automatically switch to 'Dipinti' if a 'type' filter is clicked while 'Sculture' is active
             if (group === 'type' && currentFilters.show === 'sculptures' && value !== 'all') {
@@ -331,9 +346,11 @@ function initializeFilters() {
                     showLink.classList.remove('bg-blue-100', 'text-blue-700', 'font-bold');
                     showLink.classList.add('text-gray-600');
                 });
-                document.querySelector('[data-filter-group="show"][data-filter-value="paintings"]').classList.add('bg-blue-100', 'text-blue-700', 'font-bold');
+                const paintingsShowFilter = document.querySelector('[data-filter-group="show"][data-filter-value="paintings"]');
+                if (paintingsShowFilter) {
+                    paintingsShowFilter.classList.add('bg-blue-100', 'text-blue-700', 'font-bold');
+                }
             }
-
 
             // Update active filter
             currentFilters[group] = value;
@@ -346,7 +363,10 @@ function initializeFilters() {
                     typeLink.classList.remove('bg-blue-100', 'text-blue-700', 'font-bold');
                     typeLink.classList.add('text-gray-600');
                 });
-                document.querySelector('[data-filter-group="type"][data-filter-value="all"]').classList.add('bg-blue-100', 'text-blue-700', 'font-bold');
+                const allTypeFilter = document.querySelector('[data-filter-group="type"][data-filter-value="all"]');
+                if (allTypeFilter) {
+                    allTypeFilter.classList.add('bg-blue-100', 'text-blue-700', 'font-bold');
+                }
             }
 
             // Update active class for clicked filter
@@ -365,7 +385,10 @@ function initializeFilters() {
  * Main function to load data and render the page.
  */
 async function loadArchive() {
-    loadingIndicator.classList.remove('hidden'); // Show loading indicator
+    // Check if loadingIndicator exists before trying to access it
+    if (loadingIndicator) {
+        loadingIndicator.classList.remove('hidden'); // Show loading indicator
+    }
 
     const paintingsData = await fetchData('paintings.json');
     const sculpturesData = await fetchData('sculptures.json'); // Assuming sculptures.json exists
@@ -394,14 +417,82 @@ async function loadArchive() {
 
     allArtPieces = [...processedPaintings, ...processedSculptures];
 
-    loadingIndicator.classList.add('hidden'); // Hide loading indicator
+    // Check if loadingIndicator exists before trying to access it
+    if (loadingIndicator) {
+        loadingIndicator.classList.add('hidden'); // Hide loading indicator
+    }
+
     renderArtPieces(); // Initial render
     initializeFilters(); // Set up filter event listeners
 
-    // Set initial active filter for "All"
-    document.querySelector('[data-filter-group="show"][data-filter-value="all"]').classList.add('bg-blue-100', 'text-blue-700', 'font-bold');
-    document.querySelector('[data-filter-group="type"][data-filter-value="all"]').classList.add('bg-blue-100', 'text-blue-700', 'font-bold');
+    // Set initial active filter for "All" (only applicable if filters exist)
+    const allShowFilter = document.querySelector('[data-filter-group="show"][data-filter-value="all"]');
+    if (allShowFilter) {
+        allShowFilter.classList.add('bg-blue-100', 'text-blue-700', 'font-bold');
+    }
+    const allTypeFilter = document.querySelector('[data-filter-group="type"][data-filter-value="all"]');
+    if (allTypeFilter) {
+        allTypeFilter.classList.add('bg-blue-100', 'text-blue-700', 'font-bold');
+    }
 }
 
-// Load the archive when the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', loadArchive);
+// Load the archive and set up all event listeners when the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', () => {
+    // Assign DOM elements AFTER the DOM is fully loaded
+    artGrid = document.getElementById('art-grid');
+    loadingIndicator = document.getElementById('loading-indicator');
+    messageBox = document.getElementById('message-box');
+    messageTitle = document.getElementById('message-title');
+    messageContent = document.getElementById('message-content');
+    messageCloseButton = document.getElementById('message-close-button');
+
+    inquireButton = document.getElementById('inquire-button');
+    inquiryModal = document.getElementById('inquiry-modal');
+    closeInquiryModalButton = document.getElementById('close-inquiry-modal');
+    inquiryForm = document.getElementById('inquiry-form');
+    inquiryMessageField = document.getElementById('inquiry-message');
+    inquiryCountDisplay = document.getElementById('inquiry-count');
+    clearMessageTextButton = document.getElementById('clear-message-text-button'); // Assign the new button
+
+    // Close message box handler
+    if (messageCloseButton) { // Check if element exists before adding listener
+        messageCloseButton.addEventListener('click', () => {
+            messageBox.classList.add('hidden');
+        });
+    }
+
+    // Event listeners for modal - only attach if elements exist
+    if (inquireButton) {
+        inquireButton.addEventListener('click', handleInquiryButtonClick);
+    }
+    if (closeInquiryModalButton) {
+        closeInquiryModalButton.addEventListener('click', () => {
+            inquiryModal.classList.add('hidden');
+        });
+    }
+
+    // Add event listener for the new "Cancella testo" button
+    if (clearMessageTextButton) {
+        clearMessageTextButton.addEventListener('click', () => {
+            if (inquiryMessageField) {
+                inquiryMessageField.value = ''; // Clear only the inquiry message field
+            }
+        });
+    }
+
+    // New: Event listener to close modal with Escape key
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && inquiryModal && !inquiryModal.classList.contains('hidden')) {
+            inquiryModal.classList.add('hidden');
+        }
+    });
+
+    setupFormSubmission(); // Call function to set up form submission listener
+
+    // This calls the main data loading and rendering.
+    // It's specific to 'inventory.html' having artGrid and filters.
+    // You might want to make loadArchive conditional or split it
+    // if index.html doesn't need to load art data.
+    // For now, it's fine as long as you handle null artGrid gracefully.
+    loadArchive();
+});
