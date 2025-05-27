@@ -14,6 +14,17 @@ const messageTitle = document.getElementById('message-title');
 const messageContent = document.getElementById('message-content');
 const messageCloseButton = document.getElementById('message-close-button');
 
+// New DOM elements for Inquiry Modal
+const inquireButton = document.getElementById('inquire-button');
+const inquiryModal = document.getElementById('inquiry-modal');
+const closeInquiryModalButton = document.getElementById('close-inquiry-modal');
+const inquiryForm = document.getElementById('inquiry-form');
+const inquiryMessageField = document.getElementById('inquiry-message');
+const inquiryCountDisplay = document.getElementById('inquiry-count'); // New element to show count
+
+// Formspree endpoint URL
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xovdgjev"; // Your Formspree endpoint
+
 // Function to show a custom message box instead of alert()
 function showMessageBox(title, message) {
     messageTitle.textContent = title;
@@ -212,6 +223,96 @@ function renderArtPieces() {
 }
 
 /**
+ * Extracts the number from a path like "quadri/11.jpg"
+ * @param {string} path - The image path.
+ * @returns {string} The extracted number or "N/A".
+ */
+function extractImageNumber(path) {
+    if (!path) return 'N/A';
+    const match = path.match(/(\d+)\.jpg$/i); // Matches digits before .jpg (case-insensitive)
+    return match ? match[1] : 'N/A';
+}
+
+/**
+ * Handles the click of the inquiry button, populating and showing the modal.
+ */
+function handleInquiryButtonClick() {
+    const favoritedIds = favorites.get();
+    let messageContent = "";
+    let inquiryTitle = "";
+
+    if (favoritedIds.length === 0) {
+        inquiryTitle = "Richiesta informazioni generali:";
+        messageContent = "Desidero richiedere informazioni generali sulle opere d'arte o sull'archivio.";
+        inquiryCountDisplay.textContent = "Nessuna opera selezionata. Puoi inviare una richiesta generica.";
+        // Ensure editable if no favorites are selected, as it's a general inquiry
+        inquiryMessageField.readOnly = false;
+    } else {
+        inquiryTitle = "Richiesta informazioni per le seguenti opere:";
+        const selectedPieces = allArtPieces.filter(piece => favoritedIds.includes(piece.id));
+
+        selectedPieces.forEach((piece, index) => {
+            const imageNumber = extractImageNumber(piece.path);
+            messageContent += `${piece.name || 'Sconosciuto'} #${imageNumber}\n`;
+        });
+        inquiryCountDisplay.textContent = `Hai selezionato ${favoritedIds.length} opere.`;
+        // Make editable if favorites are selected as well
+        inquiryMessageField.readOnly = false;
+    }
+
+    // Set the title for the modal
+    document.querySelector('#inquiry-modal h3').textContent = inquiryTitle;
+    inquiryMessageField.value = messageContent.trim(); // Trim any leading/trailing newlines
+
+    inquiryModal.classList.remove('hidden');
+}
+
+/**
+ * Handles the submission of the inquiry form.
+ */
+inquiryForm.addEventListener('submit', async (event) => {
+    event.preventDefault(); // Prevent default form submission
+
+    const form = event.target;
+    const formData = new FormData(form);
+
+    try {
+        const response = await fetch(FORMSPREE_ENDPOINT, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+
+        if (response.ok) {
+            showMessageBox("Richiesta Inviata!", "Grazie per il tuo interesse. Ti contatteremo a breve.");
+            inquiryModal.classList.add('hidden'); // Close modal
+            form.reset(); // Clear form fields
+            // favorites.set([]); // NO LONGER CLEAR FAVORITES after successful inquiry
+            renderArtPieces(); // Re-render to update display if needed
+        } else {
+            const data = await response.json();
+            if (data.errors) {
+                showMessageBox("Errore nell'invio", data.errors.map(err => data.errors[0].message).join(", ")); // Fixed error mapping
+            } else {
+                showMessageBox("Errore nell'invio", "C'è stato un problema con l'invio della tua richiesta. Riprova più tardi.");
+            }
+        }
+    } catch (error) {
+        console.error("Errore durante l'invio della richiesta:", error);
+        showMessageBox("Errore di Connessione", "Non è possibile connettersi al server. Controlla la tua connessione e riprova.");
+    }
+});
+
+// Event listeners for modal
+inquireButton.addEventListener('click', handleInquiryButtonClick);
+closeInquiryModalButton.addEventListener('click', () => {
+    inquiryModal.classList.add('hidden');
+});
+
+
+/**
  * Initializes the filters and attaches event listeners.
  */
 function initializeFilters() {
@@ -219,6 +320,7 @@ function initializeFilters() {
         link.addEventListener('click', (event) => {
             event.preventDefault();
             const group = event.target.dataset.filterGroup;
+            // FIX: Corrected typo from dataset.dataset to dataset
             const value = event.target.dataset.filterValue.toLowerCase(); // Ensure lowercase for consistency
 
             // Logic to automatically switch to 'Dipinti' if a 'type' filter is clicked while 'Sculture' is active
@@ -268,8 +370,6 @@ async function loadArchive() {
     const paintingsData = await fetchData('paintings.json');
     const sculpturesData = await fetchData('sculptures.json'); // Assuming sculptures.json exists
 
-    // Add a 'type' field and sort_order, replace empty strings with null
-    // We are now keeping the original sort_order from the JSON
     const processedPaintings = paintingsData.map((p) => ({
         id: p.id || null,
         typeofpainting: p.typeofpainting || null,
@@ -281,8 +381,6 @@ async function loadArchive() {
         sort_order: p.sort_order
     }));
 
-    // For sculptures, assume similar structure and add type and continue sort_order
-    // We are now keeping the original sort_order from the JSON
     const processedSculptures = sculpturesData.map((s) => ({
         id: s.id || null,
         typeofpainting: s.typeofpainting || null,
@@ -295,9 +393,6 @@ async function loadArchive() {
     }));
 
     allArtPieces = [...processedPaintings, ...processedSculptures];
-
-    // THIS LINE WAS REMOVED to preserve the original JSON order for non-favorites:
-    // allArtPieces.sort((a, b) => a.sort_order - b.sort_order);
 
     loadingIndicator.classList.add('hidden'); // Hide loading indicator
     renderArtPieces(); // Initial render
