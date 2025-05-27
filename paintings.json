@@ -1,5 +1,14 @@
 [
   {
+    "id": "42quadri",
+    "typeofpainting": "nature morte",
+    "name": "limoni",
+    "date": "1990",
+    "size": "80x80",
+    "path": "quadri/42.jpg",
+    "sort_order": 42
+  },
+  {
     "id": "16quadri",
     "typeofpainting": "figure",
     "name": "spiaggia d'agosto",
@@ -8,68 +17,86 @@
     "path": "quadri/16.jpg",
     "sort_order": 16
   },
-  {
-    "id": "1quadri",
-    "typeofpainting": "ritratti",
-    "name": "caffè alla televisione",
-    "date": "1990",
-    "size": "100x120",
-    "path": "quadri/1.jpg",
-    "sort_order": 11
+    {
+    "id": "62quadri",
+    "typeofpainting": "marine",
+    "name": "patino di salvataggio",
+    "date": "1972",
+    "size": "60x80",
+    "path": "quadri/62.jpg",
+    "sort_order": 62
   },
-  {
-    "id": "2quadri",
-    "typeofpainting": "paesaggi",
-    "name": "capretta e apuane",
+    {
+    "id": "36quadri",
+    "typeofpainting": "figure",
+    "name": "al moletto nuvola rossa",
+    "date": "1972",
+    "size": "80x80",
+    "path": "quadri/36.jpg",
+    "sort_order": 36
+  },
+   {
+    "id": "22quadri",
+    "typeofpainting": "marine",
+    "name": "peschereccio",
     "date": "1991",
-    "size": "100x120",
-    "path": "quadri/2.jpg",
-    "sort_order": 2
+    "size": "100x100",
+    "path": "quadri/22.jpg",
+    "sort_order": 22
+  },
+    {
+    "id": "31quadri",
+    "typeofpainting": "paesaggi",
+    "name": "p.zza mazzini a carnev.",
+    "date": "1996",
+    "size": "80x100",
+    "path": "quadri/31.jpg",
+    "sort_order": 31
+  },
+    {
+    "id": "11quadri",
+    "typeofpainting": "bagnanti",
+    "name": "bagno al largo",
+    "date": "1991",
+    "size": "100x100",
+    "path": "quadri/11.jpg",
+    "sort_order": 1
+  },
+    {
+    "id": "40quadri",
+    "typeofpainting": "marina",
+    "name": "scogli moletto",
+    "date": "1980",
+    "size": "80x80",
+    "path": "quadri/40.jpg",
+    "sort_order": 40
+  },
+    {
+    "id": "13quadri",
+    "typeofpainting": "nature morte",
+    "name": "scarafaggio",
+    "date": "1990",
+    "size": "100x100",
+    "path": "quadri/13.jpg",
+    "sort_order": 13
   },
   {
-    "id": "3quadri",
+    "id": "14quadri",
+    "typeofpainting": "bagnanti",
+    "name": "bagno al largo e patino",
+    "date": "1990",
+    "size": "100x100",
+    "path": "quadri/14.jpg",
+    "sort_order": 14
+  },
+   {
+    "id": "63quadri",
     "typeofpainting": "figure",
-    "name": "allegoria di seravezza",
-    "date": "1986",
-    "size": "120x100",
-    "path": "quadri/3.jpg",
-    "sort_order": 3
-  },
-  {
-    "id": "4quadri",
-    "typeofpainting": "autoritratti",
-    "name": "sulla scogliera rosa",
-    "date": "1994",
-    "size": "120x100",
-    "path": "quadri/4.jpg",
-    "sort_order": 4
-  },
-  {
-    "id": "5quadri",
-    "typeofpainting": "figure",
-    "name": "ragazza in bicicletta",
-    "date": "1987",
-    "size": "120x100",
-    "path": "quadri/5.jpg",
-    "sort_order": 5
-  },
-  {
-    "id": "6quadri",
-    "typeofpainting": "ritratti",
-    "name": "corinna e irene",
-    "date": "1986",
-    "size": "120x100",
-    "path": "quadri/6.jpg",
-    "sort_order": 6
-  },
-  {
-    "id": "7quadri",
-    "typeofpainting": "allegorie",
-    "name": "cacciata dall'eden",
-    "date": "1985",
-    "size": "100x120",
-    "path": "quadri/7.jpg",
-    "sort_order": 7
+    "name": "donna e gabbiano",
+    "date": "1971",
+    "size": "60x80",
+    "path": "quadri/63.jpg",
+    "sort_order": 63
   },
   {
     "id": "8quadri",
@@ -89,6 +116,15 @@
     "path": "quadri/9.jpg",
     "sort_order": 9
   },
+    {
+    "id": "282quadri",
+    "typeofpainting": "figure",
+    "name": "donna e gabbiano",
+    "date": "1969",
+    "size": "70x80",
+    "path": "quadri/282.jpg",
+    "sort_order": 282
+  },
   {
     "id": "10quadri",
     "typeofpainting": "paesaggi",
@@ -99,15 +135,6 @@
     "sort_order": 10
   },
   {
-    "id": "11quadri",
-    "typeofpainting": "bagnanti",
-    "name": "bagno al largo",
-    "date": "1991",
-    "size": "100x100",
-    "path": "quadri/11.jpg",
-    "sort_order": 1
-  },
-  {
     "id": "12quadri",
     "typeofpainting": "figure",
     "name": "ballerini",
@@ -115,24 +142,6 @@
     "size": "100x100",
     "path": "quadri/12.jpg",
     "sort_order": 12
-  },
-  {
-    "id": "13quadri",
-    "typeofpainting": "nature morte",
-    "name": "scarafaggio",
-    "date": "1990",
-    "size": "100x100",
-    "path": "quadri/13.jpg",
-    "sort_order": 13
-  },
-  {
-    "id": "14quadri",
-    "typeofpainting": "bagnanti",
-    "name": "bagno al largo e patino",
-    "date": "1990",
-    "size": "100x100",
-    "path": "quadri/14.jpg",
-    "sort_order": 14
   },
   {
     "id": "15quadri",
@@ -189,15 +198,6 @@
     "sort_order": 21
   },
   {
-    "id": "22quadri",
-    "typeofpainting": "marine",
-    "name": "peschereccio",
-    "date": "1991",
-    "size": "100x100",
-    "path": "quadri/22.jpg",
-    "sort_order": 22
-  },
-  {
     "id": "23quadri",
     "typeofpainting": "nature morte",
     "name": "vaso con cardi grigio",
@@ -223,6 +223,15 @@
     "size": "100x80",
     "path": "quadri/25.jpg",
     "sort_order": 25
+  },
+    {
+    "id": "7quadri",
+    "typeofpainting": "allegorie",
+    "name": "cacciata dall'eden",
+    "date": "1985",
+    "size": "100x120",
+    "path": "quadri/7.jpg",
+    "sort_order": 7
   },
   {
     "id": "26quadri",
@@ -251,6 +260,24 @@
     "path": "quadri/28.jpg",
     "sort_order": 28
   },
+    {
+    "id": "1quadri",
+    "typeofpainting": "ritratti",
+    "name": "caffè alla televisione",
+    "date": "1990",
+    "size": "100x120",
+    "path": "quadri/1.jpg",
+    "sort_order": 11
+  },
+  {
+    "id": "2quadri",
+    "typeofpainting": "paesaggi",
+    "name": "capretta e apuane",
+    "date": "1991",
+    "size": "100x120",
+    "path": "quadri/2.jpg",
+    "sort_order": 2
+  },
   {
     "id": "29quadri",
     "typeofpainting": "figure",
@@ -268,15 +295,6 @@
     "size": "80x100",
     "path": "quadri/30.jpg",
     "sort_order": 30
-  },
-  {
-    "id": "31quadri",
-    "typeofpainting": "paesaggi",
-    "name": "p.zza mazzini a carnev.",
-    "date": "1996",
-    "size": "80x100",
-    "path": "quadri/31.jpg",
-    "sort_order": 31
   },
   {
     "id": "32quadri",
@@ -315,15 +333,6 @@
     "sort_order": 35
   },
   {
-    "id": "36quadri",
-    "typeofpainting": "figure",
-    "name": "al moletto nuvola rossa",
-    "date": "1972",
-    "size": "80x80",
-    "path": "quadri/36.jpg",
-    "sort_order": 36
-  },
-  {
     "id": "37quadri",
     "typeofpainting": "marina",
     "name": "gabbiano",
@@ -351,15 +360,6 @@
     "sort_order": 39
   },
   {
-    "id": "40quadri",
-    "typeofpainting": "marina",
-    "name": "scogli moletto",
-    "date": "1980",
-    "size": "80x80",
-    "path": "quadri/40.jpg",
-    "sort_order": 40
-  },
-  {
     "id": "41quadri",
     "typeofpainting": "figure",
     "name": "trans",
@@ -367,15 +367,6 @@
     "size": "80x80",
     "path": "quadri/41.jpg",
     "sort_order": 41
-  },
-  {
-    "id": "42quadri",
-    "typeofpainting": "nature morte",
-    "name": "limoni",
-    "date": "1990",
-    "size": "80x80",
-    "path": "quadri/42.jpg",
-    "sort_order": 42
   },
   {
     "id": "43quadri",
@@ -549,24 +540,6 @@
     "sort_order": 61
   },
   {
-    "id": "62quadri",
-    "typeofpainting": "marine",
-    "name": "patino di salvataggio",
-    "date": "1972",
-    "size": "60x80",
-    "path": "quadri/62.jpg",
-    "sort_order": 62
-  },
-  {
-    "id": "63quadri",
-    "typeofpainting": "figure",
-    "name": "donna e gabbiano",
-    "date": "1971",
-    "size": "60x80",
-    "path": "quadri/63.jpg",
-    "sort_order": 63
-  },
-  {
     "id": "64quadri",
     "typeofpainting": "figure",
     "name": "viados a migliarino",
@@ -601,6 +574,15 @@
     "size": "60x80",
     "path": "quadri/67.jpg",
     "sort_order": 67
+  },
+    {
+    "id": "6quadri",
+    "typeofpainting": "ritratti",
+    "name": "corinna e irene",
+    "date": "1986",
+    "size": "120x100",
+    "path": "quadri/6.jpg",
+    "sort_order": 6
   },
   {
     "id": "68quadri",
@@ -763,6 +745,15 @@
     "size": "80x60",
     "path": "quadri/85.jpg",
     "sort_order": 85
+  },
+    {
+    "id": "3quadri",
+    "typeofpainting": "figure",
+    "name": "allegoria di seravezza",
+    "date": "1986",
+    "size": "120x100",
+    "path": "quadri/3.jpg",
+    "sort_order": 3
   },
   {
     "id": "86quadri",
@@ -1988,6 +1979,15 @@
     "path": "quadri/222.jpg",
     "sort_order": 222
   },
+    {
+    "id": "4quadri",
+    "typeofpainting": "autoritratti",
+    "name": "sulla scogliera rosa",
+    "date": "1994",
+    "size": "120x100",
+    "path": "quadri/4.jpg",
+    "sort_order": 4
+  },
   {
     "id": "223quadri",
     "typeofpainting": "ritratti",
@@ -2068,6 +2068,15 @@
     "size": "50x60",
     "path": "quadri/231.jpg",
     "sort_order": 231
+  },
+    {
+    "id": "5quadri",
+    "typeofpainting": "figure",
+    "name": "ragazza in bicicletta",
+    "date": "1987",
+    "size": "120x100",
+    "path": "quadri/5.jpg",
+    "sort_order": 5
   },
   {
     "id": "232quadri",
@@ -2518,15 +2527,6 @@
     "size": "80x80",
     "path": "quadri/281.jpg",
     "sort_order": 281
-  },
-  {
-    "id": "282quadri",
-    "typeofpainting": "figure",
-    "name": "donna e gabbiano",
-    "date": "1969",
-    "size": "70x80",
-    "path": "quadri/282.jpg",
-    "sort_order": 282
   },
   {
     "id": "283quadri",
