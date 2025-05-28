@@ -35,6 +35,15 @@
     "path": "quadri/36.jpg",
     "sort_order": 36
   },
+    {
+    "id": "97quadri",
+    "typeofpainting": "figure",
+    "name": "nudo",
+    "date": null,
+    "size": "50x70",
+    "path": "quadri/97.jpg",
+    "sort_order": 97
+  },
    {
     "id": "22quadri",
     "typeofpainting": "marine",
@@ -853,15 +862,6 @@
     "size": "50x70",
     "path": "quadri/96.jpg",
     "sort_order": 96
-  },
-  {
-    "id": "97quadri",
-    "typeofpainting": "figure",
-    "name": "nudo",
-    "date": null,
-    "size": "50x70",
-    "path": "quadri/97.jpg",
-    "sort_order": 97
   },
   {
     "id": "98quadri",
