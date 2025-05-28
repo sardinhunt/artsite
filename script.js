@@ -20,7 +20,14 @@ let closeInquiryModalButton;
 let inquiryForm;
 let inquiryMessageField;
 let inquiryCountDisplay;
-let clearMessageTextButton; // Declared for later assignment
+let clearMessageTextButton;
+
+// New DOM elements for mobile filters
+let mobileFilterButton;
+let filterSidebar;
+let closeFilterButton;
+let mobileMenuOverlay;
+
 
 // Formspree endpoint URL
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/xovdgjev"; // Your Formspree endpoint
@@ -377,6 +384,11 @@ function initializeFilters() {
             event.target.classList.add('bg-blue-100', 'text-blue-700', 'font-bold');
 
             renderArtPieces();
+            // Close the filter sidebar after a filter is selected on mobile
+            if (window.innerWidth < 1024) { // 1024px is Tailwind's 'lg' breakpoint
+                filterSidebar.classList.add('-translate-x-full');
+                mobileMenuOverlay.classList.add('hidden');
+            }
         });
     });
 }
@@ -452,10 +464,16 @@ document.addEventListener('DOMContentLoaded', () => {
     inquiryForm = document.getElementById('inquiry-form');
     inquiryMessageField = document.getElementById('inquiry-message');
     inquiryCountDisplay = document.getElementById('inquiry-count');
-    clearMessageTextButton = document.getElementById('clear-message-text-button'); // Assign the new button
+    clearMessageTextButton = document.getElementById('clear-message-text-button');
+
+    // Assign new DOM elements for mobile filters
+    mobileFilterButton = document.getElementById('mobile-filter-button');
+    filterSidebar = document.getElementById('filter-sidebar');
+    closeFilterButton = document.getElementById('close-filter-button');
+    mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
 
     // Close message box handler
-    if (messageCloseButton) { // Check if element exists before adding listener
+    if (messageCloseButton) {
         messageCloseButton.addEventListener('click', () => {
             messageBox.classList.add('hidden');
         });
@@ -475,24 +493,48 @@ document.addEventListener('DOMContentLoaded', () => {
     if (clearMessageTextButton) {
         clearMessageTextButton.addEventListener('click', () => {
             if (inquiryMessageField) {
-                inquiryMessageField.value = ''; // Clear only the inquiry message field
+                inquiryMessageField.value = '';
             }
         });
     }
 
     // New: Event listener to close modal with Escape key
     document.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape' && inquiryModal && !inquiryModal.classList.contains('hidden')) {
-            inquiryModal.classList.add('hidden');
+        if (event.key === 'Escape') {
+            if (inquiryModal && !inquiryModal.classList.contains('hidden')) {
+                inquiryModal.classList.add('hidden');
+            }
+            // Also close filter sidebar on Escape if open
+            if (filterSidebar && !filterSidebar.classList.contains('-translate-x-full')) {
+                filterSidebar.classList.add('-translate-x-full');
+                mobileMenuOverlay.classList.add('hidden');
+            }
         }
     });
 
-    setupFormSubmission(); // Call function to set up form submission listener
+    // Event listeners for mobile filter sidebar
+    if (mobileFilterButton) {
+        mobileFilterButton.addEventListener('click', () => {
+            filterSidebar.classList.remove('-translate-x-full');
+            mobileMenuOverlay.classList.remove('hidden');
+        });
+    }
 
-    // This calls the main data loading and rendering.
-    // It's specific to 'inventory.html' having artGrid and filters.
-    // You might want to make loadArchive conditional or split it
-    // if index.html doesn't need to load art data.
-    // For now, it's fine as long as you handle null artGrid gracefully.
+    if (closeFilterButton) {
+        closeFilterButton.addEventListener('click', () => {
+            filterSidebar.classList.add('-translate-x-full');
+            mobileMenuOverlay.classList.add('hidden');
+        });
+    }
+
+    if (mobileMenuOverlay) {
+        mobileMenuOverlay.addEventListener('click', () => {
+            filterSidebar.classList.add('-translate-x-full');
+            mobileMenuOverlay.classList.add('hidden');
+        });
+    }
+
+    setupFormSubmission();
+
     loadArchive();
 });

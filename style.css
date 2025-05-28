@@ -13,3 +13,30 @@
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+/* Specific styles for the mobile filter sidebar (default hidden) */
+/* The 'transform -translate-x-full' is handled by Tailwind in HTML */
+/* The 'transition-transform duration-300 ease-in-out' is handled by Tailwind in HTML */
+
+/* When the sidebar is 'open' (controlled by JS) */
+#filter-sidebar.open {
+    transform: translateX(0); /* Make it visible */
+}
+
+/* Styles for the overlay when the mobile sidebar is open */
+/* The 'fixed inset-0 bg-gray-900 bg-opacity-50 z-40' is handled by Tailwind in HTML */
+/* But 'hidden' and 'block' for visibility is controlled by JS. */
+/* The 'lg:hidden' in HTML ensures it's only active on smaller screens. */
+#mobile-menu-overlay {
+    /* Initially hidden by Tailwind's 'hidden' class */
+}
+
+/* You might want to explicitly make the sidebar a flex column on all sizes
+   if it's not already handled by default or other Tailwind classes.
+   The HTML already has 'flex-col' for the aside, so this might not be strictly necessary
+   unless you want to override something or ensure it's always a column.
+*/
+#filter-sidebar {
+    display: flex; /* Ensure it's a flex container */
+    flex-direction: column; /* Stack its contents vertically */
+}

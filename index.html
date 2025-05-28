@@ -12,14 +12,15 @@
 <body>
 
 	
-<button id="inquire-button" class="fixed top-5 right-5 z-50 bg-blue-600 text-white px-4 py-2 rounded-md shadow-lg hover:bg-blue-700 transition-colors">
-    Contattaci da qui
+<button id="inquire-button" class="absolute top-5 right-5 z-50 bg-blue-600 text-white px-4 py-2 rounded-md shadow-lg hover:bg-blue-700 transition-colors">
+
+    Contattaci
 </button>
 
-    <div class="header">
+    <div class="header pt-20">
         <h1>Serafino Beconi</h1>
         <p>Pittore e Scultore Toscano 1925-1997</p>
-        <p>Contact: <span id="email"></span></p>
+        <p>Contatto: <span id="email"></span></p>
 
         <script>
             // JavaScript to construct the email address to prevent scraping
@@ -87,5 +88,70 @@
         <button id="message-close-button" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Chiudi</button>
     </div>
 </div>
+
+
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const translations = {
+        en: {
+            'inquire-button': 'Contact Us',
+            'header-title': 'Serafino Beconi',
+            'header-subtitle': 'Tuscan Painter and Sculptor 1925–1997',
+            'contact-us': 'Contact: ',
+            'email-link': 'mailto:serafinobeconi@gmail.com',
+            'inquiry-title': 'Contact Us About Selected Works',
+            'cancel-button': 'Cancel',
+            'submit-button': 'Send',
+            'clear-text-button': 'Clear Text',
+            'name-placeholder': 'Your Name',
+            'email-placeholder': 'Your Email',
+            'phone-placeholder': 'Your Phone (optional)',
+            'privacy-policy': 'Personal Data Policy',
+            'copyright': '&copy; 2025 Serafino Beconi. All rights reserved. | '
+        }
+        // Add more languages if needed
+    };
+
+    const lang = navigator.language.startsWith('en') ? 'en' : 'it';
+
+   if (!lang.startsWith('it')) {
+        document.getElementById('inquire-button').textContent = translations.en['inquire-button'];
+        document.querySelector('.header h1').textContent = translations.en['header-title'];
+        document.querySelector('.header p:nth-child(2)').textContent = translations.en['header-subtitle'];
+        document.querySelector('.header p:nth-child(3)').childNodes[0].textContent = translations.en['contact-us'];
+
+        const emailSpan = document.getElementById("email");
+        emailSpan.innerHTML = `<a href="${translations.en['email-link']}">${translations.en['email-link'].replace('mailto:', '')}</a>`;
+
+        document.querySelector('#inquiry-modal h3').textContent = translations.en['inquiry-title'];
+        document.getElementById('close-inquiry-modal').textContent = translations.en['cancel-button'];
+        document.querySelector('#inquiry-form button[type="submit"]').textContent = translations.en['submit-button'];
+        document.getElementById('clear-message-text-button').textContent = translations.en['clear-text-button'];
+
+        document.querySelector('input[name="name"]').placeholder = translations.en['name-placeholder'];
+        document.querySelector('input[name="email"]').placeholder = translations.en['email-placeholder'];
+        document.querySelector('input[name="phone"]').placeholder = translations.en['phone-placeholder'];
+
+        document.querySelector('.page-footer .footer-content a').textContent = translations.en['privacy-policy'];
+        document.querySelector('.page-footer .footer-content').childNodes[0].textContent = translations.en['copyright'];
+		    document.querySelector('img[src="shop.jpg"]').src = 'shop_en.jpg';
+			document.querySelector('img[src="archiviodifamiglia.jpg"]').src = 'archiviodifamiglia_en.jpg';
+    }
+});
+</script>
+<script>
+window.addEventListener('scroll', () => {
+    const btn = document.getElementById('inquire-button');
+    if (window.scrollY > 100) {
+        btn.style.display = 'none';
+    } else {
+        btn.style.display = 'block';
+    }
+});
+</script>
 </body>
 </html>
