@@ -47,7 +47,11 @@ const typeMapping = {
     'marine': ['marine', 'marina'],
     'cronache 44': ['cronache 44', 'cronaca 44'], // Ensure lowercase for comparison
     'paesaggi': ['paesaggi', 'paesaggio'], // Explicitly include paesaggio
-    'autoritratti': ['autoritratti', 'autoritratto'] // Explicitly include autoritratto
+    'autoritratti': ['autoritratti', 'autoritratto'], // Explicitly include autoritratto
+    'ritratti': ['ritratti', 'ritratto'], // Added for 'Portraits'
+    'allegorie': ['allegorie', 'allegoria'], // Added for 'Allegories'
+    'animali': ['animali', 'animale'], // Added for 'Animals'
+    'arte sacra': ['arte sacra', 'arte sacra'] // Added for 'Sacred Art' - assuming consistent
 };
 
 // Translations for inquiry modal messages
@@ -145,47 +149,68 @@ function renderArtPieces() {
         artGrid.innerHTML = '';
     }
 
-    // Change number paintings
     const MAX_PAINTINGS_TO_SHOW = 260;
-    // Change number sculptures
     const MAX_SCULPTURES_TO_SHOW = 15;
 
     const favoritedIds = favorites.get();
     let favoritePieces = [];
-    let nonFavoritePieces = [];
+    
+    // Separate pieces into paintings and sculptures globally, then apply overall limits
+    let allPaintings = allArtPieces.filter(piece => piece.type === 'painting');
+    let allSculptures = allArtPieces.filter(piece => piece.type === 'sculpture');
 
-    allArtPieces.forEach(piece => {
-        if (favorites.isFavorite(piece.id)) {
-            favoritePieces.push(piece);
-        } else {
-            nonFavoritePieces.push(piece);
+    // Apply global limits to paintings and sculptures, excluding favorites for now
+    // We want the total pool of non-favorite paintings/sculptures to be capped.
+    let limitedPaintings = allPaintings.filter(piece => !favoritedIds.includes(piece.id)).slice(0, MAX_PAINTINGS_TO_SHOW);
+    let limitedSculptures = allSculptures.filter(piece => !favoritedIds.includes(piece.id)).slice(0, MAX_SCULPTURES_TO_SHOW);
+    
+    // Recombine limited sets with favorites to form the base for filtering
+    let basePiecesForFiltering = [...favoritePieces]; // Start with all favorites
+    
+    // Add non-favorite paintings from the limited set, ensuring no duplicates with favorites
+    limitedPaintings.forEach(piece => {
+        if (!basePiecesForFiltering.some(favPiece => favPiece.id === piece.id)) {
+            basePiecesForFiltering.push(piece);
         }
     });
 
-    let filteredNonFavoritePieces = nonFavoritePieces.filter(piece => {
+    // Add non-favorite sculptures from the limited set, ensuring no duplicates with favorites
+    limitedSculptures.forEach(piece => {
+        if (!basePiecesForFiltering.some(favPiece => favPiece.id === piece.id)) {
+            basePiecesForFiltering.push(piece);
+        }
+    });
+
+    // Now, apply the 'show' and 'type' filters to this basePiecesForFiltering
+    let finalFilteredPieces = basePiecesForFiltering.filter(piece => {
+        // Apply 'show' filter
         if (currentFilters.show === 'paintings' && piece.type !== 'painting') {
             return false;
         }
         if (currentFilters.show === 'sculptures' && piece.type !== 'sculpture') {
             return false;
         }
-
+        
+        // Apply 'type' filter (only for paintings, and if not 'all')
         if (currentFilters.show !== 'sculptures' && currentFilters.type !== 'all') {
-            const normalizedType = piece.typeofpainting ? piece.typeofpainting.toLowerCase() : '';
+            if (piece.type !== 'painting') { // Ensure type filter only applies to paintings
+                return false;
+            }
+            const normalizedPieceType = piece.typeofpainting ? piece.typeofpainting.toLowerCase() : '';
+            const filterValue = currentFilters.type;
+
             let matchesTypeFilter = false;
 
-            for (const key in typeMapping) {
-                if (typeMapping[key].includes(normalizedType)) {
-                    if (currentFilters.type === key) {
-                        matchesTypeFilter = true;
-                        break;
-                    }
+            if (typeMapping[filterValue]) {
+                if (typeMapping[filterValue].includes(normalizedPieceType)) {
+                    matchesTypeFilter = true;
+                }
+            } else {
+                if (normalizedPieceType === filterValue) {
+                    matchesTypeFilter = true;
                 }
             }
-            if (!matchesTypeFilter && normalizedType === currentFilters.type) {
-                matchesTypeFilter = true;
-            }
-
+            
             if (!matchesTypeFilter) {
                 return false;
             }
@@ -193,45 +218,42 @@ function renderArtPieces() {
         return true;
     });
 
-    let paintingsToRender = filteredNonFavoritePieces.filter(piece => piece.type === 'painting');
-    let sculpturesToRender = filteredNonFavoritePieces.filter(piece => piece.type === 'sculpture');
+    // Sort favorite pieces to appear first if they are part of the final filtered set
+    finalFilteredPieces.sort((a, b) => {
+        const aIsFavorite = favorites.isFavorite(a.id);
+        const bIsFavorite = favorites.isFavorite(b.id);
+        if (aIsFavorite && !bIsFavorite) return -1;
+        if (!aIsFavorite && bIsFavorite) return 1;
+        // Optionally, maintain original sort order for non-favorites, or sort by id/name etc.
+        // For simplicity, I'll keep the existing order for non-favorites among themselves.
+        return 0; // Maintain existing relative order
+    });
 
-    paintingsToRender = paintingsToRender.slice(0, MAX_PAINTINGS_TO_SHOW);
-    sculpturesToRender = sculpturesToRender.slice(0, MAX_SCULPTURES_TO_SHOW);
-
-    const piecesToRender = [...favoritePieces, ...paintingsToRender, ...sculpturesToRender];
-
-
-    if (piecesToRender.length === 0) {
+    // If no pieces match, display message
+    if (finalFilteredPieces.length === 0) {
         if (artGrid) {
             artGrid.innerHTML = '<p class="text-gray-600 text-center col-span-full">No art pieces found matching your filters.</p>';
         }
         return;
     }
 
-    piecesToRender.forEach(piece => {
+    // Render the final filtered and limited pieces
+    finalFilteredPieces.forEach(piece => {
         const artCard = document.createElement('div');
         artCard.className = 'bg-white rounded-lg shadow-md overflow-hidden transform transition-transform duration-200 hover:scale-105 relative';
 
         let fullImagePath = piece.path;
-
         if (fullImagePath) {
             fullImagePath = fullImagePath.replace(/\.jpg$/, '.JPG');
         } else {
             fullImagePath = `https://placehold.co/300x400/cccccc/333333?text=${(piece.name || 'Art piece').replace(/ /g, '+')}`;
         }
 
-        let displayImagePath = fullImagePath; // Default to full image path
-
-        // Apply thumbnail logic ONLY if it's a painting
+        let displayImagePath = fullImagePath;
         if (piece.type === 'painting') {
             const filename = fullImagePath.split('/').pop();
-            // Construct the path to the compressed/thumbnail image
-            // This assumes ALL your painting thumbnails are directly in the 'compressed/' folder
-            // and have the exact same filename as their full-res counterparts.
             displayImagePath = `compressed/${filename}`;
         }
-        // Sculptures will use their original 'fullImagePath' for display by default
 
         let imageClasses = 'w-full h-48 object-center';
         let containerClasses = 'relative w-full h-48 flex items-center justify-center';
@@ -268,7 +290,6 @@ function renderArtPieces() {
         }
     });
 
-    // Add event listeners for favorite buttons after rendering
     document.querySelectorAll('.favorite-btn').forEach(button => {
         button.addEventListener('click', (event) => {
             const pieceId = event.currentTarget.dataset.id;
@@ -277,7 +298,7 @@ function renderArtPieces() {
             } else {
                 favorites.add(pieceId);
             }
-            renderArtPieces(); // Re-render to update display and order
+            renderArtPieces();
         });
     });
 }
@@ -286,7 +307,7 @@ function renderArtPieces() {
  * Extracts the number from a path like "quadri/11.jpg"
  * @param {string} path - The image path.
  * @returns {string} The extracted number or "N/A".
- */
+*/
 function extractImageNumber(path) {
     if (!path) return 'N/A';
     const match = path.match(/(\d+)\.jpg$/i); // Matches digits before .jpg (case-insensitive)
@@ -295,7 +316,7 @@ function extractImageNumber(path) {
 
 /**
  * Handles the click of the inquiry button, populating and showing the modal.
- */
+*/
 function handleInquiryButtonClick() {
     const favoritedIds = favorites.get();
     let messageContent = "";
