@@ -110,6 +110,11 @@ function renderArtPieces() {
         artGrid.innerHTML = ''; // Clear existing content
     }
 
+    // Change number of paintings Limit number of paintings
+    const MAX_PAINTINGS_TO_SHOW = 260;
+    // Change number of sculptures Limit number of sculptures
+    const MAX_SCULPTURES_TO_SHOW = 15;
+
     const favoritedIds = favorites.get();
     let favoritePieces = [];
     let nonFavoritePieces = [];
@@ -123,8 +128,8 @@ function renderArtPieces() {
         }
     });
 
-    // Apply filters to non-favorite pieces only for the main grid
-    const filteredNonFavoritePieces = nonFavoritePieces.filter(piece => {
+    // Apply filters to non-favorite pieces
+    let filteredNonFavoritePieces = nonFavoritePieces.filter(piece => {
         // Apply 'show' filter
         if (currentFilters.show === 'paintings' && piece.type !== 'painting') {
             return false;
@@ -157,8 +162,18 @@ function renderArtPieces() {
         return true;
     });
 
-    // Combine favorited pieces (always shown at top) with filtered non-favorite pieces
-    const piecesToRender = [...favoritePieces, ...filteredNonFavoritePieces];
+    // Separate filtered non-favorite pieces into paintings and sculptures for individual limiting
+    let paintingsToRender = filteredNonFavoritePieces.filter(piece => piece.type === 'painting');
+    let sculpturesToRender = filteredNonFavoritePieces.filter(piece => piece.type === 'sculpture');
+
+    // Limit the number of paintings and sculptures
+    paintingsToRender = paintingsToRender.slice(0, MAX_PAINTINGS_TO_SHOW);
+    sculpturesToRender = sculpturesToRender.slice(0, MAX_SCULPTURES_TO_SHOW);
+
+    // Combine favorited pieces (always shown at top) with limited and filtered non-favorite pieces
+    // You might want to re-evaluate the exact order if favorites should also be limited by type
+    // For now, favorites are shown first, then the limited paintings, then the limited sculptures.
+    const piecesToRender = [...favoritePieces, ...paintingsToRender, ...sculpturesToRender];
 
 
     if (piecesToRender.length === 0) {
@@ -172,12 +187,32 @@ function renderArtPieces() {
         const artCard = document.createElement('div');
         artCard.className = 'bg-white rounded-lg shadow-md overflow-hidden transform transition-transform duration-200 hover:scale-105 relative';
 
-        let imageUrl = piece.path;
-        if (imageUrl) {
-            imageUrl = imageUrl.replace(/\.jpg$/, '.JPG');
+        let fullImagePath = piece.path; // This is the original path from your JSON (e.g., "quadri/image.jpg")
+
+        // Ensure consistent .JPG extension for the full image path if needed
+        if (fullImagePath) {
+            fullImagePath = fullImagePath.replace(/\.jpg$/, '.JPG');
         } else {
-            imageUrl = `https://placehold.co/300x400/cccccc/333333?text=${(piece.name || 'Image').replace(/ /g, '+')}`;
+            fullImagePath = `https://placehold.co/300x400/cccccc/333333?text=${(piece.name || 'Art piece').replace(/ /g, '+')}`;
         }
+
+        let displayImagePath = fullImagePath; // Default to full image path for display
+
+        // Apply thumbnail logic ONLY if it's a painting
+        if (piece.type === 'painting') {
+            // Extract the filename from the original path
+            const filename = fullImagePath.split('/').pop();
+
+            // Construct the path to the compressed/thumbnail image
+            // This assumes ALL your painting thumbnails are directly in the 'compressed/' folder
+            // and have the exact same filename as their full-res counterparts.
+            let potentialThumbnailPath = `compressed/${filename}`;
+
+            // We'll set the displayImagePath here, but the actual loading will depend on onerror.
+            // The onerror attribute will handle falling back to fullImagePath if thumbnail fails.
+            displayImagePath = potentialThumbnailPath;
+        }
+        // Sculptures will use their original 'fullImagePath' for display by default
 
         // Determine image styling based on piece type
         let imageClasses = 'w-full h-48 object-center';
@@ -198,8 +233,8 @@ function renderArtPieces() {
 
 
         artCard.innerHTML = `
-            <a href="${imageUrl}" target="_blank" rel="noopener noreferrer" class="${containerClasses}">
-                <img src="${imageUrl}" alt="${piece.name || 'Art piece'}" class="${imageClasses}" onerror="this.onerror=null;this.src='https://placehold.co/300x400/cccccc/333333?text=Image+Not+Found';">
+            <a href="${fullImagePath}" target="_blank" rel="noopener noreferrer" class="${containerClasses}">
+                <img src="${displayImagePath}" alt="${piece.name || 'Art piece'}" class="${imageClasses}" onerror="this.onerror=null;this.src='${fullImagePath}';">
             </a>
             <div class="p-4 relative">
                 <h3 class="text-xl font-semibold text-gray-800 mb-1">${piece.name || 'Untitled'}</h3>
@@ -229,7 +264,6 @@ function renderArtPieces() {
         });
     });
 }
-
 /**
  * Extracts the number from a path like "quadri/11.jpg"
  * @param {string} path - The image path.
