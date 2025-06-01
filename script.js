@@ -50,6 +50,41 @@ const typeMapping = {
     'autoritratti': ['autoritratti', 'autoritratto'] // Explicitly include autoritratto
 };
 
+// Translations for inquiry modal messages
+const inquiryTranslations = {
+    'it': {
+        generalTitle: "Richiesta informazioni generali:",
+        generalMessage: "Desidero richiedere informazioni generali sulle opere d'arte o sull'archivio.",
+        generalCountDisplay: "Nessuna opera selezionata. Puoi inviare una richiesta generica.",
+        selectedTitle: "Richiesta informazioni per le seguenti opere:",
+        selectedMessagePrefix: "", // This will be dynamic based on piece name/number
+        selectedCountDisplay: (count) => `Hai selezionato ${count} opere.`,
+        submittedTitle: "Richiesta Inviata!",
+        submittedMessage: "Grazie per il tuo interesse. Ti contatteremo a breve.",
+        sendErrorTitle: "Errore nell'invio",
+        sendErrorMessage: (errors) => `C'è stato un problema con l'invio della tua richiesta: ${errors}. Riprova più tardi.`,
+        connectionErrorTitle: "Errore di Connessione",
+        connectionErrorMessage: "Non è possibile connettersi al server. Controlla la tua connessione e riprova.",
+        unknownPiece: "Sconosciuto"
+    },
+    'en': {
+        generalTitle: "General inquiry:",
+        generalMessage: "I would like to request general information about the artworks or the archive.",
+        generalCountDisplay: "No artworks selected. You can send a general inquiry.",
+        selectedTitle: "Inquiry for the following artworks:",
+        selectedMessagePrefix: "",
+        selectedCountDisplay: (count) => `You have selected ${count} artworks.`,
+        submittedTitle: "Request Sent!",
+        submittedMessage: "Thank you for your interest. We will contact you shortly.",
+        sendErrorTitle: "Submission Error",
+        sendErrorMessage: (errors) => `There was a problem sending your request: ${errors}. Please try again later.`,
+        connectionErrorTitle: "Connection Error",
+        connectionErrorMessage: "Cannot connect to the server. Check your connection and try again.",
+        unknownPiece: "Unknown"
+    }
+};
+
+
 /**
  * Fetches JSON data from a given URL.
  * @param {string} url - The URL of the JSON file.
@@ -106,20 +141,19 @@ const favorites = {
  * Renders the art pieces to the grid based on current filters and favorites.
  */
 function renderArtPieces() {
-    if (artGrid) { // Check if artGrid is defined (only applicable in inventory.html)
-        artGrid.innerHTML = ''; // Clear existing content
+    if (artGrid) {
+        artGrid.innerHTML = '';
     }
 
-    // Change number of paintings Limit number of paintings
+    // Change number paintings
     const MAX_PAINTINGS_TO_SHOW = 260;
-    // Change number of sculptures Limit number of sculptures
+    // Change number sculptures
     const MAX_SCULPTURES_TO_SHOW = 15;
 
     const favoritedIds = favorites.get();
     let favoritePieces = [];
     let nonFavoritePieces = [];
 
-    // Separate favorited and non-favorited pieces
     allArtPieces.forEach(piece => {
         if (favorites.isFavorite(piece.id)) {
             favoritePieces.push(piece);
@@ -128,9 +162,7 @@ function renderArtPieces() {
         }
     });
 
-    // Apply filters to non-favorite pieces
     let filteredNonFavoritePieces = nonFavoritePieces.filter(piece => {
-        // Apply 'show' filter
         if (currentFilters.show === 'paintings' && piece.type !== 'painting') {
             return false;
         }
@@ -138,7 +170,6 @@ function renderArtPieces() {
             return false;
         }
 
-        // Apply 'type' filter for paintings only
         if (currentFilters.show !== 'sculptures' && currentFilters.type !== 'all') {
             const normalizedType = piece.typeofpainting ? piece.typeofpainting.toLowerCase() : '';
             let matchesTypeFilter = false;
@@ -162,17 +193,12 @@ function renderArtPieces() {
         return true;
     });
 
-    // Separate filtered non-favorite pieces into paintings and sculptures for individual limiting
     let paintingsToRender = filteredNonFavoritePieces.filter(piece => piece.type === 'painting');
     let sculpturesToRender = filteredNonFavoritePieces.filter(piece => piece.type === 'sculpture');
 
-    // Limit the number of paintings and sculptures
     paintingsToRender = paintingsToRender.slice(0, MAX_PAINTINGS_TO_SHOW);
     sculpturesToRender = sculpturesToRender.slice(0, MAX_SCULPTURES_TO_SHOW);
 
-    // Combine favorited pieces (always shown at top) with limited and filtered non-favorite pieces
-    // You might want to re-evaluate the exact order if favorites should also be limited by type
-    // For now, favorites are shown first, then the limited paintings, then the limited sculptures.
     const piecesToRender = [...favoritePieces, ...paintingsToRender, ...sculpturesToRender];
 
 
@@ -187,34 +213,26 @@ function renderArtPieces() {
         const artCard = document.createElement('div');
         artCard.className = 'bg-white rounded-lg shadow-md overflow-hidden transform transition-transform duration-200 hover:scale-105 relative';
 
-        let fullImagePath = piece.path; // This is the original path from your JSON (e.g., "quadri/image.jpg")
+        let fullImagePath = piece.path;
 
-        // Ensure consistent .JPG extension for the full image path if needed
         if (fullImagePath) {
             fullImagePath = fullImagePath.replace(/\.jpg$/, '.JPG');
         } else {
             fullImagePath = `https://placehold.co/300x400/cccccc/333333?text=${(piece.name || 'Art piece').replace(/ /g, '+')}`;
         }
 
-        let displayImagePath = fullImagePath; // Default to full image path for display
+        let displayImagePath = fullImagePath; // Default to full image path
 
         // Apply thumbnail logic ONLY if it's a painting
         if (piece.type === 'painting') {
-            // Extract the filename from the original path
             const filename = fullImagePath.split('/').pop();
-
             // Construct the path to the compressed/thumbnail image
             // This assumes ALL your painting thumbnails are directly in the 'compressed/' folder
             // and have the exact same filename as their full-res counterparts.
-            let potentialThumbnailPath = `compressed/${filename}`;
-
-            // We'll set the displayImagePath here, but the actual loading will depend on onerror.
-            // The onerror attribute will handle falling back to fullImagePath if thumbnail fails.
-            displayImagePath = potentialThumbnailPath;
+            displayImagePath = `compressed/${filename}`;
         }
         // Sculptures will use their original 'fullImagePath' for display by default
 
-        // Determine image styling based on piece type
         let imageClasses = 'w-full h-48 object-center';
         let containerClasses = 'relative w-full h-48 flex items-center justify-center';
 
@@ -225,7 +243,6 @@ function renderArtPieces() {
             imageClasses += ' object-cover';
         }
 
-        // Check if the piece is favorited to show the correct icon
         const isFav = favorites.isFavorite(piece.id);
         const favoriteIcon = isFav
             ? '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-red-500"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.006Z" clip-rule="evenodd" /></svg>'
@@ -264,6 +281,7 @@ function renderArtPieces() {
         });
     });
 }
+
 /**
  * Extracts the number from a path like "quadri/11.jpg"
  * @param {string} path - The image path.
@@ -283,26 +301,30 @@ function handleInquiryButtonClick() {
     let messageContent = "";
     let inquiryTitle = "";
 
+    // Determine the language: 'en' for English browsers, 'it' for others (or default)
+    const lang = navigator.language.startsWith('en') ? 'en' : 'it';
+    const currentLang = inquiryTranslations[lang] || inquiryTranslations['it']; // Fallback to Italian
+
     if (favoritedIds.length === 0) {
-        inquiryTitle = "Richiesta informazioni generali:";
-        messageContent = "Desidero richiedere informazioni generali sulle opere d'arte o sull'archivio.";
+        inquiryTitle = currentLang.generalTitle;
+        messageContent = currentLang.generalMessage;
         if (inquiryCountDisplay) {
-            inquiryCountDisplay.textContent = "Nessuna opera selezionata. Puoi inviare una richiesta generica.";
+            inquiryCountDisplay.textContent = currentLang.generalCountDisplay;
         }
         // Ensure editable if no favorites are selected, as it's a general inquiry
         if (inquiryMessageField) {
             inquiryMessageField.readOnly = false;
         }
     } else {
-        inquiryTitle = "Richiesta informazioni per le seguenti opere:";
+        inquiryTitle = currentLang.selectedTitle;
         const selectedPieces = allArtPieces.filter(piece => favoritedIds.includes(piece.id));
 
-        selectedPieces.forEach((piece, index) => {
+        selectedPieces.forEach((piece) => {
             const imageNumber = extractImageNumber(piece.path);
-            messageContent += `${piece.name || 'Sconosciuto'} #${imageNumber}\n`;
+            messageContent += `${piece.name || currentLang.unknownPiece} #${imageNumber}\n`;
         });
         if (inquiryCountDisplay) {
-            inquiryCountDisplay.textContent = `Hai selezionato ${favoritedIds.length} opere.`;
+            inquiryCountDisplay.textContent = currentLang.selectedCountDisplay(favoritedIds.length);
         }
         // Make editable if favorites are selected as well
         if (inquiryMessageField) {
@@ -335,6 +357,10 @@ function setupFormSubmission() {
             const form = event.target;
             const formData = new FormData(form);
 
+            // Determine the language for messages: 'en' for English browsers, 'it' for others (or default)
+            const lang = navigator.language.startsWith('en') ? 'en' : 'it';
+            const currentLang = inquiryTranslations[lang] || inquiryTranslations['it']; // Fallback to Italian
+
             try {
                 const response = await fetch(FORMSPREE_ENDPOINT, {
                     method: 'POST',
@@ -345,7 +371,7 @@ function setupFormSubmission() {
                 });
 
                 if (response.ok) {
-                    showMessageBox("Richiesta Inviata!", "Grazie per il tuo interesse. Ti contatteremo a breve.");
+                    showMessageBox(currentLang.submittedTitle, currentLang.submittedMessage);
                     if (inquiryModal) {
                         inquiryModal.classList.add('hidden'); // Close modal
                     }
@@ -355,14 +381,14 @@ function setupFormSubmission() {
                 } else {
                     const data = await response.json();
                     if (data.errors) {
-                        showMessageBox("Errore nell'invio", data.errors.map(err => data.errors[0].message).join(", "));
+                        showMessageBox(currentLang.sendErrorTitle, currentLang.sendErrorMessage(data.errors.map(err => err.message).join(", ")));
                     } else {
-                        showMessageBox("Errore nell'invio", "C'è stato un problema con l'invio della tua richiesta. Riprova più tardi.");
+                        showMessageBox(currentLang.sendErrorTitle, currentLang.sendErrorMessage("")); // Generic message if no specific errors
                     }
                 }
             } catch (error) {
-                console.error("Errore durante l'invio della richiesta:", error);
-                showMessageBox("Errore di Connessione", "Non è possibile connettersi al server. Controlla la tua connessione e riprova.");
+                console.error("Error during inquiry submission:", error);
+                showMessageBox(currentLang.connectionErrorTitle, currentLang.connectionErrorMessage);
             }
         });
     }
