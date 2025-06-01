@@ -125,15 +125,6 @@
     "path": "quadri/9.jpg",
     "sort_order": 9
   },
-    {
-    "id": "282quadri",
-    "typeofpainting": "figure",
-    "name": "donna e gabbiano",
-    "date": "1969",
-    "size": "70x80",
-    "path": "quadri/282.jpg",
-    "sort_order": 282
-  },
   {
     "id": "10quadri",
     "typeofpainting": "paesaggi",
@@ -3319,6 +3310,15 @@
     "size": "70x60",
     "path": "quadri/370.jpg",
     "sort_order": 370
+  },
+      {
+    "id": "282quadri",
+    "typeofpainting": "figure",
+    "name": "donna e gabbiano",
+    "date": "1969",
+    "size": "70x80",
+    "path": "quadri/282.jpg",
+    "sort_order": 282
   },
   {
     "id": "371quadri",
